@@ -44,7 +44,7 @@ No generated suite was manually corrected.
 ## Repository structure
 
 ```text
-external/QuixBugs/          Vendored QuixBugs benchmark snapshot
+external/QuixBugs/          QuixBugs Python benchmark material used by the experiment
 generated_tests/            All 99 generated pytest suites
 prompts/                    Exact prompts for CODE, SPEC, and BOTH
 results/
@@ -131,14 +131,14 @@ The repository retains:
 - syntax and structural validation outputs;
 - correct- and buggy-version execution results;
 - per-test outcomes;
-- coverage output;
+- coverage metrics recorded in the evaluation outputs;
 - derived paper tables and figures.
 
 Local absolute filesystem paths in public runtime artifacts may be replaced by neutral placeholders. This sanitization does not change generated tests, experimental outcomes, or reported metrics.
 
 ## Third-party material
 
-QuixBugs is vendored under `external/QuixBugs/` for reproducibility. Its original license and legal notes are preserved. The upstream project is:
+The QuixBugs Python benchmark material used by the experiment is vendored under `external/QuixBugs/` for reproducibility. Its original license and legal notes are preserved. The upstream project is:
 
 https://github.com/jkoppel/QuixBugs
 

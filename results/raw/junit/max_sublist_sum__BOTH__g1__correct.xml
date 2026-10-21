@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="0.082" timestamp="2026-08-09T02:36:07.024390+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_max_sublist_sum_positive_numbers" time="0.001" /><testcase classname="test_generated" name="test_max_sublist_sum_all_negative_numbers" time="0.001" /><testcase classname="test_generated" name="test_max_sublist_sum_empty_list" time="0.001" /><testcase classname="test_generated" name="test_max_sublist_sum_single_positive_number" time="0.001" /><testcase classname="test_generated" name="test_max_sublist_sum_single_negative_number" time="0.001" /><testcase classname="test_generated" name="test_max_sublist_sum_with_zeros" time="0.001"><failure message="assert 8 == 10&#10; +  where 8 = max_sublist_sum([1, -2, 3, 4, -5, 6])">def test_max_sublist_sum_with_zeros():
-&gt;       assert max_sublist_sum([1, -2, 3, 4, -5, 6]) == 10
-E       assert 8 == 10
-E        +  where 8 = max_sublist_sum([1, -2, 3, 4, -5, 6])
-
-test_generated.py:21: AssertionError</failure></testcase></testsuite></testsuites>

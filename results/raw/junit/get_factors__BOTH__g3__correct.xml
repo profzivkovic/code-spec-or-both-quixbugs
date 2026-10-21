@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="7" time="0.088" timestamp="2026-08-09T02:35:37.185443+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_get_factors_empty_list_for_one" time="0.001" /><testcase classname="test_generated" name="test_get_factors_prime_number" time="0.001" /><testcase classname="test_generated" name="test_get_factors_power_of_two" time="0.001" /><testcase classname="test_generated" name="test_get_factors_power_of_three" time="0.001" /><testcase classname="test_generated" name="test_get_factors_product_of_two_primes" time="0.001" /><testcase classname="test_generated" name="test_get_factors_product_of_three_primes" time="0.001" /><testcase classname="test_generated" name="test_get_factors_large_number" time="0.001"><failure message="assert [3, 3, 17, 17, 379721] == [3, 3, 3, 3607, 9817]&#10;  &#10;  At index 2 diff: 17 != 3&#10;  Use -v to get more diff">def test_get_factors_large_number():
-&gt;       assert get_factors(987654321) == [3, 3, 3, 3607, 9817]
-E       assert [3, 3, 17, 17, 379721] == [3, 3, 3, 3607, 9817]
-E         
-E         At index 2 diff: 17 != 3
-E         Use -v to get more diff
-
-test_generated.py:24: AssertionError</failure></testcase></testsuite></testsuites>

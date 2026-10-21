@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this research artifact, please cite the associated manuscript and this software artifact."
 title: "Code, Specification, or Both? Evaluating LLM-Generated Unit Tests on QuixBugs"
 type: software
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-10-21"
 repository-code: "https://github.com/profzivkovic/code-spec-or-both-quixbugs"
 license: MIT

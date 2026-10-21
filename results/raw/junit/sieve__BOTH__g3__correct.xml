@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="0.077" timestamp="2026-08-09T02:39:13.637724+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_sieve_normal_case" time="0.001" /><testcase classname="test_generated" name="test_sieve_boundary_case" time="0.001" /><testcase classname="test_generated" name="test_sieve_edge_case_max_1" time="0.001" /><testcase classname="test_generated" name="test_sieve_exceptional_behavior_non_positive_input" time="0.001"><failure message="Failed: DID NOT RAISE ValueError">def test_sieve_exceptional_behavior_non_positive_input():
-&gt;       with pytest.raises(ValueError):
-E       Failed: DID NOT RAISE ValueError
-
-test_generated.py:15: Failed</failure></testcase></testsuite></testsuites>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.090" timestamp="2026-08-09T02:39:03.549810+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_quicksort_normal_case" time="0.001"><failure message="assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]&#10;  &#10;  At index 1 diff: 2 != 1&#10;  Right contains one more item: 10&#10;  Use -v to get more diff">def test_quicksort_normal_case():
-&gt;       assert quicksort([3, 6, 8, 10, 1, 2, 1]) == [1, 1, 2, 3, 6, 8, 10]
-E       assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
-E         
-E         At index 1 diff: 2 != 1
-E         Right contains one more item: 10
-E         Use -v to get more diff
-
-test_generated.py:6: AssertionError</failure></testcase><testcase classname="test_generated" name="test_quicksort_empty_list" time="0.001" /><testcase classname="test_generated" name="test_quicksort_single_element" time="0.001" /><testcase classname="test_generated" name="test_quicksort_sorted_list" time="0.001" /><testcase classname="test_generated" name="test_quicksort_reverse_sorted_list" time="0.001" /></testsuite></testsuites>
