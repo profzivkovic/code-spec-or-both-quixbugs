@@ -4,6 +4,8 @@ Research artifact accompanying the TELFOR 2026 manuscript:
 
 **Code, Specification, or Both? Evaluating LLM-Generated Unit Tests on QuixBugs**
 
+**Repository:** https://github.com/profzivkovic/code-spec-or-both-quixbugs
+
 **Authors:** Tamara Zivkovic and Miodrag Zivkovic  
 **Affiliation:** Faculty of Informatics and Computing, Singidunum University, Belgrade, Serbia
 
