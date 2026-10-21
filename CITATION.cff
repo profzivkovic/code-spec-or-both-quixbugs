@@ -4,7 +4,9 @@ title: "Code, Specification, or Both? Evaluating LLM-Generated Unit Tests on Qui
 type: software
 version: "1.0.0"
 date-released: "2026-10-21"
+repository-code: "https://github.com/profzivkovic/code-spec-or-both-quixbugs"
 license: MIT
+
 authors:
   - family-names: "Zivkovic"
     given-names: "Tamara"
@@ -12,6 +14,7 @@ authors:
   - family-names: "Zivkovic"
     given-names: "Miodrag"
     affiliation: "Singidunum University"
+
 keywords:
   - large language models
   - unit testing
@@ -21,6 +24,7 @@ keywords:
   - specifications
   - QuixBugs
   - Qwen2.5-Coder
+
 abstract: >-
   Reproducibility artifact for a controlled comparison of CODE, SPEC, and BOTH
   prompt contexts for LLM-generated pytest suites on QuixBugs. The repository
