@@ -1,0 +1,27 @@
+{
+  "title": "Code, Specification, or Both? Evaluating LLM-Generated Unit Tests on QuixBugs \u2014 Research Artifact",
+  "upload_type": "software",
+  "description": "Complete reproducibility artifact containing exact prompts, 99 generated pytest suites, raw Ollama responses, generation metadata, validation and evaluation outputs, analysis scripts, paper-level tables and figures, and the vendored QuixBugs benchmark snapshot used in the experiment.",
+  "creators": [
+    {
+      "name": "Zivkovic, Tamara",
+      "affiliation": "Singidunum University"
+    },
+    {
+      "name": "Zivkovic, Miodrag",
+      "affiliation": "Singidunum University"
+    }
+  ],
+  "keywords": [
+    "large language models",
+    "unit testing",
+    "test generation",
+    "software testing",
+    "test oracles",
+    "specifications",
+    "QuixBugs",
+    "Qwen2.5-Coder"
+  ],
+  "license": "MIT",
+  "access_right": "open"
+}

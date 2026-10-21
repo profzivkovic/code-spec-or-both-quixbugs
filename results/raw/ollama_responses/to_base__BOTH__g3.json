@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:26:06.6212278Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 23125154800,
+  "load_duration": 174580600,
+  "prompt_eval_count": 438,
+  "prompt_eval_duration": 123874000,
+  "eval_count": 225,
+  "eval_duration": 22819293000,
+  "message": {
+    "role": "assistant",
+    "content": "{ \"code\": \"import pytest\\n\\ndef test_to_base_normal_cases():\\n    assert to_base(255, 16) == 'FF'\\n    assert to_base(10, 2) == '1010'\\n    assert to_base(7, 8) == '7'\\n    assert to_base(31, 16) == '1F'\\n\\n\\ndef test_to_base_boundary_cases():\\n    assert to_base(1, 2) == '1'\\n    assert to_base(9, 10) == '9'\\n\\n\\ndef test_to_base_edge_cases():\\n    assert to_base(35, 36) == 'Z'\\n\\n\\ndef test_to_base_exceptional_behavior():\\n    with pytest.raises(ValueError):\\n        to_base(0, 2)\\n    with pytest.raises(ValueError):\\n        to_base(10, 1)\\n    with pytest.raises(ValueError):\\n        to_base(10, 37)\" }",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

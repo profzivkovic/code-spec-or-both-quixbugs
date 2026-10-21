@@ -1,0 +1,74 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmp4tjv7r8s\junit.xml <USER_HOME>\AppData\Local\Temp\tmp4tjv7r8s\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.843537
+
+STDOUT
+======================================================================
+.FFF.F                                                                   [100%]
+================================== FAILURES ===================================
+_______________ test_next_palindrome_boundary_case_even_length ________________
+
+    def test_next_palindrome_boundary_case_even_length():
+>       assert next_palindrome([9, 9, 9]) == [1, 0, 0, 0, 1]
+E       assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]
+E         
+E         At index 3 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError
+________________ test_next_palindrome_boundary_case_odd_length ________________
+
+    def test_next_palindrome_boundary_case_odd_length():
+>       assert next_palindrome([9, 9, 9, 9]) == [1, 0, 0, 0, 0, 1]
+E       assert [1, 0, 0, 0, 1] == [1, 0, 0, 0, 0, 1]
+E         
+E         At index 4 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError
+_________________ test_next_palindrome_edge_case_single_digit _________________
+
+    def test_next_palindrome_edge_case_single_digit():
+>       assert next_palindrome([9]) == [1, 0, 1]
+E       assert [1, 1] == [1, 0, 1]
+E         
+E         At index 1 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError
+_____________ test_next_palindrome_edge_case_all_nines_odd_length _____________
+
+    def test_next_palindrome_edge_case_all_nines_odd_length():
+>       assert next_palindrome([9, 9, 9]) == [1, 0, 0, 0, 1]
+E       assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]
+E         
+E         At index 3 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:21: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_next_palindrome_boundary_case_even_length - as...
+FAILED test_generated.py::test_next_palindrome_boundary_case_odd_length - ass...
+FAILED test_generated.py::test_next_palindrome_edge_case_single_digit - asser...
+FAILED test_generated.py::test_next_palindrome_edge_case_all_nines_odd_length
+4 failed, 2 passed in 0.13s
+
+
+STDERR
+======================================================================

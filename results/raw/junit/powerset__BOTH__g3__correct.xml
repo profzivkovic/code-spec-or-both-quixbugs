@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.409" timestamp="2026-08-09T02:38:34.346902+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_powerset_empty_set" time="0.001" /><testcase classname="test_generated" name="test_powerset_single_element" time="0.001" /><testcase classname="test_generated" name="test_powerset_two_elements" time="0.001" /><testcase classname="test_generated" name="test_powerset_three_elements" time="0.001" /><testcase classname="test_generated" name="test_powerset_with_repeated_elements" time="0.001"><failure message="Failed: DID NOT RAISE ValueError">def test_powerset_with_repeated_elements():
+&gt;       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:18: Failed</failure></testcase></testsuite></testsuites>

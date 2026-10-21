@@ -1,0 +1,58 @@
+AI-GENERATED TESTS: PAPER RESULTS SUMMARY
+========================================================================
+
+Total generated suites: 99
+Programs: 11
+Conditions: CODE, SPEC, BOTH
+Generations per program/condition: 3
+
+OVERALL OUTCOMES
+------------------------------------------------------------------------
+Syntax valid: 98/99 (98.99%)
+Executable on correct implementation: 93/99 (93.94%)
+Oracle correct: 43/99 (43.43%)
+Bug detecting: 43/99 (43.43%)
+Oracle errors: 50
+Correct-execution timeouts: 5
+Invalid syntax: 1
+
+BY CONDITION
+------------------------------------------------------------------------
+CODE: bug-detecting 9/33 (27.27%), oracle-correct 9/33 (27.27%), unique bugs 4/11 (36.36%)
+SPEC: bug-detecting 18/33 (54.55%), oracle-correct 18/33 (54.55%), unique bugs 8/11 (72.73%)
+BOTH: bug-detecting 16/33 (48.48%), oracle-correct 16/33 (48.48%), unique bugs 8/11 (72.73%)
+
+DETECTION CONSISTENCY
+------------------------------------------------------------------------
+CODE: 0/3=7, 1/3=1, 2/3=1, 3/3=2
+SPEC: 0/3=3, 1/3=1, 2/3=4, 3/3=3
+BOTH: 0/3=3, 1/3=3, 2/3=2, 3/3=3
+
+CUMULATIVE DETECTION
+------------------------------------------------------------------------
+CODE: 1 gen: 3/11, 2 gen: 3/11, 3 gen: 4/11
+SPEC: 1 gen: 7/11, 2 gen: 7/11, 3 gen: 8/11
+BOTH: 1 gen: 7/11, 2 gen: 7/11, 3 gen: 8/11
+
+CLUSTER BOOTSTRAP 95% INTERVALS
+------------------------------------------------------------------------
+CODE: suite detection 27.27% [6.06, 51.52], unique-bug detection 36.36% [9.09, 63.64]
+SPEC: suite detection 54.55% [30.30, 75.76], unique-bug detection 72.73% [45.45, 100.00]
+BOTH: suite detection 48.48% [27.27, 72.73], unique-bug detection 72.73% [45.45, 100.00]
+
+PAIRWISE BOOTSTRAP DIFFERENCES
+------------------------------------------------------------------------
+SPEC - CODE: +27.27 pp [-6.06, +54.55]
+BOTH - CODE: +21.21 pp [-3.03, +45.45]
+BOTH - SPEC: -6.06 pp [-24.24, +9.09]
+
+PROGRAM-LEVEL EXACT McNEMAR TEST
+------------------------------------------------------------------------
+CODE vs SPEC: discordant=6, p=0.218750
+CODE vs BOTH: discordant=4, p=0.125000
+SPEC vs BOTH: discordant=2, p=1.000000
+
+NOTE
+------------------------------------------------------------------------
+Bootstrap intervals resample programs rather than treating the three generations for the same program as independent.
+McNemar comparisons use program-level detection: a program is considered detected when at least one of its three generations exposes the known bug.

@@ -1,0 +1,59 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpvueyt9pu\junit.xml <USER_HOME>\AppData\Local\Temp\tmpvueyt9pu\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.827256
+
+STDOUT
+======================================================================
+F..FF                                                                    [100%]
+================================== FAILURES ===================================
+________________________ test_get_factors_normal_case _________________________
+
+    def test_get_factors_normal_case():
+>       assert get_factors(28) == [2, 14]
+E       assert [2, 2] == [2, 14]
+E         
+E         At index 1 diff: 2 != 14
+E         Use -v to get more diff
+
+test_generated.py:6: AssertionError
+____________________________ test_get_factors_two _____________________________
+
+    def test_get_factors_two():
+>       assert get_factors(2) == [2]
+E       assert [] == [2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError
+________________________ test_get_factors_large_number ________________________
+
+    def test_get_factors_large_number():
+>       assert get_factors(600851475143) == [71, 839, 1471, 6857]
+E       assert [71, 839, 1471] == [71, 839, 1471, 6857]
+E         
+E         Right contains one more item: 6857
+E         Use -v to get more diff
+
+test_generated.py:18: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_get_factors_normal_case - assert [2, 2] == [2,...
+FAILED test_generated.py::test_get_factors_two - assert [] == [2]
+FAILED test_generated.py::test_get_factors_large_number - assert [71, 839, 14...
+3 failed, 2 passed in 0.12s
+
+
+STDERR
+======================================================================

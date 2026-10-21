@@ -1,0 +1,70 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmp3fetwthp\junit.xml <USER_HOME>\AppData\Local\Temp\tmp3fetwthp\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.797322
+
+STDOUT
+======================================================================
+.FFFF                                                                    [100%]
+================================== FAILURES ===================================
+___________________________ test_get_factors_prime ____________________________
+
+    def test_get_factors_prime():
+>       assert get_factors(101) == [101]
+E       assert [] == [101]
+E         
+E         Right contains one more item: 101
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError
+________________________ test_get_factors_power_of_two ________________________
+
+    def test_get_factors_power_of_two():
+>       assert get_factors(16) == [2, 2, 2, 2]
+E       assert [2, 2, 2] == [2, 2, 2, 2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError
+_____________________ test_get_factors_product_of_primes ______________________
+
+    def test_get_factors_product_of_primes():
+>       assert get_factors(35) == [5, 7]
+E       assert [5] == [5, 7]
+E         
+E         Right contains one more item: 7
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError
+___________ test_get_factors_composite_with_repeated_prime_factors ____________
+
+    def test_get_factors_composite_with_repeated_prime_factors():
+>       assert get_factors(100) == [2, 2, 5, 5]
+E       assert [2, 2, 5] == [2, 2, 5, 5]
+E         
+E         Right contains one more item: 5
+E         Use -v to get more diff
+
+test_generated.py:18: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_get_factors_prime - assert [] == [101]
+FAILED test_generated.py::test_get_factors_power_of_two - assert [2, 2, 2] ==...
+FAILED test_generated.py::test_get_factors_product_of_primes - assert [5] == ...
+FAILED test_generated.py::test_get_factors_composite_with_repeated_prime_factors
+4 failed, 1 passed in 0.13s
+
+
+STDERR
+======================================================================

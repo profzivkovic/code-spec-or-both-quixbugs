@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="0.112" timestamp="2026-08-09T02:39:25.042984+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_sieve_empty_input" time="0.001" /><testcase classname="test_generated" name="test_sieve_single_prime" time="0.001" /><testcase classname="test_generated" name="test_sieve_multiple_primes" time="0.001" /><testcase classname="test_generated" name="test_sieve_with_zero" time="0.001" /><testcase classname="test_generated" name="test_sieve_with_negative_input" time="0.001"><failure message="Failed: DID NOT RAISE ValueError">def test_sieve_with_negative_input():
+&gt;       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:18: Failed</failure></testcase><testcase classname="test_generated" name="test_sieve_with_one" time="0.001" /></testsuite></testsuites>

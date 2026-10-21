@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="5" time="0.098" timestamp="2026-08-09T02:38:21.684207+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_next_permutation_normal_case" time="0.001" /><testcase classname="test_generated" name="test_next_permutation_boundary_case" time="0.001"><failure message="assert None == [1, 2, 3]&#10; +  where None = next_permutation([3, 2, 1])">def test_next_permutation_boundary_case():
+&gt;       assert next_permutation([3, 2, 1]) == [1, 2, 3]
+E       assert None == [1, 2, 3]
+E        +  where None = next_permutation([3, 2, 1])
+
+test_generated.py:9: AssertionError</failure></testcase><testcase classname="test_generated" name="test_next_permutation_edge_case" time="0.001" /><testcase classname="test_generated" name="test_next_permutation_repetitive_elements" time="0.001"><failure message="assert None == [2, 2, 2]&#10; +  where None = next_permutation([2, 2, 2])">def test_next_permutation_repetitive_elements():
+&gt;       assert next_permutation([2, 2, 2]) == [2, 2, 2]
+E       assert None == [2, 2, 2]
+E        +  where None = next_permutation([2, 2, 2])
+
+test_generated.py:15: AssertionError</failure></testcase><testcase classname="test_generated" name="test_next_permutation_single_element" time="0.001"><failure message="assert None == [5]&#10; +  where None = next_permutation([5])">def test_next_permutation_single_element():
+&gt;       assert next_permutation([5]) == [5]
+E       assert None == [5]
+E        +  where None = next_permutation([5])
+
+test_generated.py:18: AssertionError</failure></testcase></testsuite></testsuites>

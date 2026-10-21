@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:17:03.0770659Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 45042406900,
+  "load_duration": 200048000,
+  "prompt_eval_count": 362,
+  "prompt_eval_duration": 137220000,
+  "eval_count": 410,
+  "eval_duration": 44696068000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"code\": \"def test_quicksort_empty_list(quicksort):\\n    assert quicksort([]) == [], 'Empty list should return an empty list'\\n\\n\\ndef test_quicksort_single_element(quicksort):\\n    assert quicksort([1]) == [1], 'Single element list should return the same list'\\n\\n\\ndef test_quicksort_sorted_list(quicksort):\\n    assert quicksort([1, 2, 3, 4, 5]) == [1, 2, 3, 4, 5], 'Sorted list should remain sorted'\\n\\n\\ndef test_quicksort_reverse_sorted_list(quicksort):\\n    assert quicksort([5, 4, 3, 2, 1]) == [1, 2, 3, 4, 5], 'Reverse sorted list should be sorted'\\n\\n\\ndef test_quicksort_random_list(quicksort):\\n    assert quicksort([3, 6, 8, 10, 1, 2, 1]) == [1, 1, 2, 3, 6, 8, 10], 'Random list should be sorted'\\n\\n\\ndef test_quicksort_with_duplicates(quicksort):\\n    assert quicksort([5, 3, 5, 2, 3, 3, 9, 0, 123]) == [0, 2, 3, 3, 3, 5, 5, 9, 123], 'List with duplicates should be sorted'\\n\\n\\ndef test_quicksort_with_negative_numbers(quicksort):\\n    assert quicksort([-3, -6, -8, -10, -1]) == [-10, -8, -6, -3, -1], 'List with negative numbers should be sorted'\\n\"\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

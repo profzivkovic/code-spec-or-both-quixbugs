@@ -1,0 +1,40 @@
+You are generating unit tests for a Python function.
+
+Generate a complete pytest test suite using only the information provided below.
+
+Requirements:
+- Return only executable Python code.
+- Do not use Markdown code fences.
+- Do not include explanations.
+- Do not redefine or reimplement the function under test.
+- Do not modify the function under test.
+- Do not include an import statement for the function under test; the evaluation framework will provide it.
+- You may import pytest and Python standard-library modules when needed.
+- Include normal cases, boundary cases, edge cases, and relevant exceptional behavior when supported by the provided information.
+- Test observable behavior rather than implementation details.
+- Do not access the network, filesystem, or external services.
+
+
+Function signature:
+
+next_palindrome(digit_list)
+
+Specification:
+
+Finds the next palindromic integer when given the current integer
+Integers are stored as arrays of base 10 digits from most significant to least significant
+
+Input:
+    digit_list: An array representing the current palindrome
+
+Output:
+    An array which represents the next palindrome
+
+Preconditions:
+    The initial input array represents a palindrome
+
+Example
+    >>> next_palindrome([1,4,9,4,1])
+    [1,5,0,5,1]
+
+Generate tests for the function `next_palindrome`.

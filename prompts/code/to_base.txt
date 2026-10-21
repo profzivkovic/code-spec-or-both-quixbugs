@@ -1,0 +1,31 @@
+You are generating unit tests for a Python function.
+
+Generate a complete pytest test suite using only the information provided below.
+
+Requirements:
+- Return only executable Python code.
+- Do not use Markdown code fences.
+- Do not include explanations.
+- Do not redefine or reimplement the function under test.
+- Do not modify the function under test.
+- Do not include an import statement for the function under test; the evaluation framework will provide it.
+- You may import pytest and Python standard-library modules when needed.
+- Include normal cases, boundary cases, edge cases, and relevant exceptional behavior when supported by the provided information.
+- Test observable behavior rather than implementation details.
+- Do not access the network, filesystem, or external services.
+
+
+Function implementation:
+
+import string
+
+def to_base(num, b):
+    result = ''
+    alphabet = string.digits + string.ascii_uppercase
+    while num > 0:
+        i = num % b
+        num = num // b
+        result = result + alphabet[i]
+    return result
+
+Generate tests for the function `to_base`.

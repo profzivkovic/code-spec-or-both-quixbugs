@@ -1,0 +1,82 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmp4bh9n62n\junit.xml <USER_HOME>\AppData\Local\Temp\tmp4bh9n62n\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.855212
+
+STDOUT
+======================================================================
+.FFFFF                                                                   [100%]
+================================== FAILURES ===================================
+________________________ test_get_factors_prime_number ________________________
+
+    def test_get_factors_prime_number():
+>       assert get_factors(101) == [101]
+E       assert [] == [101]
+E         
+E         Right contains one more item: 101
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError
+________________________ test_get_factors_power_of_two ________________________
+
+    def test_get_factors_power_of_two():
+>       assert get_factors(32) == [2, 2, 2, 2, 2]
+E       assert [2, 2, 2, 2] == [2, 2, 2, 2, 2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError
+________________________ test_get_factors_even_number _________________________
+
+    def test_get_factors_even_number():
+>       assert get_factors(44) == [2, 2, 11]
+E       assert [2, 2] == [2, 2, 11]
+E         
+E         Right contains one more item: 11
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError
+_________________________ test_get_factors_odd_number _________________________
+
+    def test_get_factors_odd_number():
+>       assert get_factors(75) == [3, 5, 5]
+E       assert [3, 5] == [3, 5, 5]
+E         
+E         Right contains one more item: 5
+E         Use -v to get more diff
+
+test_generated.py:18: AssertionError
+________________________ test_get_factors_large_number ________________________
+
+    def test_get_factors_large_number():
+>       assert get_factors(987654321) == [3, 3, 3, 3607, 982451]
+E       assert [3, 3, 17, 17] == [3, 3, 3, 3607, 982451]
+E         
+E         At index 2 diff: 17 != 3
+E         Right contains one more item: 982451
+E         Use -v to get more diff
+
+test_generated.py:21: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_get_factors_prime_number - assert [] == [101]
+FAILED test_generated.py::test_get_factors_power_of_two - assert [2, 2, 2, 2]...
+FAILED test_generated.py::test_get_factors_even_number - assert [2, 2] == [2,...
+FAILED test_generated.py::test_get_factors_odd_number - assert [3, 5] == [3, ...
+FAILED test_generated.py::test_get_factors_large_number - assert [3, 3, 17, 1...
+5 failed, 1 passed in 0.13s
+
+
+STDERR
+======================================================================

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="0.080" timestamp="2026-08-09T02:38:32.231274+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_empty_set" time="0.001" /><testcase classname="test_generated" name="test_single_element_set" time="0.001" /><testcase classname="test_generated" name="test_two_elements_set" time="0.001" /><testcase classname="test_generated" name="test_three_elements_set" time="0.001" /><testcase classname="test_generated" name="test_order_of_subsets" time="0.001" /><testcase classname="test_generated" name="test_duplicate_elements" time="0.001"><failure message="Failed: DID NOT RAISE ValueError">def test_duplicate_elements():
+&gt;       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:23: Failed</failure></testcase></testsuite></testsuites>

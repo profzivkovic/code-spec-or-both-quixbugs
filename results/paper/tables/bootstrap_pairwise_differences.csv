@@ -1,0 +1,4 @@
+comparison,difference_percentage_points,bootstrap_ci_low,bootstrap_ci_high
+SPEC - CODE,27.27,-6.06,54.55
+BOTH - CODE,21.21,-3.03,45.45
+BOTH - SPEC,-6.06,-24.24,9.09

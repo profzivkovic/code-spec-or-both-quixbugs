@@ -1,0 +1,4 @@
+condition,suite_detection_rate,suite_detection_ci_low,suite_detection_ci_high,unique_bug_detection_rate,unique_bug_detection_ci_low,unique_bug_detection_ci_high
+CODE,27.27,6.06,51.52,36.36,9.09,63.64
+SPEC,54.55,30.3,75.76,72.73,45.45,100.0
+BOTH,48.48,27.27,72.73,72.73,45.45,100.0

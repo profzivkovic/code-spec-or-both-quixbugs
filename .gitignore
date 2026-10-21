@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary / local audit artifacts
+project_inventory.txt
+project_inventory.csv
+publication_audit.txt
+inventory_project.py
+audit_for_publication.py
+prepare_publication_repo.py
+
+# Misc
+*.tmp
+*.bak
+*~

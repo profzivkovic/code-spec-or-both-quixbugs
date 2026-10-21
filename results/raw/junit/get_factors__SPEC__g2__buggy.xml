@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="0.093" timestamp="2026-08-09T02:35:48.333141+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_get_factors_empty" time="0.001" /><testcase classname="test_generated" name="test_get_factors_small_prime" time="0.001"><failure message="AssertionError: Expected [101] for input 101&#10;assert [] == [101]&#10;  &#10;  Right contains one more item: 101&#10;  Use -v to get more diff">def test_get_factors_small_prime():
+&gt;       assert get_factors(101) == [101], "Expected [101] for input 101"
+E       AssertionError: Expected [101] for input 101
+E       assert [] == [101]
+E         
+E         Right contains one more item: 101
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_large_number" time="0.001"><failure message="AssertionError: Expected [2, 2, 5, 5] for input 100&#10;assert [2, 2, 5] == [2, 2, 5, 5]&#10;  &#10;  Right contains one more item: 5&#10;  Use -v to get more diff">def test_get_factors_large_number():
+&gt;       assert get_factors(100) == [2, 2, 5, 5], "Expected [2, 2, 5, 5] for input 100"
+E       AssertionError: Expected [2, 2, 5, 5] for input 100
+E       assert [2, 2, 5] == [2, 2, 5, 5]
+E         
+E         Right contains one more item: 5
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError</failure></testcase></testsuite></testsuites>

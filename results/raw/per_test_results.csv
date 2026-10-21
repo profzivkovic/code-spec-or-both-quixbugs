@@ -1,0 +1,1822 @@
+run_id,variant,classname,test_name,status,time_seconds,failure_type,failure_message
+gcd__BOTH__g1,correct,test_generated,test_gcd_normal_cases,passed,0.001,,
+gcd__BOTH__g1,correct,test_generated,test_gcd_boundary_case,passed,0.001,,
+gcd__BOTH__g1,correct,test_generated,test_gcd_edge_cases,passed,0.001,,
+gcd__BOTH__g1,correct,test_generated,test_gcd_exceptional_behavior,passed,0.001,,
+gcd__BOTH__g1,buggy,test_generated,test_gcd_normal_cases,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g1,buggy,test_generated,test_gcd_boundary_case,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g1,buggy,test_generated,test_gcd_edge_cases,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g1,buggy,test_generated,test_gcd_exceptional_behavior,passed,0.001,,
+gcd__BOTH__g2,correct,test_generated,test_gcd_normal_case_1,passed,0.001,,
+gcd__BOTH__g2,correct,test_generated,test_gcd_normal_case_2,passed,0.001,,
+gcd__BOTH__g2,correct,test_generated,test_gcd_normal_case_3,passed,0.001,,
+gcd__BOTH__g2,correct,test_generated,test_gcd_boundary_case_1,passed,0.001,,
+gcd__BOTH__g2,correct,test_generated,test_gcd_boundary_case_2,passed,0.001,,
+gcd__BOTH__g2,correct,test_generated,test_gcd_edge_case_1,passed,0.001,,
+gcd__BOTH__g2,correct,test_generated,test_gcd_edge_case_2,passed,0.001,,
+gcd__BOTH__g2,correct,test_generated,test_gcd_exceptional_behavior_1,passed,0.001,,
+gcd__BOTH__g2,correct,test_generated,test_gcd_exceptional_behavior_2,passed,0.001,,
+gcd__BOTH__g2,buggy,test_generated,test_gcd_normal_case_1,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g2,buggy,test_generated,test_gcd_normal_case_2,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g2,buggy,test_generated,test_gcd_normal_case_3,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g2,buggy,test_generated,test_gcd_boundary_case_1,passed,0.001,,
+gcd__BOTH__g2,buggy,test_generated,test_gcd_boundary_case_2,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g2,buggy,test_generated,test_gcd_edge_case_1,passed,0.001,,
+gcd__BOTH__g2,buggy,test_generated,test_gcd_edge_case_2,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g2,buggy,test_generated,test_gcd_exceptional_behavior_1,passed,0.001,,
+gcd__BOTH__g2,buggy,test_generated,test_gcd_exceptional_behavior_2,passed,0.001,,
+gcd__BOTH__g3,correct,test_generated,test_gcd_normal_cases,passed,0.001,,
+gcd__BOTH__g3,correct,test_generated,test_gcd_boundary_case,passed,0.001,,
+gcd__BOTH__g3,correct,test_generated,test_gcd_edge_cases,passed,0.001,,
+gcd__BOTH__g3,correct,test_generated,test_gcd_exceptional_behavior,passed,0.001,,
+gcd__BOTH__g3,buggy,test_generated,test_gcd_normal_cases,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g3,buggy,test_generated,test_gcd_boundary_case,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g3,buggy,test_generated,test_gcd_edge_cases,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__BOTH__g3,buggy,test_generated,test_gcd_exceptional_behavior,passed,0.001,,
+gcd__CODE__g1,correct,test_generated,test_gcd_normal_cases,passed,0.001,,
+gcd__CODE__g1,correct,test_generated,test_gcd_boundary_cases,passed,0.001,,
+gcd__CODE__g1,correct,test_generated,test_gcd_negative_numbers,failed,0.001,,"assert -6 == 6
+ +  where -6 = gcd(48, -18)"
+gcd__CODE__g1,correct,test_generated,test_gcd_zero_input,failed,0.001,,Failed: DID NOT RAISE ValueError
+gcd__CODE__g1,buggy,test_generated,test_gcd_normal_cases,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g1,buggy,test_generated,test_gcd_boundary_cases,failed,0.001,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g1,buggy,test_generated,test_gcd_negative_numbers,failed,0.001,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g1,buggy,test_generated,test_gcd_zero_input,failed,0.001,,Failed: DID NOT RAISE ValueError
+gcd__CODE__g2,correct,test_generated,test_gcd_normal_case,passed,0.001,,
+gcd__CODE__g2,correct,test_generated,test_gcd_boundary_and_edge_cases[0-5-5],passed,0.001,,
+gcd__CODE__g2,correct,test_generated,test_gcd_boundary_and_edge_cases[5-0-5],passed,0.001,,
+gcd__CODE__g2,correct,test_generated,test_gcd_boundary_and_edge_cases[-3-9-3],passed,0.001,,
+gcd__CODE__g2,correct,test_generated,test_gcd_boundary_and_edge_cases[-9--3-3],failed,0.001,,"assert -3 == 3
+ +  where -3 = gcd(-9, -3)"
+gcd__CODE__g2,correct,test_generated,test_gcd_exceptional_behavior[0-0],failed,0.001,,Failed: DID NOT RAISE ZeroDivisionError
+gcd__CODE__g2,correct,test_generated,test_gcd_exceptional_behavior[1-0],failed,0.001,,Failed: DID NOT RAISE ZeroDivisionError
+gcd__CODE__g2,correct,test_generated,test_gcd_exceptional_behavior[0-1],failed,0.001,,Failed: DID NOT RAISE ZeroDivisionError
+gcd__CODE__g2,correct,test_generated,test_gcd_exceptional_behavior[-1--1],failed,0.001,,Failed: DID NOT RAISE ZeroDivisionError
+gcd__CODE__g2,buggy,test_generated,test_gcd_normal_case,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g2,buggy,test_generated,test_gcd_boundary_and_edge_cases[0-5-5],failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g2,buggy,test_generated,test_gcd_boundary_and_edge_cases[5-0-5],passed,0.001,,
+gcd__CODE__g2,buggy,test_generated,test_gcd_boundary_and_edge_cases[-3-9-3],failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g2,buggy,test_generated,test_gcd_boundary_and_edge_cases[-9--3-3],failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g2,buggy,test_generated,test_gcd_exceptional_behavior[0-0],failed,0.001,,Failed: DID NOT RAISE ZeroDivisionError
+gcd__CODE__g2,buggy,test_generated,test_gcd_exceptional_behavior[1-0],failed,0.001,,Failed: DID NOT RAISE ZeroDivisionError
+gcd__CODE__g2,buggy,test_generated,test_gcd_exceptional_behavior[0-1],failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g2,buggy,test_generated,test_gcd_exceptional_behavior[-1--1],failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g3,correct,test_generated,test_gcd_normal_cases,passed,0.001,,
+gcd__CODE__g3,correct,test_generated,test_gcd_boundary_cases,passed,0.001,,
+gcd__CODE__g3,correct,test_generated,test_gcd_edge_cases,failed,0.001,,"assert -6 == 6
+ +  where -6 = gcd(-48, -18)"
+gcd__CODE__g3,correct,test_generated,test_gcd_exceptional_behavior,passed,0.001,,
+gcd__CODE__g3,buggy,test_generated,test_gcd_normal_cases,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g3,buggy,test_generated,test_gcd_boundary_cases,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g3,buggy,test_generated,test_gcd_edge_cases,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__CODE__g3,buggy,test_generated,test_gcd_exceptional_behavior,passed,0.001,,
+gcd__SPEC__g1,correct,test_generated,test_gcd_normal_cases,passed,0.001,,
+gcd__SPEC__g1,correct,test_generated,test_gcd_boundary_cases,passed,0.001,,
+gcd__SPEC__g1,correct,test_generated,test_gcd_edge_cases,passed,0.001,,
+gcd__SPEC__g1,correct,test_generated,test_gcd_exceptional_behavior,passed,0.001,,
+gcd__SPEC__g1,buggy,test_generated,test_gcd_normal_cases,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g1,buggy,test_generated,test_gcd_boundary_cases,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g1,buggy,test_generated,test_gcd_edge_cases,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g1,buggy,test_generated,test_gcd_exceptional_behavior,passed,0.001,,
+gcd__SPEC__g2,correct,test_generated,test_gcd_normal_case_1,passed,0.001,,
+gcd__SPEC__g2,correct,test_generated,test_gcd_normal_case_2,passed,0.001,,
+gcd__SPEC__g2,correct,test_generated,test_gcd_boundary_case_1,passed,0.001,,
+gcd__SPEC__g2,correct,test_generated,test_gcd_boundary_case_2,passed,0.001,,
+gcd__SPEC__g2,correct,test_generated,test_gcd_boundary_case_3,passed,0.001,,
+gcd__SPEC__g2,correct,test_generated,test_gcd_odd_numbers,passed,0.001,,
+gcd__SPEC__g2,correct,test_generated,test_gcd_even_numbers,passed,0.001,,
+gcd__SPEC__g2,buggy,test_generated,test_gcd_normal_case_1,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g2,buggy,test_generated,test_gcd_normal_case_2,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g2,buggy,test_generated,test_gcd_boundary_case_1,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g2,buggy,test_generated,test_gcd_boundary_case_2,passed,0.001,,
+gcd__SPEC__g2,buggy,test_generated,test_gcd_boundary_case_3,passed,0.001,,
+gcd__SPEC__g2,buggy,test_generated,test_gcd_odd_numbers,failed,0.001,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g2,buggy,test_generated,test_gcd_even_numbers,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g3,correct,test_generated,test_gcd_normal_case,passed,0.001,,
+gcd__SPEC__g3,correct,test_generated,test_gcd_boundary_case_1,passed,0.001,,
+gcd__SPEC__g3,correct,test_generated,test_gcd_boundary_case_2,passed,0.001,,
+gcd__SPEC__g3,correct,test_generated,test_gcd_both_zero,failed,0.001,,Failed: DID NOT RAISE ValueError
+gcd__SPEC__g3,correct,test_generated,test_gcd_negative_input,failed,0.001,,Failed: DID NOT RAISE ValueError
+gcd__SPEC__g3,correct,test_generated,test_gcd_large_numbers,failed,0.001,,"assert 9 == 1
+ +  where 9 = gcd(123456789, 987654321)"
+gcd__SPEC__g3,buggy,test_generated,test_gcd_normal_case,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g3,buggy,test_generated,test_gcd_boundary_case_1,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g3,buggy,test_generated,test_gcd_boundary_case_2,passed,0.001,,
+gcd__SPEC__g3,buggy,test_generated,test_gcd_both_zero,failed,0.001,,Failed: DID NOT RAISE ValueError
+gcd__SPEC__g3,buggy,test_generated,test_gcd_negative_input,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+gcd__SPEC__g3,buggy,test_generated,test_gcd_large_numbers,failed,0.002,,RecursionError: maximum recursion depth exceeded while calling a Python object
+get_factors__BOTH__g1,correct,test_generated,test_get_factors_1,passed,0.001,,
+get_factors__BOTH__g1,correct,test_generated,test_get_factors_2,passed,0.001,,
+get_factors__BOTH__g1,correct,test_generated,test_get_factors_4,passed,0.001,,
+get_factors__BOTH__g1,correct,test_generated,test_get_factors_5,passed,0.001,,
+get_factors__BOTH__g1,correct,test_generated,test_get_factors_6,passed,0.001,,
+get_factors__BOTH__g1,correct,test_generated,test_get_factors_100,passed,0.001,,
+get_factors__BOTH__g1,correct,test_generated,test_get_factors_101,passed,0.001,,
+get_factors__BOTH__g1,buggy,test_generated,test_get_factors_1,passed,0.001,,
+get_factors__BOTH__g1,buggy,test_generated,test_get_factors_2,failed,0.001,,"assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+get_factors__BOTH__g1,buggy,test_generated,test_get_factors_4,failed,0.001,,"assert [2] == [2, 2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+get_factors__BOTH__g1,buggy,test_generated,test_get_factors_5,failed,0.001,,"assert [] == [5]
+  
+  Right contains one more item: 5
+  Use -v to get more diff"
+get_factors__BOTH__g1,buggy,test_generated,test_get_factors_6,failed,0.001,,"assert [2] == [2, 3]
+  
+  Right contains one more item: 3
+  Use -v to get more diff"
+get_factors__BOTH__g1,buggy,test_generated,test_get_factors_100,failed,0.001,,"assert [2, 2, 5] == [2, 2, 5, 5]
+  
+  Right contains one more item: 5
+  Use -v to get more diff"
+get_factors__BOTH__g1,buggy,test_generated,test_get_factors_101,failed,0.001,,"assert [] == [101]
+  
+  Right contains one more item: 101
+  Use -v to get more diff"
+get_factors__BOTH__g2,correct,test_generated,test_get_factors_empty_list,passed,0.001,,
+get_factors__BOTH__g2,correct,test_generated,test_get_factors_prime_number,passed,0.001,,
+get_factors__BOTH__g2,correct,test_generated,test_get_factors_power_of_two,passed,0.001,,
+get_factors__BOTH__g2,correct,test_generated,test_get_factors_even_number,passed,0.001,,
+get_factors__BOTH__g2,correct,test_generated,test_get_factors_odd_number,passed,0.001,,
+get_factors__BOTH__g2,correct,test_generated,test_get_factors_large_number,failed,0.001,,"assert [3, 3, 17, 17, 379721] == [3, 3, 3, 3607, 982451]
+  
+  At index 2 diff: 17 != 3
+  Use -v to get more diff"
+get_factors__BOTH__g2,buggy,test_generated,test_get_factors_empty_list,passed,0.001,,
+get_factors__BOTH__g2,buggy,test_generated,test_get_factors_prime_number,failed,0.001,,"assert [] == [101]
+  
+  Right contains one more item: 101
+  Use -v to get more diff"
+get_factors__BOTH__g2,buggy,test_generated,test_get_factors_power_of_two,failed,0.001,,"assert [2, 2, 2, 2] == [2, 2, 2, 2, 2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+get_factors__BOTH__g2,buggy,test_generated,test_get_factors_even_number,failed,0.001,,"assert [2, 2] == [2, 2, 11]
+  
+  Right contains one more item: 11
+  Use -v to get more diff"
+get_factors__BOTH__g2,buggy,test_generated,test_get_factors_odd_number,failed,0.001,,"assert [3, 5] == [3, 5, 5]
+  
+  Right contains one more item: 5
+  Use -v to get more diff"
+get_factors__BOTH__g2,buggy,test_generated,test_get_factors_large_number,failed,0.001,,"assert [3, 3, 17, 17] == [3, 3, 3, 3607, 982451]
+  
+  At index 2 diff: 17 != 3
+  Right contains one more item: 982451
+  Use -v to get more diff"
+get_factors__BOTH__g3,correct,test_generated,test_get_factors_empty_list_for_one,passed,0.001,,
+get_factors__BOTH__g3,correct,test_generated,test_get_factors_prime_number,passed,0.001,,
+get_factors__BOTH__g3,correct,test_generated,test_get_factors_power_of_two,passed,0.001,,
+get_factors__BOTH__g3,correct,test_generated,test_get_factors_power_of_three,passed,0.001,,
+get_factors__BOTH__g3,correct,test_generated,test_get_factors_product_of_two_primes,passed,0.001,,
+get_factors__BOTH__g3,correct,test_generated,test_get_factors_product_of_three_primes,passed,0.001,,
+get_factors__BOTH__g3,correct,test_generated,test_get_factors_large_number,failed,0.001,,"assert [3, 3, 17, 17, 379721] == [3, 3, 3, 3607, 9817]
+  
+  At index 2 diff: 17 != 3
+  Use -v to get more diff"
+get_factors__BOTH__g3,buggy,test_generated,test_get_factors_empty_list_for_one,passed,0.001,,
+get_factors__BOTH__g3,buggy,test_generated,test_get_factors_prime_number,failed,0.001,,"assert [] == [101]
+  
+  Right contains one more item: 101
+  Use -v to get more diff"
+get_factors__BOTH__g3,buggy,test_generated,test_get_factors_power_of_two,failed,0.001,,"assert [2, 2, 2] == [2, 2, 2, 2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+get_factors__BOTH__g3,buggy,test_generated,test_get_factors_power_of_three,failed,0.001,,"assert [3, 3] == [3, 3, 3]
+  
+  Right contains one more item: 3
+  Use -v to get more diff"
+get_factors__BOTH__g3,buggy,test_generated,test_get_factors_product_of_two_primes,failed,0.001,,"assert [3] == [3, 5]
+  
+  Right contains one more item: 5
+  Use -v to get more diff"
+get_factors__BOTH__g3,buggy,test_generated,test_get_factors_product_of_three_primes,failed,0.001,,"assert [3, 5] == [3, 5, 7]
+  
+  Right contains one more item: 7
+  Use -v to get more diff"
+get_factors__BOTH__g3,buggy,test_generated,test_get_factors_large_number,failed,0.001,,"assert [3, 3, 17, 17] == [3, 3, 3, 3607, 9817]
+  
+  At index 2 diff: 17 != 3
+  Right contains one more item: 9817
+  Use -v to get more diff"
+get_factors__CODE__g1,correct,test_generated,test_get_factors_normal_case,passed,0.001,,
+get_factors__CODE__g1,correct,test_generated,test_get_factors_prime_number,passed,0.001,,
+get_factors__CODE__g1,correct,test_generated,test_get_factors_one,passed,0.001,,
+get_factors__CODE__g1,correct,test_generated,test_get_factors_square_number,failed,0.001,,"assert [2, 2, 3, 3] == [2, 18]
+  
+  At index 1 diff: 2 != 18
+  Left contains 2 more items, first extra item: 3
+  Use -v to get more diff"
+get_factors__CODE__g1,correct,test_generated,test_get_factors_even_number,failed,0.001,,"assert [2, 2, 2, 5] == [2, 20]
+  
+  At index 1 diff: 2 != 20
+  Left contains 2 more items, first extra item: 2
+  Use -v to get more diff"
+get_factors__CODE__g1,correct,test_generated,test_get_factors_odd_number,failed,0.001,,"assert [3, 5, 5] == [3, 25]
+  
+  At index 1 diff: 5 != 25
+  Left contains one more item: 5
+  Use -v to get more diff"
+get_factors__CODE__g1,correct,test_generated,test_get_factors_negative_input,failed,0.001,,"TypeError: int() argument must be a string, a bytes-like object or a real number, not 'complex'"
+get_factors__CODE__g1,correct,test_generated,test_get_factors_zero,failed,0.001,,Failed: DID NOT RAISE ValueError
+get_factors__CODE__g1,buggy,test_generated,test_get_factors_normal_case,failed,0.001,,"assert [3] == [3, 5]
+  
+  Right contains one more item: 5
+  Use -v to get more diff"
+get_factors__CODE__g1,buggy,test_generated,test_get_factors_prime_number,failed,0.001,,"assert [] == [29]
+  
+  Right contains one more item: 29
+  Use -v to get more diff"
+get_factors__CODE__g1,buggy,test_generated,test_get_factors_one,passed,0.001,,
+get_factors__CODE__g1,buggy,test_generated,test_get_factors_square_number,failed,0.001,,"assert [2, 2, 3] == [2, 18]
+  
+  At index 1 diff: 2 != 18
+  Left contains one more item: 3
+  Use -v to get more diff"
+get_factors__CODE__g1,buggy,test_generated,test_get_factors_even_number,failed,0.001,,"assert [2, 2, 2] == [2, 20]
+  
+  At index 1 diff: 2 != 20
+  Left contains one more item: 2
+  Use -v to get more diff"
+get_factors__CODE__g1,buggy,test_generated,test_get_factors_odd_number,failed,0.001,,"assert [3, 5] == [3, 25]
+  
+  At index 1 diff: 5 != 25
+  Use -v to get more diff"
+get_factors__CODE__g1,buggy,test_generated,test_get_factors_negative_input,failed,0.001,,"TypeError: int() argument must be a string, a bytes-like object or a real number, not 'complex'"
+get_factors__CODE__g1,buggy,test_generated,test_get_factors_zero,failed,0.001,,Failed: DID NOT RAISE ValueError
+get_factors__CODE__g2,correct,test_generated,test_get_factors_normal_case,failed,0.001,,"assert [2, 2, 7] == [2, 14]
+  
+  At index 1 diff: 2 != 14
+  Left contains one more item: 7
+  Use -v to get more diff"
+get_factors__CODE__g2,correct,test_generated,test_get_factors_prime_number,failed,0.001,,"assert [29] == []
+  
+  Left contains one more item: 29
+  Use -v to get more diff"
+get_factors__CODE__g2,correct,test_generated,test_get_factors_one,passed,0.001,,
+get_factors__CODE__g2,correct,test_generated,test_get_factors_two,passed,0.001,,
+get_factors__CODE__g2,correct,test_generated,test_get_factors_large_number,passed,0.001,,
+get_factors__CODE__g2,buggy,test_generated,test_get_factors_normal_case,failed,0.001,,"assert [2, 2] == [2, 14]
+  
+  At index 1 diff: 2 != 14
+  Use -v to get more diff"
+get_factors__CODE__g2,buggy,test_generated,test_get_factors_prime_number,passed,0.001,,
+get_factors__CODE__g2,buggy,test_generated,test_get_factors_one,passed,0.001,,
+get_factors__CODE__g2,buggy,test_generated,test_get_factors_two,failed,0.001,,"assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+get_factors__CODE__g2,buggy,test_generated,test_get_factors_large_number,failed,0.001,,"assert [71, 839, 1471] == [71, 839, 1471, 6857]
+  
+  Right contains one more item: 6857
+  Use -v to get more diff"
+get_factors__CODE__g3,correct,test_generated,test_get_factors_normal_case,failed,0.001,,"assert [2, 2, 3] == [2, 6]
+  
+  At index 1 diff: 2 != 6
+  Left contains one more item: 3
+  Use -v to get more diff"
+get_factors__CODE__g3,correct,test_generated,test_get_factors_prime_number,failed,0.001,,"assert [7] == []
+  
+  Left contains one more item: 7
+  Use -v to get more diff"
+get_factors__CODE__g3,correct,test_generated,test_get_factors_one,passed,0.001,,
+get_factors__CODE__g3,correct,test_generated,test_get_factors_negative_number,failed,0.001,,NameError: name 'pytest' is not defined
+get_factors__CODE__g3,correct,test_generated,test_get_factors_zero,failed,0.001,,NameError: name 'pytest' is not defined
+get_factors__CODE__g3,buggy,test_generated,test_get_factors_normal_case,failed,0.001,,"assert [2, 2] == [2, 6]
+  
+  At index 1 diff: 2 != 6
+  Use -v to get more diff"
+get_factors__CODE__g3,buggy,test_generated,test_get_factors_prime_number,passed,0.001,,
+get_factors__CODE__g3,buggy,test_generated,test_get_factors_one,passed,0.001,,
+get_factors__CODE__g3,buggy,test_generated,test_get_factors_negative_number,failed,0.001,,NameError: name 'pytest' is not defined
+get_factors__CODE__g3,buggy,test_generated,test_get_factors_zero,failed,0.001,,NameError: name 'pytest' is not defined
+get_factors__SPEC__g1,correct,test_generated,test_get_factors_normal_cases,passed,0.001,,
+get_factors__SPEC__g1,correct,test_generated,test_get_factors_prime_numbers,passed,0.001,,
+get_factors__SPEC__g1,correct,test_generated,test_get_factors_even_and_odd_cases,passed,0.001,,
+get_factors__SPEC__g1,correct,test_generated,test_get_factors_power_cases,passed,0.001,,
+get_factors__SPEC__g1,correct,test_generated,test_get_factors_mixed_cases,passed,0.001,,
+get_factors__SPEC__g1,buggy,test_generated,test_get_factors_normal_cases,failed,0.001,,"assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+get_factors__SPEC__g1,buggy,test_generated,test_get_factors_prime_numbers,failed,0.001,,"assert [] == [101]
+  
+  Right contains one more item: 101
+  Use -v to get more diff"
+get_factors__SPEC__g1,buggy,test_generated,test_get_factors_even_and_odd_cases,failed,0.001,,"assert [2, 3] == [2, 3, 5]
+  
+  Right contains one more item: 5
+  Use -v to get more diff"
+get_factors__SPEC__g1,buggy,test_generated,test_get_factors_power_cases,failed,0.001,,"assert [7, 7] == [7, 7, 7]
+  
+  Right contains one more item: 7
+  Use -v to get more diff"
+get_factors__SPEC__g1,buggy,test_generated,test_get_factors_mixed_cases,failed,0.001,,"assert [2, 3] == [2, 3, 11]
+  
+  Right contains one more item: 11
+  Use -v to get more diff"
+get_factors__SPEC__g2,correct,test_generated,test_get_factors_empty,passed,0.001,,
+get_factors__SPEC__g2,correct,test_generated,test_get_factors_small_prime,passed,0.001,,
+get_factors__SPEC__g2,correct,test_generated,test_get_factors_large_number,passed,0.001,,
+get_factors__SPEC__g2,buggy,test_generated,test_get_factors_empty,passed,0.001,,
+get_factors__SPEC__g2,buggy,test_generated,test_get_factors_small_prime,failed,0.001,,"AssertionError: Expected [101] for input 101
+assert [] == [101]
+  
+  Right contains one more item: 101
+  Use -v to get more diff"
+get_factors__SPEC__g2,buggy,test_generated,test_get_factors_large_number,failed,0.001,,"AssertionError: Expected [2, 2, 5, 5] for input 100
+assert [2, 2, 5] == [2, 2, 5, 5]
+  
+  Right contains one more item: 5
+  Use -v to get more diff"
+get_factors__SPEC__g3,correct,test_generated,test_get_factors_empty,passed,0.001,,
+get_factors__SPEC__g3,correct,test_generated,test_get_factors_prime,passed,0.001,,
+get_factors__SPEC__g3,correct,test_generated,test_get_factors_power_of_two,passed,0.001,,
+get_factors__SPEC__g3,correct,test_generated,test_get_factors_product_of_primes,passed,0.001,,
+get_factors__SPEC__g3,correct,test_generated,test_get_factors_composite_with_repeated_prime_factors,passed,0.001,,
+get_factors__SPEC__g3,buggy,test_generated,test_get_factors_empty,passed,0.001,,
+get_factors__SPEC__g3,buggy,test_generated,test_get_factors_prime,failed,0.001,,"assert [] == [101]
+  
+  Right contains one more item: 101
+  Use -v to get more diff"
+get_factors__SPEC__g3,buggy,test_generated,test_get_factors_power_of_two,failed,0.001,,"assert [2, 2, 2] == [2, 2, 2, 2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+get_factors__SPEC__g3,buggy,test_generated,test_get_factors_product_of_primes,failed,0.001,,"assert [5] == [5, 7]
+  
+  Right contains one more item: 7
+  Use -v to get more diff"
+get_factors__SPEC__g3,buggy,test_generated,test_get_factors_composite_with_repeated_prime_factors,failed,0.001,,"assert [2, 2, 5] == [2, 2, 5, 5]
+  
+  Right contains one more item: 5
+  Use -v to get more diff"
+is_valid_parenthesization__BOTH__g1,correct,test_generated,test_is_valid_parenthesization,passed,0.001,,
+is_valid_parenthesization__BOTH__g1,buggy,test_generated,test_is_valid_parenthesization,failed,0.001,,"AssertionError: assert True == False
+ +  where True = is_valid_parenthesization('(((())))(')"
+is_valid_parenthesization__BOTH__g2,correct,test_generated,test_is_valid_parenthesization,passed,0.001,,
+is_valid_parenthesization__BOTH__g2,buggy,test_generated,test_is_valid_parenthesization,failed,0.001,,"AssertionError: assert True == False
+ +  where True = is_valid_parenthesization('(()')"
+is_valid_parenthesization__BOTH__g3,correct,test_generated,test_is_valid_parenthesization_normal_cases,passed,0.001,,
+is_valid_parenthesization__BOTH__g3,correct,test_generated,test_is_valid_parenthesization_boundary_cases,passed,0.001,,
+is_valid_parenthesization__BOTH__g3,correct,test_generated,test_is_valid_parenthesization_edge_cases,passed,0.001,,
+is_valid_parenthesization__BOTH__g3,correct,test_generated,test_is_valid_parenthesization_exceptional_behavior,failed,0.001,,Failed: DID NOT RAISE TypeError
+is_valid_parenthesization__BOTH__g3,buggy,test_generated,test_is_valid_parenthesization_normal_cases,passed,0.001,,
+is_valid_parenthesization__BOTH__g3,buggy,test_generated,test_is_valid_parenthesization_boundary_cases,passed,0.001,,
+is_valid_parenthesization__BOTH__g3,buggy,test_generated,test_is_valid_parenthesization_edge_cases,failed,0.001,,"AssertionError: assert True == False
+ +  where True = is_valid_parenthesization('(()')"
+is_valid_parenthesization__BOTH__g3,buggy,test_generated,test_is_valid_parenthesization_exceptional_behavior,failed,0.001,,Failed: DID NOT RAISE TypeError
+is_valid_parenthesization__CODE__g2,correct,test_generated,test_is_valid_parenthesization_normal_cases,error,0.001,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpss_izuvd\test_generated.py, line 5
+  def test_is_valid_parenthesization_normal_cases(function):
+E       fixture 'function' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpss_izuvd\test_generated.py:5"""
+is_valid_parenthesization__CODE__g2,correct,test_generated,test_is_valid_parenthesization_boundary_cases,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpss_izuvd\test_generated.py, line 11
+  def test_is_valid_parenthesization_boundary_cases(function):
+E       fixture 'function' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpss_izuvd\test_generated.py:11"""
+is_valid_parenthesization__CODE__g2,correct,test_generated,test_is_valid_parenthesization_edge_cases,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpss_izuvd\test_generated.py, line 17
+  def test_is_valid_parenthesization_edge_cases(function):
+E       fixture 'function' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpss_izuvd\test_generated.py:17"""
+is_valid_parenthesization__CODE__g2,correct,test_generated,test_is_valid_parenthesization_exceptional_behavior,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpss_izuvd\test_generated.py, line 23
+  def test_is_valid_parenthesization_exceptional_behavior(function):
+E       fixture 'function' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpss_izuvd\test_generated.py:23"""
+is_valid_parenthesization__CODE__g2,buggy,test_generated,test_is_valid_parenthesization_normal_cases,error,0.001,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpocnlxi09\test_generated.py, line 5
+  def test_is_valid_parenthesization_normal_cases(function):
+E       fixture 'function' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpocnlxi09\test_generated.py:5"""
+is_valid_parenthesization__CODE__g2,buggy,test_generated,test_is_valid_parenthesization_boundary_cases,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpocnlxi09\test_generated.py, line 11
+  def test_is_valid_parenthesization_boundary_cases(function):
+E       fixture 'function' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpocnlxi09\test_generated.py:11"""
+is_valid_parenthesization__CODE__g2,buggy,test_generated,test_is_valid_parenthesization_edge_cases,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpocnlxi09\test_generated.py, line 17
+  def test_is_valid_parenthesization_edge_cases(function):
+E       fixture 'function' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpocnlxi09\test_generated.py:17"""
+is_valid_parenthesization__CODE__g2,buggy,test_generated,test_is_valid_parenthesization_exceptional_behavior,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpocnlxi09\test_generated.py, line 23
+  def test_is_valid_parenthesization_exceptional_behavior(function):
+E       fixture 'function' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpocnlxi09\test_generated.py:23"""
+is_valid_parenthesization__CODE__g3,correct,test_generated,test_is_valid_parenthesization_normal_cases,error,0.001,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpwbzyk4q_\test_generated.py, line 3
+  def test_is_valid_parenthesization_normal_cases(function):
+E       fixture 'function' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpwbzyk4q_\test_generated.py:3"""
+is_valid_parenthesization__CODE__g3,buggy,test_generated,test_is_valid_parenthesization_normal_cases,error,0.001,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpo3mlyhdm\test_generated.py, line 3
+  def test_is_valid_parenthesization_normal_cases(function):
+E       fixture 'function' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpo3mlyhdm\test_generated.py:3"""
+is_valid_parenthesization__SPEC__g1,correct,test_generated,test_is_valid_parenthesization_normal_case_1,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,correct,test_generated,test_is_valid_parenthesization_normal_case_2,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,correct,test_generated,test_is_valid_parenthesization_boundary_case_1,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,correct,test_generated,test_is_valid_parenthesization_edge_case_1,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,correct,test_generated,test_is_valid_parenthesization_exceptional_behavior_case_1,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,correct,test_generated,test_is_valid_parenthesization_exceptional_behavior_case_2,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,correct,test_generated,test_is_valid_parenthesization_exceptional_behavior_case_3,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,buggy,test_generated,test_is_valid_parenthesization_normal_case_1,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,buggy,test_generated,test_is_valid_parenthesization_normal_case_2,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,buggy,test_generated,test_is_valid_parenthesization_boundary_case_1,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,buggy,test_generated,test_is_valid_parenthesization_edge_case_1,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,buggy,test_generated,test_is_valid_parenthesization_exceptional_behavior_case_1,passed,0.001,,
+is_valid_parenthesization__SPEC__g1,buggy,test_generated,test_is_valid_parenthesization_exceptional_behavior_case_2,failed,0.001,,"AssertionError: assert True == False
+ +  where True = is_valid_parenthesization('(()')"
+is_valid_parenthesization__SPEC__g1,buggy,test_generated,test_is_valid_parenthesization_exceptional_behavior_case_3,passed,0.001,,
+is_valid_parenthesization__SPEC__g2,correct,test_generated,test_is_valid_parenthesization,passed,0.001,,
+is_valid_parenthesization__SPEC__g2,buggy,test_generated,test_is_valid_parenthesization,failed,0.001,,"AssertionError: assert True == False
+ +  where True = is_valid_parenthesization('(()')"
+is_valid_parenthesization__SPEC__g3,correct,test_generated,test_is_valid_parenthesization_normal_cases,passed,0.001,,
+is_valid_parenthesization__SPEC__g3,correct,test_generated,test_is_valid_parenthesization_boundary_cases,failed,0.001,,NameError: name 'is_valid_parenthesition' is not defined
+is_valid_parenthesization__SPEC__g3,correct,test_generated,test_is_valid_parenthesization_edge_cases,passed,0.001,,
+is_valid_parenthesization__SPEC__g3,correct,test_generated,test_is_valid_parenthesization_exceptional_behavior,failed,0.001,,Failed: DID NOT RAISE ValueError
+is_valid_parenthesization__SPEC__g3,buggy,test_generated,test_is_valid_parenthesization_normal_cases,passed,0.001,,
+is_valid_parenthesization__SPEC__g3,buggy,test_generated,test_is_valid_parenthesization_boundary_cases,failed,0.001,,NameError: name 'is_valid_parenthesition' is not defined
+is_valid_parenthesization__SPEC__g3,buggy,test_generated,test_is_valid_parenthesization_edge_cases,passed,0.001,,
+is_valid_parenthesization__SPEC__g3,buggy,test_generated,test_is_valid_parenthesization_exceptional_behavior,failed,0.001,,Failed: DID NOT RAISE ValueError
+max_sublist_sum__BOTH__g1,correct,test_generated,test_max_sublist_sum_positive_numbers,passed,0.001,,
+max_sublist_sum__BOTH__g1,correct,test_generated,test_max_sublist_sum_all_negative_numbers,passed,0.001,,
+max_sublist_sum__BOTH__g1,correct,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__BOTH__g1,correct,test_generated,test_max_sublist_sum_single_positive_number,passed,0.001,,
+max_sublist_sum__BOTH__g1,correct,test_generated,test_max_sublist_sum_single_negative_number,passed,0.001,,
+max_sublist_sum__BOTH__g1,correct,test_generated,test_max_sublist_sum_with_zeros,failed,0.001,,"assert 8 == 10
+ +  where 8 = max_sublist_sum([1, -2, 3, 4, -5, 6])"
+max_sublist_sum__BOTH__g1,buggy,test_generated,test_max_sublist_sum_positive_numbers,failed,0.001,,"assert 4 == 5
+ +  where 4 = max_sublist_sum([4, -5, 2, 1, -1, 3])"
+max_sublist_sum__BOTH__g1,buggy,test_generated,test_max_sublist_sum_all_negative_numbers,passed,0.001,,
+max_sublist_sum__BOTH__g1,buggy,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__BOTH__g1,buggy,test_generated,test_max_sublist_sum_single_positive_number,passed,0.001,,
+max_sublist_sum__BOTH__g1,buggy,test_generated,test_max_sublist_sum_single_negative_number,passed,0.001,,
+max_sublist_sum__BOTH__g1,buggy,test_generated,test_max_sublist_sum_with_zeros,failed,0.001,,"assert 7 == 10
+ +  where 7 = max_sublist_sum([1, -2, 3, 4, -5, 6])"
+max_sublist_sum__BOTH__g2,correct,test_generated,test_max_sublist_sum_normal_case_1,passed,0.001,,
+max_sublist_sum__BOTH__g2,correct,test_generated,test_max_sublist_sum_normal_case_2,failed,0.001,,"assert 0 == -1
+ +  where 0 = max_sublist_sum([-2, -1, -6])"
+max_sublist_sum__BOTH__g2,correct,test_generated,test_max_sublist_sum_boundary_case_empty_list,passed,0.001,,
+max_sublist_sum__BOTH__g2,correct,test_generated,test_max_sublist_sum_edge_case_single_element_positive,passed,0.001,,
+max_sublist_sum__BOTH__g2,correct,test_generated,test_max_sublist_sum_edge_case_single_element_negative,failed,0.001,,"assert 0 == -3
+ +  where 0 = max_sublist_sum([-3])"
+max_sublist_sum__BOTH__g2,correct,test_generated,test_max_sublist_sum_all_negative_numbers,failed,0.001,,"assert 0 == -1
+ +  where 0 = max_sublist_sum([-1, -2, -3, -4])"
+max_sublist_sum__BOTH__g2,correct,test_generated,test_max_sublist_sum_all_positive_numbers,passed,0.001,,
+max_sublist_sum__BOTH__g2,buggy,test_generated,test_max_sublist_sum_normal_case_1,failed,0.001,,"assert 4 == 5
+ +  where 4 = max_sublist_sum([4, -5, 2, 1, -1, 3])"
+max_sublist_sum__BOTH__g2,buggy,test_generated,test_max_sublist_sum_normal_case_2,failed,0.001,,"assert 0 == -1
+ +  where 0 = max_sublist_sum([-2, -1, -6])"
+max_sublist_sum__BOTH__g2,buggy,test_generated,test_max_sublist_sum_boundary_case_empty_list,passed,0.001,,
+max_sublist_sum__BOTH__g2,buggy,test_generated,test_max_sublist_sum_edge_case_single_element_positive,passed,0.001,,
+max_sublist_sum__BOTH__g2,buggy,test_generated,test_max_sublist_sum_edge_case_single_element_negative,failed,0.001,,"assert 0 == -3
+ +  where 0 = max_sublist_sum([-3])"
+max_sublist_sum__BOTH__g2,buggy,test_generated,test_max_sublist_sum_all_negative_numbers,failed,0.001,,"assert 0 == -1
+ +  where 0 = max_sublist_sum([-1, -2, -3, -4])"
+max_sublist_sum__BOTH__g2,buggy,test_generated,test_max_sublist_sum_all_positive_numbers,passed,0.001,,
+max_sublist_sum__BOTH__g3,correct,test_generated,test_max_sublist_sum_normal_case,passed,0.001,,
+max_sublist_sum__BOTH__g3,correct,test_generated,test_max_sublist_sum_all_negative,passed,0.001,,
+max_sublist_sum__BOTH__g3,correct,test_generated,test_max_sublist_sum_all_positive,passed,0.001,,
+max_sublist_sum__BOTH__g3,correct,test_generated,test_max_sublist_sum_single_element,passed,0.001,,
+max_sublist_sum__BOTH__g3,correct,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__BOTH__g3,buggy,test_generated,test_max_sublist_sum_normal_case,failed,0.001,,"assert 4 == 5
+ +  where 4 = max_sublist_sum([4, -5, 2, 1, -1, 3])"
+max_sublist_sum__BOTH__g3,buggy,test_generated,test_max_sublist_sum_all_negative,passed,0.001,,
+max_sublist_sum__BOTH__g3,buggy,test_generated,test_max_sublist_sum_all_positive,passed,0.001,,
+max_sublist_sum__BOTH__g3,buggy,test_generated,test_max_sublist_sum_single_element,passed,0.001,,
+max_sublist_sum__BOTH__g3,buggy,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__CODE__g1,correct,test_generated,test_max_sublist_sum_positive_numbers,passed,0.001,,
+max_sublist_sum__CODE__g1,correct,test_generated,test_max_sublist_sum_negative_numbers,passed,0.001,,
+max_sublist_sum__CODE__g1,correct,test_generated,test_max_sublist_sum_mixed_numbers,passed,0.001,,
+max_sublist_sum__CODE__g1,correct,test_generated,test_max_sublist_sum_single_element_positive,passed,0.001,,
+max_sublist_sum__CODE__g1,correct,test_generated,test_max_sublist_sum_single_element_negative,passed,0.001,,
+max_sublist_sum__CODE__g1,correct,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__CODE__g1,buggy,test_generated,test_max_sublist_sum_positive_numbers,passed,0.001,,
+max_sublist_sum__CODE__g1,buggy,test_generated,test_max_sublist_sum_negative_numbers,passed,0.001,,
+max_sublist_sum__CODE__g1,buggy,test_generated,test_max_sublist_sum_mixed_numbers,failed,0.001,,"assert 2 == 4
+ +  where 2 = max_sublist_sum([-1, 2, -3, 4, -5])"
+max_sublist_sum__CODE__g1,buggy,test_generated,test_max_sublist_sum_single_element_positive,passed,0.001,,
+max_sublist_sum__CODE__g1,buggy,test_generated,test_max_sublist_sum_single_element_negative,passed,0.001,,
+max_sublist_sum__CODE__g1,buggy,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__CODE__g2,correct,test_generated,test_max_sublist_sum_positive_numbers,passed,0.001,,
+max_sublist_sum__CODE__g2,correct,test_generated,test_max_sublist_sum_negative_numbers,passed,0.001,,
+max_sublist_sum__CODE__g2,correct,test_generated,test_max_sublist_sum_mixed_numbers,passed,0.001,,
+max_sublist_sum__CODE__g2,correct,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__CODE__g2,correct,test_generated,test_max_sublist_sum_single_element_positive,passed,0.001,,
+max_sublist_sum__CODE__g2,correct,test_generated,test_max_sublist_sum_single_element_negative,passed,0.001,,
+max_sublist_sum__CODE__g2,buggy,test_generated,test_max_sublist_sum_positive_numbers,passed,0.001,,
+max_sublist_sum__CODE__g2,buggy,test_generated,test_max_sublist_sum_negative_numbers,passed,0.001,,
+max_sublist_sum__CODE__g2,buggy,test_generated,test_max_sublist_sum_mixed_numbers,failed,0.001,,"assert 3 == 5
+ +  where 3 = max_sublist_sum([1, -2, 3, -4, 5, -6])"
+max_sublist_sum__CODE__g2,buggy,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__CODE__g2,buggy,test_generated,test_max_sublist_sum_single_element_positive,passed,0.001,,
+max_sublist_sum__CODE__g2,buggy,test_generated,test_max_sublist_sum_single_element_negative,passed,0.001,,
+max_sublist_sum__CODE__g3,correct,test_generated,test_max_sublist_sum_normal_case,passed,0.001,,
+max_sublist_sum__CODE__g3,correct,test_generated,test_max_sublist_sum_all_negative,passed,0.001,,
+max_sublist_sum__CODE__g3,correct,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__CODE__g3,correct,test_generated,test_max_sublist_sum_single_element,passed,0.001,,
+max_sublist_sum__CODE__g3,correct,test_generated,test_max_sublist_sum_with_zeroes,passed,0.001,,
+max_sublist_sum__CODE__g3,buggy,test_generated,test_max_sublist_sum_normal_case,failed,0.001,,"assert 6 == 7
+ +  where 6 = max_sublist_sum([1, -2, 3, 4])"
+max_sublist_sum__CODE__g3,buggy,test_generated,test_max_sublist_sum_all_negative,passed,0.001,,
+max_sublist_sum__CODE__g3,buggy,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__CODE__g3,buggy,test_generated,test_max_sublist_sum_single_element,passed,0.001,,
+max_sublist_sum__CODE__g3,buggy,test_generated,test_max_sublist_sum_with_zeroes,failed,0.001,,"assert 6 == 7
+ +  where 6 = max_sublist_sum([1, -2, 3, 4, 0, -1])"
+max_sublist_sum__SPEC__g1,correct,test_generated,test_max_sublist_sum_positive_numbers,passed,0.001,,
+max_sublist_sum__SPEC__g1,correct,test_generated,test_max_sublist_sum_all_negative_numbers,failed,0.001,,"assert 0 == -1
+ +  where 0 = max_sublist_sum([-1, -2, -3, -4, -5])"
+max_sublist_sum__SPEC__g1,correct,test_generated,test_max_sublist_sum_single_positive_number,passed,0.001,,
+max_sublist_sum__SPEC__g1,correct,test_generated,test_max_sublist_sum_single_negative_number,failed,0.001,,"assert 0 == -3
+ +  where 0 = max_sublist_sum([-3])"
+max_sublist_sum__SPEC__g1,correct,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__SPEC__g1,correct,test_generated,test_max_sublist_sum_all_zeros,passed,0.001,,
+max_sublist_sum__SPEC__g1,correct,test_generated,test_max_sublist_sum_with_zero_in_middle,failed,0.001,,"assert 5 == 9
+ +  where 5 = max_sublist_sum([1, -2, 3, -4, 5])"
+max_sublist_sum__SPEC__g1,buggy,test_generated,test_max_sublist_sum_positive_numbers,failed,0.001,,"assert 4 == 5
+ +  where 4 = max_sublist_sum([4, -5, 2, 1, -1, 3])"
+max_sublist_sum__SPEC__g1,buggy,test_generated,test_max_sublist_sum_all_negative_numbers,failed,0.001,,"assert 0 == -1
+ +  where 0 = max_sublist_sum([-1, -2, -3, -4, -5])"
+max_sublist_sum__SPEC__g1,buggy,test_generated,test_max_sublist_sum_single_positive_number,passed,0.001,,
+max_sublist_sum__SPEC__g1,buggy,test_generated,test_max_sublist_sum_single_negative_number,failed,0.001,,"assert 0 == -3
+ +  where 0 = max_sublist_sum([-3])"
+max_sublist_sum__SPEC__g1,buggy,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__SPEC__g1,buggy,test_generated,test_max_sublist_sum_all_zeros,passed,0.001,,
+max_sublist_sum__SPEC__g1,buggy,test_generated,test_max_sublist_sum_with_zero_in_middle,failed,0.001,,"assert 3 == 9
+ +  where 3 = max_sublist_sum([1, -2, 3, -4, 5])"
+max_sublist_sum__SPEC__g2,correct,test_generated,test_max_sublist_sum_normal_case_1,passed,0.001,,
+max_sublist_sum__SPEC__g2,correct,test_generated,test_max_sublist_sum_normal_case_2,failed,0.001,,"assert 0 == -1
+ +  where 0 = max_sublist_sum([-2, -1, -3])"
+max_sublist_sum__SPEC__g2,correct,test_generated,test_max_sublist_sum_single_element_positive,passed,0.001,,
+max_sublist_sum__SPEC__g2,correct,test_generated,test_max_sublist_sum_single_element_negative,failed,0.001,,"assert 0 == -5
+ +  where 0 = max_sublist_sum([-5])"
+max_sublist_sum__SPEC__g2,correct,test_generated,test_max_sublist_sum_all_zeros,passed,0.001,,
+max_sublist_sum__SPEC__g2,correct,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__SPEC__g2,buggy,test_generated,test_max_sublist_sum_normal_case_1,failed,0.001,,"assert 4 == 5
+ +  where 4 = max_sublist_sum([4, -5, 2, 1, -1, 3])"
+max_sublist_sum__SPEC__g2,buggy,test_generated,test_max_sublist_sum_normal_case_2,failed,0.001,,"assert 0 == -1
+ +  where 0 = max_sublist_sum([-2, -1, -3])"
+max_sublist_sum__SPEC__g2,buggy,test_generated,test_max_sublist_sum_single_element_positive,passed,0.001,,
+max_sublist_sum__SPEC__g2,buggy,test_generated,test_max_sublist_sum_single_element_negative,failed,0.001,,"assert 0 == -5
+ +  where 0 = max_sublist_sum([-5])"
+max_sublist_sum__SPEC__g2,buggy,test_generated,test_max_sublist_sum_all_zeros,passed,0.001,,
+max_sublist_sum__SPEC__g2,buggy,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__SPEC__g3,correct,test_generated,test_max_sublist_sum_normal_case,passed,0.001,,
+max_sublist_sum__SPEC__g3,correct,test_generated,test_max_sublist_sum_all_negative,failed,0.001,,"assert 0 == -1
+ +  where 0 = max_sublist_sum([-1, -2, -3, -4])"
+max_sublist_sum__SPEC__g3,correct,test_generated,test_max_sublist_sum_all_positive,passed,0.001,,
+max_sublist_sum__SPEC__g3,correct,test_generated,test_max_sublist_sum_single_element,passed,0.001,,
+max_sublist_sum__SPEC__g3,correct,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__SPEC__g3,correct,test_generated,test_max_sublist_sum_with_zeroes,passed,0.001,,
+max_sublist_sum__SPEC__g3,buggy,test_generated,test_max_sublist_sum_normal_case,failed,0.001,,"assert 4 == 5
+ +  where 4 = max_sublist_sum([4, -5, 2, 1, -1, 3])"
+max_sublist_sum__SPEC__g3,buggy,test_generated,test_max_sublist_sum_all_negative,failed,0.001,,"assert 0 == -1
+ +  where 0 = max_sublist_sum([-1, -2, -3, -4])"
+max_sublist_sum__SPEC__g3,buggy,test_generated,test_max_sublist_sum_all_positive,passed,0.001,,
+max_sublist_sum__SPEC__g3,buggy,test_generated,test_max_sublist_sum_single_element,passed,0.001,,
+max_sublist_sum__SPEC__g3,buggy,test_generated,test_max_sublist_sum_empty_list,passed,0.001,,
+max_sublist_sum__SPEC__g3,buggy,test_generated,test_max_sublist_sum_with_zeroes,failed,0.001,,"assert 6 == 7
+ +  where 6 = max_sublist_sum([1, -2, 3, 0, 4, -5])"
+mergesort__BOTH__g1,correct,test_generated,test_mergesort_empty_array,passed,0.001,,
+mergesort__BOTH__g1,correct,test_generated,test_mergesort_single_element,passed,0.001,,
+mergesort__BOTH__g1,correct,test_generated,test_mergesort_sorted_array,passed,0.001,,
+mergesort__BOTH__g1,correct,test_generated,test_mergesort_reversed_array,passed,0.001,,
+mergesort__BOTH__g1,correct,test_generated,test_mergesort_random_array,passed,0.001,,
+mergesort__BOTH__g1,buggy,test_generated,test_mergesort_empty_array,passed,0.001,,
+mergesort__BOTH__g1,buggy,test_generated,test_mergesort_single_element,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g1,buggy,test_generated,test_mergesort_sorted_array,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g1,buggy,test_generated,test_mergesort_reversed_array,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g1,buggy,test_generated,test_mergesort_random_array,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g2,correct,test_generated,test_mergesort_empty_array,passed,0.001,,
+mergesort__BOTH__g2,correct,test_generated,test_mergesort_single_element_array,passed,0.001,,
+mergesort__BOTH__g2,correct,test_generated,test_mergesort_sorted_array,passed,0.001,,
+mergesort__BOTH__g2,correct,test_generated,test_mergesort_reversed_array,passed,0.001,,
+mergesort__BOTH__g2,correct,test_generated,test_mergesort_random_array,passed,0.001,,
+mergesort__BOTH__g2,correct,test_generated,test_mergesort_duplicates_array,passed,0.001,,
+mergesort__BOTH__g2,buggy,test_generated,test_mergesort_empty_array,passed,0.001,,
+mergesort__BOTH__g2,buggy,test_generated,test_mergesort_single_element_array,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g2,buggy,test_generated,test_mergesort_sorted_array,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g2,buggy,test_generated,test_mergesort_reversed_array,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g2,buggy,test_generated,test_mergesort_random_array,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g2,buggy,test_generated,test_mergesort_duplicates_array,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g3,correct,test_generated,test_empty_array,passed,0.001,,
+mergesort__BOTH__g3,correct,test_generated,test_single_element,passed,0.001,,
+mergesort__BOTH__g3,correct,test_generated,test_sorted_array,passed,0.001,,
+mergesort__BOTH__g3,correct,test_generated,test_reverse_sorted_array,passed,0.001,,
+mergesort__BOTH__g3,correct,test_generated,test_random_array,passed,0.001,,
+mergesort__BOTH__g3,correct,test_generated,test_array_with_duplicates,passed,0.001,,
+mergesort__BOTH__g3,correct,test_generated,test_array_with_negative_numbers,passed,0.001,,
+mergesort__BOTH__g3,buggy,test_generated,test_empty_array,passed,0.001,,
+mergesort__BOTH__g3,buggy,test_generated,test_single_element,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g3,buggy,test_generated,test_sorted_array,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g3,buggy,test_generated,test_reverse_sorted_array,failed,0.005,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g3,buggy,test_generated,test_random_array,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g3,buggy,test_generated,test_array_with_duplicates,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__BOTH__g3,buggy,test_generated,test_array_with_negative_numbers,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g1,correct,test_generated,test_empty_array,passed,0.002,,
+mergesort__CODE__g1,correct,test_generated,test_single_element,passed,0.002,,
+mergesort__CODE__g1,correct,test_generated,test_sorted_array,passed,0.002,,
+mergesort__CODE__g1,correct,test_generated,test_reverse_sorted_array,passed,0.001,,
+mergesort__CODE__g1,correct,test_generated,test_random_array,passed,0.001,,
+mergesort__CODE__g1,correct,test_generated,test_array_with_duplicates,passed,0.001,,
+mergesort__CODE__g1,correct,test_generated,test_negative_numbers,passed,0.001,,
+mergesort__CODE__g1,buggy,test_generated,test_empty_array,passed,0.001,,
+mergesort__CODE__g1,buggy,test_generated,test_single_element,failed,0.005,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g1,buggy,test_generated,test_sorted_array,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g1,buggy,test_generated,test_reverse_sorted_array,failed,0.01,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g1,buggy,test_generated,test_random_array,failed,0.006,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g1,buggy,test_generated,test_array_with_duplicates,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g1,buggy,test_generated,test_negative_numbers,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g2,correct,test_generated,test_empty_array,passed,0.001,,
+mergesort__CODE__g2,correct,test_generated,test_single_element,passed,0.001,,
+mergesort__CODE__g2,correct,test_generated,test_sorted_array,passed,0.001,,
+mergesort__CODE__g2,correct,test_generated,test_reverse_sorted_array,passed,0.001,,
+mergesort__CODE__g2,correct,test_generated,test_random_array,passed,0.001,,
+mergesort__CODE__g2,buggy,test_generated,test_empty_array,passed,0.001,,
+mergesort__CODE__g2,buggy,test_generated,test_single_element,failed,0.005,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g2,buggy,test_generated,test_sorted_array,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g2,buggy,test_generated,test_reverse_sorted_array,failed,0.009,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g2,buggy,test_generated,test_random_array,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g3,correct,test_generated,test_mergesort_empty_array,passed,0.001,,
+mergesort__CODE__g3,correct,test_generated,test_mergesort_single_element_array,passed,0.001,,
+mergesort__CODE__g3,correct,test_generated,test_mergesort_sorted_array,passed,0.001,,
+mergesort__CODE__g3,correct,test_generated,test_mergesort_reverse_sorted_array,passed,0.001,,
+mergesort__CODE__g3,correct,test_generated,test_mergesort_random_array,passed,0.001,,
+mergesort__CODE__g3,correct,test_generated,test_mergesort_array_with_duplicates,passed,0.001,,
+mergesort__CODE__g3,buggy,test_generated,test_mergesort_empty_array,passed,0.001,,
+mergesort__CODE__g3,buggy,test_generated,test_mergesort_single_element_array,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g3,buggy,test_generated,test_mergesort_sorted_array,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g3,buggy,test_generated,test_mergesort_reverse_sorted_array,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g3,buggy,test_generated,test_mergesort_random_array,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__CODE__g3,buggy,test_generated,test_mergesort_array_with_duplicates,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g1,correct,test_generated,test_empty_list,passed,0.001,,
+mergesort__SPEC__g1,correct,test_generated,test_single_element,passed,0.001,,
+mergesort__SPEC__g1,correct,test_generated,test_sorted_list,passed,0.001,,
+mergesort__SPEC__g1,correct,test_generated,test_reversed_list,passed,0.001,,
+mergesort__SPEC__g1,correct,test_generated,test_duplicates,passed,0.001,,
+mergesort__SPEC__g1,correct,test_generated,test_random_list,passed,0.001,,
+mergesort__SPEC__g1,buggy,test_generated,test_empty_list,passed,0.001,,
+mergesort__SPEC__g1,buggy,test_generated,test_single_element,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g1,buggy,test_generated,test_sorted_list,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g1,buggy,test_generated,test_reversed_list,failed,0.006,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g1,buggy,test_generated,test_duplicates,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g1,buggy,test_generated,test_random_list,failed,0.005,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g2,correct,test_generated,test_mergesort_normal_case,passed,0.001,,
+mergesort__SPEC__g2,correct,test_generated,test_mergesort_boundary_case_empty_list,passed,0.001,,
+mergesort__SPEC__g2,correct,test_generated,test_mergesort_boundary_case_single_element,passed,0.001,,
+mergesort__SPEC__g2,correct,test_generated,test_mergesort_edge_case_reverse_sorted,passed,0.001,,
+mergesort__SPEC__g2,correct,test_generated,test_mergesort_edge_case_already_sorted,passed,0.001,,
+mergesort__SPEC__g2,correct,test_generated,test_mergesort_edge_case_duplicates,passed,0.001,,
+mergesort__SPEC__g2,buggy,test_generated,test_mergesort_normal_case,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g2,buggy,test_generated,test_mergesort_boundary_case_empty_list,passed,0.001,,
+mergesort__SPEC__g2,buggy,test_generated,test_mergesort_boundary_case_single_element,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g2,buggy,test_generated,test_mergesort_edge_case_reverse_sorted,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g2,buggy,test_generated,test_mergesort_edge_case_already_sorted,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g2,buggy,test_generated,test_mergesort_edge_case_duplicates,failed,0.007,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g3,correct,test_generated,test_mergesort_empty_array,passed,0.001,,
+mergesort__SPEC__g3,correct,test_generated,test_mergesort_single_element,passed,0.001,,
+mergesort__SPEC__g3,correct,test_generated,test_mergesort_sorted_array,passed,0.001,,
+mergesort__SPEC__g3,correct,test_generated,test_mergesort_reversed_array,passed,0.001,,
+mergesort__SPEC__g3,correct,test_generated,test_mergesort_random_array,passed,0.001,,
+mergesort__SPEC__g3,correct,test_generated,test_mergesort_array_with_duplicates,passed,0.001,,
+mergesort__SPEC__g3,correct,test_generated,test_mergesort_array_with_negative_numbers,passed,0.001,,
+mergesort__SPEC__g3,buggy,test_generated,test_mergesort_empty_array,passed,0.001,,
+mergesort__SPEC__g3,buggy,test_generated,test_mergesort_single_element,failed,0.005,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g3,buggy,test_generated,test_mergesort_sorted_array,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g3,buggy,test_generated,test_mergesort_reversed_array,failed,0.003,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g3,buggy,test_generated,test_mergesort_random_array,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g3,buggy,test_generated,test_mergesort_array_with_duplicates,failed,0.006,,RecursionError: maximum recursion depth exceeded while calling a Python object
+mergesort__SPEC__g3,buggy,test_generated,test_mergesort_array_with_negative_numbers,failed,0.004,,RecursionError: maximum recursion depth exceeded while calling a Python object
+next_palindrome__BOTH__g1,correct,test_generated,test_next_palindrome_normal_case_1,passed,0.001,,
+next_palindrome__BOTH__g1,correct,test_generated,test_next_palindrome_normal_case_2,passed,0.001,,
+next_palindrome__BOTH__g1,correct,test_generated,test_next_palindrome_boundary_case_1,passed,0.001,,
+next_palindrome__BOTH__g1,correct,test_generated,test_next_palindrome_edge_case_1,passed,0.001,,
+next_palindrome__BOTH__g1,correct,test_generated,test_next_palindrome_exceptional_behavior_1,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_palindrome__BOTH__g1,buggy,test_generated,test_next_palindrome_normal_case_1,passed,0.001,,
+next_palindrome__BOTH__g1,buggy,test_generated,test_next_palindrome_normal_case_2,failed,0.001,,"assert [1, 0, 0, 0, 0, 1] == [1, 0, 0, 0, 1]
+  
+  At index 4 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__BOTH__g1,buggy,test_generated,test_next_palindrome_boundary_case_1,passed,0.001,,
+next_palindrome__BOTH__g1,buggy,test_generated,test_next_palindrome_edge_case_1,passed,0.001,,
+next_palindrome__BOTH__g1,buggy,test_generated,test_next_palindrome_exceptional_behavior_1,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_palindrome__BOTH__g2,correct,test_generated,test_next_palindrome_normal_case_1,passed,0.001,,
+next_palindrome__BOTH__g2,correct,test_generated,test_next_palindrome_normal_case_2,passed,0.001,,
+next_palindrome__BOTH__g2,correct,test_generated,test_next_palindrome_boundary_case_odd_length,failed,0.001,,"assert [8, 7, 6, 6, 5, 3, ...] == [8, 7, 6, 6, 6, 6, ...]
+  
+  At index 4 diff: 5 != 6
+  Use -v to get more diff"
+next_palindrome__BOTH__g2,correct,test_generated,test_next_palindrome_boundary_case_even_length,failed,0.001,,"assert [8, 7, 6, 6, 4, 3, ...] == [8, 7, 6, 6, 6, 7, ...]
+  
+  At index 4 diff: 4 != 6
+  Use -v to get more diff"
+next_palindrome__BOTH__g2,correct,test_generated,test_next_palindrome_edge_case_single_digit_9,failed,0.001,,"assert [1, 1] == [1, 0, 1]
+  
+  At index 1 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__BOTH__g2,correct,test_generated,test_next_palindrome_edge_case_single_digit_0,passed,0.001,,
+next_palindrome__BOTH__g2,correct,test_generated,test_next_palindrome_edge_case_all_nines,failed,0.001,,"assert [1, 0, 0, 0, 1] == [1, 0, 0, 0, 0, 1]
+  
+  At index 4 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__BOTH__g2,buggy,test_generated,test_next_palindrome_normal_case_1,passed,0.001,,
+next_palindrome__BOTH__g2,buggy,test_generated,test_next_palindrome_normal_case_2,failed,0.001,,"assert [1, 0, 0, 0, 1] == [1, 0, 0, 1]
+  
+  At index 3 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__BOTH__g2,buggy,test_generated,test_next_palindrome_boundary_case_odd_length,failed,0.001,,"assert [8, 7, 6, 6, 5, 3, ...] == [8, 7, 6, 6, 6, 6, ...]
+  
+  At index 4 diff: 5 != 6
+  Use -v to get more diff"
+next_palindrome__BOTH__g2,buggy,test_generated,test_next_palindrome_boundary_case_even_length,failed,0.001,,"assert [8, 7, 6, 6, 4, 3, ...] == [8, 7, 6, 6, 6, 7, ...]
+  
+  At index 4 diff: 4 != 6
+  Use -v to get more diff"
+next_palindrome__BOTH__g2,buggy,test_generated,test_next_palindrome_edge_case_single_digit_9,passed,0.001,,
+next_palindrome__BOTH__g2,buggy,test_generated,test_next_palindrome_edge_case_single_digit_0,passed,0.001,,
+next_palindrome__BOTH__g2,buggy,test_generated,test_next_palindrome_edge_case_all_nines,passed,0.001,,
+next_palindrome__BOTH__g3,correct,test_generated,test_next_palindrome_normal_case,passed,0.001,,
+next_palindrome__BOTH__g3,correct,test_generated,test_next_palindrome_boundary_case_even_length,failed,0.001,,"assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]
+  
+  At index 3 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__BOTH__g3,correct,test_generated,test_next_palindrome_boundary_case_odd_length,failed,0.001,,"assert [1, 0, 0, 0, 1] == [1, 0, 0, 0, 0, 1]
+  
+  At index 4 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__BOTH__g3,correct,test_generated,test_next_palindrome_edge_case_single_digit,failed,0.001,,"assert [1, 1] == [1, 0, 1]
+  
+  At index 1 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__BOTH__g3,correct,test_generated,test_next_palindrome_edge_case_all_nines_even_length,passed,0.001,,
+next_palindrome__BOTH__g3,correct,test_generated,test_next_palindrome_edge_case_all_nines_odd_length,failed,0.001,,"assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]
+  
+  At index 3 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__BOTH__g3,buggy,test_generated,test_next_palindrome_normal_case,passed,0.001,,
+next_palindrome__BOTH__g3,buggy,test_generated,test_next_palindrome_boundary_case_even_length,passed,0.001,,
+next_palindrome__BOTH__g3,buggy,test_generated,test_next_palindrome_boundary_case_odd_length,passed,0.001,,
+next_palindrome__BOTH__g3,buggy,test_generated,test_next_palindrome_edge_case_single_digit,passed,0.001,,
+next_palindrome__BOTH__g3,buggy,test_generated,test_next_palindrome_edge_case_all_nines_even_length,failed,0.001,,"assert [1, 0, 0, 1] == [1, 0, 1]
+  
+  At index 2 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__BOTH__g3,buggy,test_generated,test_next_palindrome_edge_case_all_nines_odd_length,passed,0.001,,
+next_palindrome__CODE__g1,correct,test_generated,test_next_palindrome_normal_case,failed,0.001,,"assert [1, 2, 4, 2, 1] == [1, 3, 4, 3, 1]
+  
+  At index 1 diff: 2 != 3
+  Use -v to get more diff"
+next_palindrome__CODE__g1,correct,test_generated,test_next_palindrome_boundary_case_odd_length,failed,0.001,,"assert [9, 8, 8, 8, 9] == [9, 9, 0, 9, 9]
+  
+  At index 1 diff: 8 != 9
+  Use -v to get more diff"
+next_palindrome__CODE__g1,correct,test_generated,test_next_palindrome_boundary_case_even_length,failed,0.001,,"assert [9, 8, 7, 6, 6, 4, ...] == [9, 9, 0, 0, 0, 0, ...]
+  
+  At index 1 diff: 8 != 9
+  Use -v to get more diff"
+next_palindrome__CODE__g1,correct,test_generated,test_next_palindrome_edge_case_all_nines_odd_length,failed,0.001,,"assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]
+  
+  At index 3 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__CODE__g1,correct,test_generated,test_next_palindrome_edge_case_all_nines_even_length,failed,0.001,,"assert [1, 0, 0, 0, 1] == [1, 0, 0, 0, 0, 1]
+  
+  At index 4 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__CODE__g1,buggy,test_generated,test_next_palindrome_normal_case,failed,0.001,,"assert [1, 2, 4, 2, 1] == [1, 3, 4, 3, 1]
+  
+  At index 1 diff: 2 != 3
+  Use -v to get more diff"
+next_palindrome__CODE__g1,buggy,test_generated,test_next_palindrome_boundary_case_odd_length,failed,0.001,,"assert [9, 8, 8, 8, 9] == [9, 9, 0, 9, 9]
+  
+  At index 1 diff: 8 != 9
+  Use -v to get more diff"
+next_palindrome__CODE__g1,buggy,test_generated,test_next_palindrome_boundary_case_even_length,failed,0.001,,"assert [9, 8, 7, 6, 6, 4, ...] == [9, 9, 0, 0, 0, 0, ...]
+  
+  At index 1 diff: 8 != 9
+  Use -v to get more diff"
+next_palindrome__CODE__g1,buggy,test_generated,test_next_palindrome_edge_case_all_nines_odd_length,passed,0.001,,
+next_palindrome__CODE__g1,buggy,test_generated,test_next_palindrome_edge_case_all_nines_even_length,passed,0.001,,
+next_palindrome__CODE__g2,correct,test_generated,test_next_palindrome_normal_case_odd_length,failed,0.001,,"assert [1, 3, 3] == [1, 3, 1]
+  
+  At index 2 diff: 3 != 1
+  Use -v to get more diff"
+next_palindrome__CODE__g2,correct,test_generated,test_next_palindrome_normal_case_even_length,passed,0.001,,
+next_palindrome__CODE__g2,correct,test_generated,test_next_palindrome_all_nines_odd_length,failed,0.001,,"assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]
+  
+  At index 3 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__CODE__g2,correct,test_generated,test_next_palindrome_all_nines_even_length,passed,0.001,,
+next_palindrome__CODE__g2,correct,test_generated,test_next_palindrome_boundary_case_single_digit,failed,0.001,,"assert [1, 1] == [1, 0, 1]
+  
+  At index 1 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__CODE__g2,correct,test_generated,test_next_palindrome_edge_case_single_zero,passed,0.001,,
+next_palindrome__CODE__g2,correct,test_generated,test_next_palindrome_exceptional_behavior_negative_numbers,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_palindrome__CODE__g2,correct,test_generated,test_next_palindrome_exceptional_behavior_non_digit_values,passed,0.001,,
+next_palindrome__CODE__g2,buggy,test_generated,test_next_palindrome_normal_case_odd_length,failed,0.001,,"assert [1, 3, 3] == [1, 3, 1]
+  
+  At index 2 diff: 3 != 1
+  Use -v to get more diff"
+next_palindrome__CODE__g2,buggy,test_generated,test_next_palindrome_normal_case_even_length,passed,0.001,,
+next_palindrome__CODE__g2,buggy,test_generated,test_next_palindrome_all_nines_odd_length,passed,0.001,,
+next_palindrome__CODE__g2,buggy,test_generated,test_next_palindrome_all_nines_even_length,failed,0.001,,"assert [1, 0, 0, 0, 0, 1] == [1, 0, 0, 0, 1]
+  
+  At index 4 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__CODE__g2,buggy,test_generated,test_next_palindrome_boundary_case_single_digit,passed,0.001,,
+next_palindrome__CODE__g2,buggy,test_generated,test_next_palindrome_edge_case_single_zero,passed,0.001,,
+next_palindrome__CODE__g2,buggy,test_generated,test_next_palindrome_exceptional_behavior_negative_numbers,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_palindrome__CODE__g2,buggy,test_generated,test_next_palindrome_exceptional_behavior_non_digit_values,passed,0.001,,
+next_palindrome__CODE__g3,correct,test_generated,test_next_palindrome_normal_case_1,failed,0.001,,"assert [1, 3, 3] == [1, 3, 1]
+  
+  At index 2 diff: 3 != 1
+  Use -v to get more diff"
+next_palindrome__CODE__g3,correct,test_generated,test_next_palindrome_normal_case_2,passed,0.001,,
+next_palindrome__CODE__g3,correct,test_generated,test_next_palindrome_boundary_case_even_length,passed,0.001,,
+next_palindrome__CODE__g3,correct,test_generated,test_next_palindrome_boundary_case_odd_length,failed,0.001,,"assert [3, 4, 6, 6, 3] == [3, 4, 6, 4, 3]
+  
+  At index 3 diff: 6 != 4
+  Use -v to get more diff"
+next_palindrome__CODE__g3,correct,test_generated,test_next_palindrome_edge_case_single_digit,failed,0.001,,"assert [1, 1] == [1, 0, 1]
+  
+  At index 1 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__CODE__g3,correct,test_generated,test_next_palindrome_edge_case_all_nines,passed,0.001,,
+next_palindrome__CODE__g3,correct,test_generated,test_next_palindrome_exceptional_behavior,failed,0.001,,"assert [1, 1] == [1, 0, 1]
+  
+  At index 1 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__CODE__g3,buggy,test_generated,test_next_palindrome_normal_case_1,failed,0.001,,"assert [1, 3, 3] == [1, 3, 1]
+  
+  At index 2 diff: 3 != 1
+  Use -v to get more diff"
+next_palindrome__CODE__g3,buggy,test_generated,test_next_palindrome_normal_case_2,failed,0.001,,"assert [1, 0, 0, 0, 1] == [1, 0, 0, 1]
+  
+  At index 3 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__CODE__g3,buggy,test_generated,test_next_palindrome_boundary_case_even_length,passed,0.001,,
+next_palindrome__CODE__g3,buggy,test_generated,test_next_palindrome_boundary_case_odd_length,failed,0.001,,"assert [3, 4, 6, 6, 3] == [3, 4, 6, 4, 3]
+  
+  At index 3 diff: 6 != 4
+  Use -v to get more diff"
+next_palindrome__CODE__g3,buggy,test_generated,test_next_palindrome_edge_case_single_digit,passed,0.001,,
+next_palindrome__CODE__g3,buggy,test_generated,test_next_palindrome_edge_case_all_nines,failed,0.001,,"assert [1, 0, 0, 0, 0, 1] == [1, 0, 0, 0, 1]
+  
+  At index 4 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__CODE__g3,buggy,test_generated,test_next_palindrome_exceptional_behavior,failed,0.001,,"assert [1, 1] == [1, 0, 1]
+  
+  At index 1 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__SPEC__g1,correct,test_generated,test_next_palindrome_normal_case,passed,0.001,,
+next_palindrome__SPEC__g1,correct,test_generated,test_next_palindrome_boundary_case_single_digit_even,passed,0.001,,
+next_palindrome__SPEC__g1,correct,test_generated,test_next_palindrome_boundary_case_single_digit_odd,passed,0.001,,
+next_palindrome__SPEC__g1,correct,test_generated,test_next_palindrome_boundary_case_two_digits_even,failed,0.001,,"assert [2, 1] == [1, 1]
+  
+  At index 0 diff: 2 != 1
+  Use -v to get more diff"
+next_palindrome__SPEC__g1,correct,test_generated,test_next_palindrome_boundary_case_two_digits_odd,failed,0.001,,"assert [3, 4] == [2, 4]
+  
+  At index 0 diff: 3 != 2
+  Use -v to get more diff"
+next_palindrome__SPEC__g1,correct,test_generated,test_next_palindrome_edge_case_increasing_digits,failed,0.001,,"assert [9, 8, 8, 6, 5] == [1, 0, 0, 0, 1]
+  
+  At index 0 diff: 9 != 1
+  Use -v to get more diff"
+next_palindrome__SPEC__g1,correct,test_generated,test_next_palindrome_edge_case_decreasing_digits_with_carry_over,passed,0.001,,
+next_palindrome__SPEC__g1,correct,test_generated,test_next_palindrome_exceptional_behavior_leading_zeroes,failed,0.001,,"assert [0, 1, 2] == [0, 0, 3]
+  
+  At index 1 diff: 1 != 0
+  Use -v to get more diff"
+next_palindrome__SPEC__g1,buggy,test_generated,test_next_palindrome_normal_case,passed,0.001,,
+next_palindrome__SPEC__g1,buggy,test_generated,test_next_palindrome_boundary_case_single_digit_even,passed,0.001,,
+next_palindrome__SPEC__g1,buggy,test_generated,test_next_palindrome_boundary_case_single_digit_odd,failed,0.001,,"assert [1, 0, 1] == [1, 1]
+  
+  At index 1 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__SPEC__g1,buggy,test_generated,test_next_palindrome_boundary_case_two_digits_even,failed,0.002,,"assert [2, 1] == [1, 1]
+  
+  At index 0 diff: 2 != 1
+  Use -v to get more diff"
+next_palindrome__SPEC__g1,buggy,test_generated,test_next_palindrome_boundary_case_two_digits_odd,failed,0.003,,"assert [3, 4] == [2, 4]
+  
+  At index 0 diff: 3 != 2
+  Use -v to get more diff"
+next_palindrome__SPEC__g1,buggy,test_generated,test_next_palindrome_edge_case_increasing_digits,failed,0.002,,"assert [9, 8, 8, 6, 5] == [1, 0, 0, 0, 1]
+  
+  At index 0 diff: 9 != 1
+  Use -v to get more diff"
+next_palindrome__SPEC__g1,buggy,test_generated,test_next_palindrome_edge_case_decreasing_digits_with_carry_over,failed,0.001,,"assert [1, 0, 0, 0, 1] == [1, 0, 0, 1]
+  
+  At index 3 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__SPEC__g1,buggy,test_generated,test_next_palindrome_exceptional_behavior_leading_zeroes,failed,0.001,,"assert [0, 1, 2] == [0, 0, 3]
+  
+  At index 1 diff: 1 != 0
+  Use -v to get more diff"
+next_palindrome__SPEC__g2,correct,test_generated,test_next_palindrome_normal_case_1,passed,0.001,,
+next_palindrome__SPEC__g2,correct,test_generated,test_next_palindrome_normal_case_2,failed,0.001,,"assert [9, 8, 8, 8, 9] == [9, 9, 0, 9, 9]
+  
+  At index 1 diff: 8 != 9
+  Use -v to get more diff"
+next_palindrome__SPEC__g2,correct,test_generated,test_next_palindrome_boundary_case_odd_length,passed,0.001,,
+next_palindrome__SPEC__g2,correct,test_generated,test_next_palindrome_boundary_case_even_length,passed,0.001,,
+next_palindrome__SPEC__g2,correct,test_generated,test_next_palindrome_edge_case_single_digit_max_value,failed,0.002,,"assert [1, 1] == [1, 0, 1]
+  
+  At index 1 diff: 1 != 0
+  Right contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__SPEC__g2,correct,test_generated,test_next_palindrome_edge_case_single_digit_min_value,passed,0.002,,
+next_palindrome__SPEC__g2,correct,test_generated,test_next_palindrome_exceptional_behavior_all_nines,passed,0.002,,
+next_palindrome__SPEC__g2,buggy,test_generated,test_next_palindrome_normal_case_1,passed,0.001,,
+next_palindrome__SPEC__g2,buggy,test_generated,test_next_palindrome_normal_case_2,failed,0.001,,"assert [9, 8, 8, 8, 9] == [9, 9, 0, 9, 9]
+  
+  At index 1 diff: 8 != 9
+  Use -v to get more diff"
+next_palindrome__SPEC__g2,buggy,test_generated,test_next_palindrome_boundary_case_odd_length,passed,0.001,,
+next_palindrome__SPEC__g2,buggy,test_generated,test_next_palindrome_boundary_case_even_length,passed,0.001,,
+next_palindrome__SPEC__g2,buggy,test_generated,test_next_palindrome_edge_case_single_digit_max_value,passed,0.001,,
+next_palindrome__SPEC__g2,buggy,test_generated,test_next_palindrome_edge_case_single_digit_min_value,passed,0.001,,
+next_palindrome__SPEC__g2,buggy,test_generated,test_next_palindrome_exceptional_behavior_all_nines,failed,0.001,,"assert [1, 0, 0, 0, 1] == [1, 0, 0, 1]
+  
+  At index 3 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__SPEC__g3,correct,test_generated,test_next_palindrome_normal_case,passed,0.001,,
+next_palindrome__SPEC__g3,correct,test_generated,test_next_palindrome_boundary_case,passed,0.001,,
+next_palindrome__SPEC__g3,correct,test_generated,test_next_palindrome_edge_case_single_digit,passed,0.001,,
+next_palindrome__SPEC__g3,correct,test_generated,test_next_palindrome_odd_length_palindrome,passed,0.001,,
+next_palindrome__SPEC__g3,correct,test_generated,test_next_palindrome_even_length_palindrome_with_carry_over,passed,0.001,,
+next_palindrome__SPEC__g3,buggy,test_generated,test_next_palindrome_normal_case,passed,0.001,,
+next_palindrome__SPEC__g3,buggy,test_generated,test_next_palindrome_boundary_case,failed,0.001,,"assert [1, 0, 0, 0, 1] == [1, 0, 0, 1]
+  
+  At index 3 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_palindrome__SPEC__g3,buggy,test_generated,test_next_palindrome_edge_case_single_digit,passed,0.001,,
+next_palindrome__SPEC__g3,buggy,test_generated,test_next_palindrome_odd_length_palindrome,passed,0.001,,
+next_palindrome__SPEC__g3,buggy,test_generated,test_next_palindrome_even_length_palindrome_with_carry_over,failed,0.001,,"assert [1, 0, 0, 1] == [1, 0, 1]
+  
+  At index 2 diff: 0 != 1
+  Left contains one more item: 1
+  Use -v to get more diff"
+next_permutation__BOTH__g1,correct,test_generated,test_next_permutation,failed,0.001,,"assert None == [1, 2, 3, 4, 5]
+ +  where None = next_permutation([5, 4, 3, 2, 1])"
+next_permutation__BOTH__g1,buggy,test_generated,test_next_permutation,failed,0.001,,"assert [3, 1, 2, 4] == [3, 4, 1, 2]
+  
+  At index 1 diff: 1 != 4
+  Use -v to get more diff"
+next_permutation__BOTH__g2,correct,test_generated,test_next_permutation_ascending,passed,0.001,,
+next_permutation__BOTH__g2,correct,test_generated,test_next_permutation_descending,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__BOTH__g2,correct,test_generated,test_next_permutation_boundary_case,failed,0.001,,"assert None == [1]
+ +  where None = next_permutation([1])"
+next_permutation__BOTH__g2,correct,test_generated,test_next_permutation_edge_case,passed,0.001,,
+next_permutation__BOTH__g2,correct,test_generated,test_next_permutation_repeated_elements,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__BOTH__g2,buggy,test_generated,test_next_permutation_ascending,failed,0.002,,"assert None == [1, 3, 2]
+ +  where None = next_permutation([1, 2, 3])"
+next_permutation__BOTH__g2,buggy,test_generated,test_next_permutation_descending,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__BOTH__g2,buggy,test_generated,test_next_permutation_boundary_case,failed,0.001,,"assert None == [1]
+ +  where None = next_permutation([1])"
+next_permutation__BOTH__g2,buggy,test_generated,test_next_permutation_edge_case,failed,0.001,,"assert [1, 2, 3] == [3, 1, 2]
+  
+  At index 0 diff: 1 != 3
+  Use -v to get more diff"
+next_permutation__BOTH__g2,buggy,test_generated,test_next_permutation_repeated_elements,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__BOTH__g3,correct,test_generated,test_next_permutation_normal_case,passed,0.001,,
+next_permutation__BOTH__g3,correct,test_generated,test_next_permutation_boundary_case,passed,0.001,,
+next_permutation__BOTH__g3,correct,test_generated,test_next_permutation_edge_case,passed,0.001,,
+next_permutation__BOTH__g3,correct,test_generated,test_next_permutation_reverse_sorted_case,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__BOTH__g3,buggy,test_generated,test_next_permutation_normal_case,failed,0.002,,"assert [3, 1, 2, 4] == [3, 4, 1, 2]
+  
+  At index 1 diff: 1 != 4
+  Use -v to get more diff"
+next_permutation__BOTH__g3,buggy,test_generated,test_next_permutation_boundary_case,failed,0.001,,"assert None == [1, 3, 2]
+ +  where None = next_permutation([1, 2, 3])"
+next_permutation__BOTH__g3,buggy,test_generated,test_next_permutation_edge_case,failed,0.001,,"assert None == [2, 1, 3]
+ +  where None = next_permutation([1, 3, 2])"
+next_permutation__BOTH__g3,buggy,test_generated,test_next_permutation_reverse_sorted_case,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__CODE__g1,correct,test_generated,test_next_permutation,failed,0.001,,"assert None == [1, 2, 3]
+ +  where None = next_permutation([3, 2, 1])"
+next_permutation__CODE__g1,buggy,test_generated,test_next_permutation,failed,0.001,,"assert None == [1, 3, 2]
+ +  where None = next_permutation([1, 2, 3])"
+next_permutation__CODE__g2,correct,test_generated,test_next_permutation_normal_cases,passed,0.001,,
+next_permutation__CODE__g2,correct,test_generated,test_next_permutation_boundary_cases,passed,0.001,,
+next_permutation__CODE__g2,correct,test_generated,test_next_permutation_edge_cases,failed,0.001,,"assert None == [1, 1, 1]
+ +  where None = next_permutation([1, 1, 1])"
+next_permutation__CODE__g2,correct,test_generated,test_next_permutation_exceptional_behavior,failed,0.001,,Failed: DID NOT RAISE TypeError
+next_permutation__CODE__g2,buggy,test_generated,test_next_permutation_normal_cases,failed,0.001,,"assert None == [1, 3, 2]
+ +  where None = next_permutation([1, 2, 3])"
+next_permutation__CODE__g2,buggy,test_generated,test_next_permutation_boundary_cases,passed,0.001,,
+next_permutation__CODE__g2,buggy,test_generated,test_next_permutation_edge_cases,failed,0.001,,"assert None == [1, 1, 1]
+ +  where None = next_permutation([1, 1, 1])"
+next_permutation__CODE__g2,buggy,test_generated,test_next_permutation_exceptional_behavior,failed,0.001,,Failed: DID NOT RAISE TypeError
+next_permutation__CODE__g3,correct,test_generated,test_next_permutation_normal_case,passed,0.001,,
+next_permutation__CODE__g3,correct,test_generated,test_next_permutation_boundary_case,failed,0.001,,"assert None == [1, 2, 3]
+ +  where None = next_permutation([3, 2, 1])"
+next_permutation__CODE__g3,correct,test_generated,test_next_permutation_edge_case,passed,0.001,,
+next_permutation__CODE__g3,correct,test_generated,test_next_permutation_repetitive_elements,failed,0.001,,"assert None == [2, 2, 2]
+ +  where None = next_permutation([2, 2, 2])"
+next_permutation__CODE__g3,correct,test_generated,test_next_permutation_single_element,failed,0.001,,"assert None == [5]
+ +  where None = next_permutation([5])"
+next_permutation__CODE__g3,buggy,test_generated,test_next_permutation_normal_case,failed,0.001,,"assert None == [1, 3, 2]
+ +  where None = next_permutation([1, 2, 3])"
+next_permutation__CODE__g3,buggy,test_generated,test_next_permutation_boundary_case,failed,0.001,,"assert None == [1, 2, 3]
+ +  where None = next_permutation([3, 2, 1])"
+next_permutation__CODE__g3,buggy,test_generated,test_next_permutation_edge_case,failed,0.001,,"assert None == [1, 5, 1]
+ +  where None = next_permutation([1, 1, 5])"
+next_permutation__CODE__g3,buggy,test_generated,test_next_permutation_repetitive_elements,failed,0.001,,"assert None == [2, 2, 2]
+ +  where None = next_permutation([2, 2, 2])"
+next_permutation__CODE__g3,buggy,test_generated,test_next_permutation_single_element,failed,0.001,,"assert None == [5]
+ +  where None = next_permutation([5])"
+next_permutation__SPEC__g1,correct,test_generated,test_next_permutation_ascending,passed,0.001,,
+next_permutation__SPEC__g1,correct,test_generated,test_next_permutation_descending,failed,0.001,,"assert None == [3, 1, 2]
+ +  where None = next_permutation([3, 2, 1])"
+next_permutation__SPEC__g1,correct,test_generated,test_next_permutation_middle_case,passed,0.001,,
+next_permutation__SPEC__g1,correct,test_generated,test_next_permutation_boundary_case,passed,0.001,,
+next_permutation__SPEC__g1,correct,test_generated,test_next_permutation_edge_case,passed,0.001,,
+next_permutation__SPEC__g1,correct,test_generated,test_next_permutation_single_element,failed,0.001,,"assert None == [5]
+ +  where None = next_permutation([5])"
+next_permutation__SPEC__g1,correct,test_generated,test_next_permutation_empty_list,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__SPEC__g1,buggy,test_generated,test_next_permutation_ascending,failed,0.001,,"assert None == [1, 3, 2]
+ +  where None = next_permutation([1, 2, 3])"
+next_permutation__SPEC__g1,buggy,test_generated,test_next_permutation_descending,failed,0.001,,"assert None == [3, 1, 2]
+ +  where None = next_permutation([3, 2, 1])"
+next_permutation__SPEC__g1,buggy,test_generated,test_next_permutation_middle_case,failed,0.001,,"assert None == [5, 7, 8, 6, 9]
+ +  where None = next_permutation([5, 7, 6, 9, 8])"
+next_permutation__SPEC__g1,buggy,test_generated,test_next_permutation_boundary_case,failed,0.001,,"assert None == [1, 2, 4, 3]
+ +  where None = next_permutation([1, 2, 3, 4])"
+next_permutation__SPEC__g1,buggy,test_generated,test_next_permutation_edge_case,failed,0.001,,"assert None == [2, 1, 3]
+ +  where None = next_permutation([1, 3, 2])"
+next_permutation__SPEC__g1,buggy,test_generated,test_next_permutation_single_element,failed,0.001,,"assert None == [5]
+ +  where None = next_permutation([5])"
+next_permutation__SPEC__g1,buggy,test_generated,test_next_permutation_empty_list,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__SPEC__g2,correct,test_generated,test_next_permutation_normal_case_1,passed,0.001,,
+next_permutation__SPEC__g2,correct,test_generated,test_next_permutation_normal_case_2,passed,0.001,,
+next_permutation__SPEC__g2,correct,test_generated,test_next_permutation_boundary_case,passed,0.001,,
+next_permutation__SPEC__g2,correct,test_generated,test_next_permutation_edge_case_single_element,failed,0.001,,"assert None == [1]
+ +  where None = next_permutation([1])"
+next_permutation__SPEC__g2,correct,test_generated,test_next_permutation_edge_case_reverse_sorted,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__SPEC__g2,buggy,test_generated,test_next_permutation_normal_case_1,failed,0.001,,"assert None == [1, 3, 2]
+ +  where None = next_permutation([1, 2, 3])"
+next_permutation__SPEC__g2,buggy,test_generated,test_next_permutation_normal_case_2,failed,0.001,,"assert None == [4, 5, 7, 6]
+ +  where None = next_permutation([4, 5, 6, 7])"
+next_permutation__SPEC__g2,buggy,test_generated,test_next_permutation_boundary_case,failed,0.002,,"assert None == [2, 1, 3]
+ +  where None = next_permutation([1, 3, 2])"
+next_permutation__SPEC__g2,buggy,test_generated,test_next_permutation_edge_case_single_element,failed,0.001,,"assert None == [1]
+ +  where None = next_permutation([1])"
+next_permutation__SPEC__g2,buggy,test_generated,test_next_permutation_edge_case_reverse_sorted,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__SPEC__g3,correct,test_generated,test_next_permutation_normal_case,passed,0.001,,
+next_permutation__SPEC__g3,correct,test_generated,test_next_permutation_boundary_case,passed,0.001,,
+next_permutation__SPEC__g3,correct,test_generated,test_next_permutation_edge_case,failed,0.001,,"assert None == [1, 2, 3, 4]
+ +  where None = next_permutation([4, 3, 2, 1])"
+next_permutation__SPEC__g3,correct,test_generated,test_next_permutation_repeated_elements,failed,0.001,,Failed: DID NOT RAISE ValueError
+next_permutation__SPEC__g3,buggy,test_generated,test_next_permutation_normal_case,failed,0.001,,"assert [3, 1, 2, 4] == [3, 4, 1, 2]
+  
+  At index 1 diff: 1 != 4
+  Use -v to get more diff"
+next_permutation__SPEC__g3,buggy,test_generated,test_next_permutation_boundary_case,failed,0.001,,"assert None == [1, 2, 4, 3]
+ +  where None = next_permutation([1, 2, 3, 4])"
+next_permutation__SPEC__g3,buggy,test_generated,test_next_permutation_edge_case,failed,0.001,,"assert None == [1, 2, 3, 4]
+ +  where None = next_permutation([4, 3, 2, 1])"
+next_permutation__SPEC__g3,buggy,test_generated,test_next_permutation_repeated_elements,failed,0.001,,Failed: DID NOT RAISE ValueError
+powerset__BOTH__g1,correct,test_generated,test_powerset_empty_list,passed,0.001,,
+powerset__BOTH__g1,correct,test_generated,test_powerset_single_element,passed,0.001,,
+powerset__BOTH__g1,correct,test_generated,test_powerset_multiple_elements,passed,0.001,,
+powerset__BOTH__g1,buggy,test_generated,test_powerset_empty_list,passed,0.001,,
+powerset__BOTH__g1,buggy,test_generated,test_powerset_single_element,failed,0.001,,"AssertionError: assert [['a']] == [[], ['a']]
+  
+  At index 0 diff: ['a'] != []
+  Right contains one more item: ['a']
+  Use -v to get more diff"
+powerset__BOTH__g1,buggy,test_generated,test_powerset_multiple_elements,failed,0.001,,"AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]
+  
+  At index 0 diff: ['a', 'b', 'c'] != []
+  Right contains 7 more items, first extra item: ['c']
+  Use -v to get more diff"
+powerset__BOTH__g2,correct,test_generated,test_empty_set,passed,0.001,,
+powerset__BOTH__g2,correct,test_generated,test_single_element_set,passed,0.001,,
+powerset__BOTH__g2,correct,test_generated,test_two_elements_set,passed,0.001,,
+powerset__BOTH__g2,correct,test_generated,test_three_elements_set,passed,0.001,,
+powerset__BOTH__g2,correct,test_generated,test_order_of_subsets,passed,0.001,,
+powerset__BOTH__g2,correct,test_generated,test_duplicate_elements,failed,0.001,,Failed: DID NOT RAISE ValueError
+powerset__BOTH__g2,buggy,test_generated,test_empty_set,passed,0.001,,
+powerset__BOTH__g2,buggy,test_generated,test_single_element_set,failed,0.001,,"assert [[1]] == [[], [1]]
+  
+  At index 0 diff: [1] != []
+  Right contains one more item: [1]
+  Use -v to get more diff"
+powerset__BOTH__g2,buggy,test_generated,test_two_elements_set,failed,0.001,,"AssertionError: assert [['a', 'b']] == [[], ['b'], ['a'], ['a', 'b']]
+  
+  At index 0 diff: ['a', 'b'] != []
+  Right contains 3 more items, first extra item: ['b']
+  Use -v to get more diff"
+powerset__BOTH__g2,buggy,test_generated,test_three_elements_set,failed,0.001,,"AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]
+  
+  At index 0 diff: ['a', 'b', 'c'] != []
+  Right contains 7 more items, first extra item: ['c']
+  Use -v to get more diff"
+powerset__BOTH__g2,buggy,test_generated,test_order_of_subsets,failed,0.001,,"assert [[1, 2, 3]] == [[], [3], [2]..., [1, 3], ...]
+  
+  At index 0 diff: [1, 2, 3] != []
+  Right contains 7 more items, first extra item: [3]
+  Use -v to get more diff"
+powerset__BOTH__g2,buggy,test_generated,test_duplicate_elements,failed,0.001,,Failed: DID NOT RAISE ValueError
+powerset__BOTH__g3,correct,test_generated,test_powerset_empty_set,passed,0.001,,
+powerset__BOTH__g3,correct,test_generated,test_powerset_single_element,passed,0.001,,
+powerset__BOTH__g3,correct,test_generated,test_powerset_two_elements,passed,0.001,,
+powerset__BOTH__g3,correct,test_generated,test_powerset_three_elements,passed,0.001,,
+powerset__BOTH__g3,correct,test_generated,test_powerset_with_repeated_elements,failed,0.001,,Failed: DID NOT RAISE ValueError
+powerset__BOTH__g3,buggy,test_generated,test_powerset_empty_set,passed,0.001,,
+powerset__BOTH__g3,buggy,test_generated,test_powerset_single_element,failed,0.001,,"AssertionError: assert [['a']] == [[], ['a']]
+  
+  At index 0 diff: ['a'] != []
+  Right contains one more item: ['a']
+  Use -v to get more diff"
+powerset__BOTH__g3,buggy,test_generated,test_powerset_two_elements,failed,0.001,,"AssertionError: assert [['a', 'b']] == [[], ['b'], ['a'], ['a', 'b']]
+  
+  At index 0 diff: ['a', 'b'] != []
+  Right contains 3 more items, first extra item: ['b']
+  Use -v to get more diff"
+powerset__BOTH__g3,buggy,test_generated,test_powerset_three_elements,failed,0.001,,"AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]
+  
+  At index 0 diff: ['a', 'b', 'c'] != []
+  Right contains 7 more items, first extra item: ['c']
+  Use -v to get more diff"
+powerset__BOTH__g3,buggy,test_generated,test_powerset_with_repeated_elements,failed,0.001,,Failed: DID NOT RAISE ValueError
+powerset__CODE__g1,correct,test_generated,test_powerset_empty_list,passed,0.001,,
+powerset__CODE__g1,correct,test_generated,test_powerset_single_element,passed,0.001,,
+powerset__CODE__g1,correct,test_generated,test_powerset_multiple_elements,passed,0.001,,
+powerset__CODE__g1,correct,test_generated,test_powerset_duplicate_elements,failed,0.001,,"assert [[], [1], [1], [1, 1]] == [[], [1], [1, 1]]
+  
+  At index 2 diff: [1] != [1, 1]
+  Left contains one more item: [1, 1]
+  Use -v to get more diff"
+powerset__CODE__g1,buggy,test_generated,test_powerset_empty_list,passed,0.001,,
+powerset__CODE__g1,buggy,test_generated,test_powerset_single_element,failed,0.001,,"assert [[1]] == [[], [1]]
+  
+  At index 0 diff: [1] != []
+  Right contains one more item: [1]
+  Use -v to get more diff"
+powerset__CODE__g1,buggy,test_generated,test_powerset_multiple_elements,failed,0.001,,"assert [[1, 2]] == [[], [2], [1], [1, 2]]
+  
+  At index 0 diff: [1, 2] != []
+  Right contains 3 more items, first extra item: [2]
+  Use -v to get more diff"
+powerset__CODE__g1,buggy,test_generated,test_powerset_duplicate_elements,failed,0.001,,"assert [[1, 1]] == [[], [1], [1, 1]]
+  
+  At index 0 diff: [1, 1] != []
+  Right contains 2 more items, first extra item: [1]
+  Use -v to get more diff"
+powerset__CODE__g2,correct,test_generated,test_powerset_empty_array,passed,0.001,,
+powerset__CODE__g2,correct,test_generated,test_powerset_with_elements[arr0-expected0],passed,0.001,,
+powerset__CODE__g2,correct,test_generated,test_powerset_with_elements[arr1-expected1],failed,0.001,,"assert [[], [2], [1], [1, 2]] == [[], [1], [2], [1, 2]]
+  
+  At index 1 diff: [2] != [1]
+  Use -v to get more diff"
+powerset__CODE__g2,correct,test_generated,test_powerset_with_elements[arr2-expected2],failed,0.001,,"assert [[], [3], [2]..., [1, 3], ...] == [[], [1], [2]..., [1, 3], ...]
+  
+  At index 1 diff: [3] != [1]
+  Use -v to get more diff"
+powerset__CODE__g2,buggy,test_generated,test_powerset_empty_array,passed,0.001,,
+powerset__CODE__g2,buggy,test_generated,test_powerset_with_elements[arr0-expected0],failed,0.002,,"assert [[1]] == [[], [1]]
+  
+  At index 0 diff: [1] != []
+  Right contains one more item: [1]
+  Use -v to get more diff"
+powerset__CODE__g2,buggy,test_generated,test_powerset_with_elements[arr1-expected1],failed,0.001,,"assert [[1, 2]] == [[], [1], [2], [1, 2]]
+  
+  At index 0 diff: [1, 2] != []
+  Right contains 3 more items, first extra item: [1]
+  Use -v to get more diff"
+powerset__CODE__g2,buggy,test_generated,test_powerset_with_elements[arr2-expected2],failed,0.001,,"assert [[1, 2, 3]] == [[], [1], [2]..., [1, 3], ...]
+  
+  At index 0 diff: [1, 2, 3] != []
+  Right contains 7 more items, first extra item: [1]
+  Use -v to get more diff"
+powerset__CODE__g3,correct,test_generated,test_powerset_empty_list,passed,0.001,,
+powerset__CODE__g3,correct,test_generated,test_powerset_single_element,passed,0.001,,
+powerset__CODE__g3,correct,test_generated,test_powerset_multiple_elements,passed,0.001,,
+powerset__CODE__g3,correct,test_generated,test_powerset_with_repeated_elements,failed,0.001,,"assert [[], [1], [1], [1, 1]] == [[], [1], [1, 1]]
+  
+  At index 2 diff: [1] != [1, 1]
+  Left contains one more item: [1, 1]
+  Use -v to get more diff"
+powerset__CODE__g3,buggy,test_generated,test_powerset_empty_list,passed,0.001,,
+powerset__CODE__g3,buggy,test_generated,test_powerset_single_element,failed,0.001,,"assert [[1]] == [[], [1]]
+  
+  At index 0 diff: [1] != []
+  Right contains one more item: [1]
+  Use -v to get more diff"
+powerset__CODE__g3,buggy,test_generated,test_powerset_multiple_elements,failed,0.002,,"assert [[1, 2]] == [[], [2], [1], [1, 2]]
+  
+  At index 0 diff: [1, 2] != []
+  Right contains 3 more items, first extra item: [2]
+  Use -v to get more diff"
+powerset__CODE__g3,buggy,test_generated,test_powerset_with_repeated_elements,failed,0.002,,"assert [[1, 1]] == [[], [1], [1, 1]]
+  
+  At index 0 diff: [1, 1] != []
+  Right contains 2 more items, first extra item: [1]
+  Use -v to get more diff"
+powerset__SPEC__g1,correct,test_generated,test_powerset_empty_list,passed,0.001,,
+powerset__SPEC__g1,correct,test_generated,test_powerset_single_element,passed,0.001,,
+powerset__SPEC__g1,correct,test_generated,test_powerset_two_elements,passed,0.001,,
+powerset__SPEC__g1,correct,test_generated,test_powerset_three_elements,passed,0.001,,
+powerset__SPEC__g1,correct,test_generated,test_powerset_order_of_subsets,passed,0.001,,
+powerset__SPEC__g1,correct,test_generated,test_powerset_unique_subsets,passed,0.001,,
+powerset__SPEC__g1,buggy,test_generated,test_powerset_empty_list,passed,0.001,,
+powerset__SPEC__g1,buggy,test_generated,test_powerset_single_element,failed,0.001,,"AssertionError: assert [['a']] == [[], ['a']]
+  
+  At index 0 diff: ['a'] != []
+  Right contains one more item: ['a']
+  Use -v to get more diff"
+powerset__SPEC__g1,buggy,test_generated,test_powerset_two_elements,failed,0.001,,"AssertionError: assert [['a', 'b']] == [[], ['b'], ['a'], ['a', 'b']]
+  
+  At index 0 diff: ['a', 'b'] != []
+  Right contains 3 more items, first extra item: ['b']
+  Use -v to get more diff"
+powerset__SPEC__g1,buggy,test_generated,test_powerset_three_elements,failed,0.001,,"AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]
+  
+  At index 0 diff: ['a', 'b', 'c'] != []
+  Right contains 7 more items, first extra item: ['c']
+  Use -v to get more diff"
+powerset__SPEC__g1,buggy,test_generated,test_powerset_order_of_subsets,failed,0.001,,"assert False
+ +  where False = all(<generator object test_powerset_order_of_subsets.<locals>.<genexpr> at 0x0000016E96E84580>)"
+powerset__SPEC__g1,buggy,test_generated,test_powerset_unique_subsets,failed,0.001,,"AssertionError: assert 1 == 8
+ +  where 1 = len([['a', 'b', 'c']])"
+powerset__SPEC__g2,correct,test_generated,test_powerset_empty_set,passed,0.001,,
+powerset__SPEC__g2,correct,test_generated,test_powerset_single_element,passed,0.001,,
+powerset__SPEC__g2,correct,test_generated,test_powerset_two_elements,passed,0.001,,
+powerset__SPEC__g2,correct,test_generated,test_powerset_three_elements,passed,0.001,,
+powerset__SPEC__g2,buggy,test_generated,test_powerset_empty_set,passed,0.001,,
+powerset__SPEC__g2,buggy,test_generated,test_powerset_single_element,failed,0.001,,"AssertionError: assert [['a']] == [[], ['a']]
+  
+  At index 0 diff: ['a'] != []
+  Right contains one more item: ['a']
+  Use -v to get more diff"
+powerset__SPEC__g2,buggy,test_generated,test_powerset_two_elements,failed,0.001,,"AssertionError: assert [['a', 'b']] == [[], ['b'], ['a'], ['a', 'b']]
+  
+  At index 0 diff: ['a', 'b'] != []
+  Right contains 3 more items, first extra item: ['b']
+  Use -v to get more diff"
+powerset__SPEC__g2,buggy,test_generated,test_powerset_three_elements,failed,0.001,,"AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]
+  
+  At index 0 diff: ['a', 'b', 'c'] != []
+  Right contains 7 more items, first extra item: ['c']
+  Use -v to get more diff"
+powerset__SPEC__g3,correct,test_generated,test_empty_set,passed,0.001,,
+powerset__SPEC__g3,correct,test_generated,test_single_element_set,passed,0.001,,
+powerset__SPEC__g3,correct,test_generated,test_two_elements_set,passed,0.001,,
+powerset__SPEC__g3,correct,test_generated,test_three_elements_set,passed,0.001,,
+powerset__SPEC__g3,correct,test_generated,test_empty_list_exception,failed,0.001,,Failed: DID NOT RAISE ValueError
+powerset__SPEC__g3,correct,test_generated,test_non_list_input_exception,failed,0.002,,Failed: DID NOT RAISE TypeError
+powerset__SPEC__g3,buggy,test_generated,test_empty_set,passed,0.001,,
+powerset__SPEC__g3,buggy,test_generated,test_single_element_set,failed,0.001,,"AssertionError: assert [['a']] == [[], ['a']]
+  
+  At index 0 diff: ['a'] != []
+  Right contains one more item: ['a']
+  Use -v to get more diff"
+powerset__SPEC__g3,buggy,test_generated,test_two_elements_set,failed,0.001,,"AssertionError: assert [['a', 'b']] == [[], ['b'], ['a'], ['a', 'b']]
+  
+  At index 0 diff: ['a', 'b'] != []
+  Right contains 3 more items, first extra item: ['b']
+  Use -v to get more diff"
+powerset__SPEC__g3,buggy,test_generated,test_three_elements_set,failed,0.001,,"AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]
+  
+  At index 0 diff: ['a', 'b', 'c'] != []
+  Right contains 7 more items, first extra item: ['c']
+  Use -v to get more diff"
+powerset__SPEC__g3,buggy,test_generated,test_empty_list_exception,failed,0.001,,Failed: DID NOT RAISE ValueError
+powerset__SPEC__g3,buggy,test_generated,test_non_list_input_exception,failed,0.001,,Failed: DID NOT RAISE TypeError
+quicksort__BOTH__g1,correct,test_generated,test_quicksort_empty_array,passed,0.001,,
+quicksort__BOTH__g1,correct,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__BOTH__g1,correct,test_generated,test_quicksort_sorted_array,passed,0.001,,
+quicksort__BOTH__g1,correct,test_generated,test_quicksort_reversed_array,passed,0.001,,
+quicksort__BOTH__g1,correct,test_generated,test_quicksort_array_with_duplicates,passed,0.001,,
+quicksort__BOTH__g1,buggy,test_generated,test_quicksort_empty_array,passed,0.001,,
+quicksort__BOTH__g1,buggy,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__BOTH__g1,buggy,test_generated,test_quicksort_sorted_array,passed,0.001,,
+quicksort__BOTH__g1,buggy,test_generated,test_quicksort_reversed_array,passed,0.001,,
+quicksort__BOTH__g1,buggy,test_generated,test_quicksort_array_with_duplicates,failed,0.001,,"assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+quicksort__BOTH__g2,correct,test_generated,test_quicksort_empty_array,passed,0.001,,
+quicksort__BOTH__g2,correct,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__BOTH__g2,correct,test_generated,test_quicksort_sorted_array,passed,0.001,,
+quicksort__BOTH__g2,correct,test_generated,test_quicksort_reversed_array,passed,0.001,,
+quicksort__BOTH__g2,correct,test_generated,test_quicksort_with_duplicates,passed,0.001,,
+quicksort__BOTH__g2,buggy,test_generated,test_quicksort_empty_array,passed,0.001,,
+quicksort__BOTH__g2,buggy,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__BOTH__g2,buggy,test_generated,test_quicksort_sorted_array,passed,0.001,,
+quicksort__BOTH__g2,buggy,test_generated,test_quicksort_reversed_array,passed,0.001,,
+quicksort__BOTH__g2,buggy,test_generated,test_quicksort_with_duplicates,failed,0.001,,"assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+quicksort__BOTH__g3,correct,test_generated,test_quicksort_empty_list,passed,0.001,,
+quicksort__BOTH__g3,correct,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__BOTH__g3,correct,test_generated,test_quicksort_sorted_list,passed,0.001,,
+quicksort__BOTH__g3,correct,test_generated,test_quicksort_reverse_sorted_list,passed,0.001,,
+quicksort__BOTH__g3,correct,test_generated,test_quicksort_unsorted_list,passed,0.001,,
+quicksort__BOTH__g3,correct,test_generated,test_quicksort_duplicates,passed,0.001,,
+quicksort__BOTH__g3,buggy,test_generated,test_quicksort_empty_list,passed,0.001,,
+quicksort__BOTH__g3,buggy,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__BOTH__g3,buggy,test_generated,test_quicksort_sorted_list,passed,0.001,,
+quicksort__BOTH__g3,buggy,test_generated,test_quicksort_reverse_sorted_list,passed,0.001,,
+quicksort__BOTH__g3,buggy,test_generated,test_quicksort_unsorted_list,failed,0.001,,"assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+quicksort__BOTH__g3,buggy,test_generated,test_quicksort_duplicates,failed,0.001,,"assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+quicksort__CODE__g1,correct,test_generated,test_quicksort_empty_list,passed,0.001,,
+quicksort__CODE__g1,correct,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__CODE__g1,correct,test_generated,test_quicksort_sorted_list,passed,0.001,,
+quicksort__CODE__g1,correct,test_generated,test_quicksort_unsorted_list,passed,0.001,,
+quicksort__CODE__g1,correct,test_generated,test_quicksort_reverse_sorted_list,passed,0.001,,
+quicksort__CODE__g1,correct,test_generated,test_quicksort_with_duplicates,passed,0.001,,
+quicksort__CODE__g1,buggy,test_generated,test_quicksort_empty_list,passed,0.001,,
+quicksort__CODE__g1,buggy,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__CODE__g1,buggy,test_generated,test_quicksort_sorted_list,passed,0.001,,
+quicksort__CODE__g1,buggy,test_generated,test_quicksort_unsorted_list,failed,0.001,,"assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+quicksort__CODE__g1,buggy,test_generated,test_quicksort_reverse_sorted_list,passed,0.001,,
+quicksort__CODE__g1,buggy,test_generated,test_quicksort_with_duplicates,failed,0.001,,"assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+quicksort__CODE__g2,correct,test_generated,test_quicksort_empty_array,passed,0.001,,
+quicksort__CODE__g2,correct,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__CODE__g2,correct,test_generated,test_quicksort_sorted_array,passed,0.001,,
+quicksort__CODE__g2,correct,test_generated,test_quicksort_reversed_array,passed,0.001,,
+quicksort__CODE__g2,correct,test_generated,test_quicksort_with_duplicates,passed,0.001,,
+quicksort__CODE__g2,buggy,test_generated,test_quicksort_empty_array,passed,0.001,,
+quicksort__CODE__g2,buggy,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__CODE__g2,buggy,test_generated,test_quicksort_sorted_array,passed,0.001,,
+quicksort__CODE__g2,buggy,test_generated,test_quicksort_reversed_array,passed,0.001,,
+quicksort__CODE__g2,buggy,test_generated,test_quicksort_with_duplicates,failed,0.001,,"assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+quicksort__CODE__g3,correct,test_generated,test_quicksort_empty_list,error,0.001,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py, line 3
+  def test_quicksort_empty_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py:3"""
+quicksort__CODE__g3,correct,test_generated,test_quicksort_single_element,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py, line 7
+  def test_quicksort_single_element(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py:7"""
+quicksort__CODE__g3,correct,test_generated,test_quicksort_sorted_list,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py, line 11
+  def test_quicksort_sorted_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py:11"""
+quicksort__CODE__g3,correct,test_generated,test_quicksort_reverse_sorted_list,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py, line 15
+  def test_quicksort_reverse_sorted_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py:15"""
+quicksort__CODE__g3,correct,test_generated,test_quicksort_random_list,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py, line 19
+  def test_quicksort_random_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py:19"""
+quicksort__CODE__g3,correct,test_generated,test_quicksort_with_duplicates,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py, line 23
+  def test_quicksort_with_duplicates(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py:23"""
+quicksort__CODE__g3,correct,test_generated,test_quicksort_with_negative_numbers,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py, line 27
+  def test_quicksort_with_negative_numbers(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmpon6ye_km\test_generated.py:27"""
+quicksort__CODE__g3,buggy,test_generated,test_quicksort_empty_list,error,0.001,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 3
+  def test_quicksort_empty_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:3"""
+quicksort__CODE__g3,buggy,test_generated,test_quicksort_single_element,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 7
+  def test_quicksort_single_element(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:7"""
+quicksort__CODE__g3,buggy,test_generated,test_quicksort_sorted_list,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 11
+  def test_quicksort_sorted_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:11"""
+quicksort__CODE__g3,buggy,test_generated,test_quicksort_reverse_sorted_list,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 15
+  def test_quicksort_reverse_sorted_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:15"""
+quicksort__CODE__g3,buggy,test_generated,test_quicksort_random_list,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 19
+  def test_quicksort_random_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:19"""
+quicksort__CODE__g3,buggy,test_generated,test_quicksort_with_duplicates,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 23
+  def test_quicksort_with_duplicates(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:23"""
+quicksort__CODE__g3,buggy,test_generated,test_quicksort_with_negative_numbers,error,0.0,,"failed on setup with ""file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 27
+  def test_quicksort_with_negative_numbers(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:27"""
+quicksort__SPEC__g1,correct,test_generated,test_quicksort_normal_case,passed,0.001,,
+quicksort__SPEC__g1,correct,test_generated,test_quicksort_empty_list,passed,0.001,,
+quicksort__SPEC__g1,correct,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__SPEC__g1,correct,test_generated,test_quicksort_sorted_list,passed,0.001,,
+quicksort__SPEC__g1,correct,test_generated,test_quicksort_reverse_sorted_list,passed,0.001,,
+quicksort__SPEC__g1,buggy,test_generated,test_quicksort_normal_case,failed,0.001,,"assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+quicksort__SPEC__g1,buggy,test_generated,test_quicksort_empty_list,passed,0.001,,
+quicksort__SPEC__g1,buggy,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__SPEC__g1,buggy,test_generated,test_quicksort_sorted_list,passed,0.001,,
+quicksort__SPEC__g1,buggy,test_generated,test_quicksort_reverse_sorted_list,passed,0.001,,
+quicksort__SPEC__g2,correct,test_generated,test_quicksort_normal_case,passed,0.001,,
+quicksort__SPEC__g2,correct,test_generated,test_quicksort_boundary_case_single_element,passed,0.001,,
+quicksort__SPEC__g2,correct,test_generated,test_quicksort_boundary_case_empty_list,passed,0.001,,
+quicksort__SPEC__g2,correct,test_generated,test_quicksort_edge_case_sorted_list,passed,0.001,,
+quicksort__SPEC__g2,correct,test_generated,test_quicksort_edge_case_reverse_sorted_list,passed,0.001,,
+quicksort__SPEC__g2,correct,test_generated,test_quicksort_exceptional_behavior_duplicate_values,passed,0.001,,
+quicksort__SPEC__g2,buggy,test_generated,test_quicksort_normal_case,failed,0.001,,"assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+quicksort__SPEC__g2,buggy,test_generated,test_quicksort_boundary_case_single_element,passed,0.001,,
+quicksort__SPEC__g2,buggy,test_generated,test_quicksort_boundary_case_empty_list,passed,0.001,,
+quicksort__SPEC__g2,buggy,test_generated,test_quicksort_edge_case_sorted_list,passed,0.001,,
+quicksort__SPEC__g2,buggy,test_generated,test_quicksort_edge_case_reverse_sorted_list,passed,0.001,,
+quicksort__SPEC__g2,buggy,test_generated,test_quicksort_exceptional_behavior_duplicate_values,failed,0.001,,"assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 6, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains 2 more items, first extra item: 8
+  Use -v to get more diff"
+quicksort__SPEC__g3,correct,test_generated,test_quicksort_empty_array,passed,0.001,,
+quicksort__SPEC__g3,correct,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__SPEC__g3,correct,test_generated,test_quicksort_sorted_array,passed,0.001,,
+quicksort__SPEC__g3,correct,test_generated,test_quicksort_reverse_sorted_array,passed,0.001,,
+quicksort__SPEC__g3,correct,test_generated,test_quicksort_random_array,passed,0.001,,
+quicksort__SPEC__g3,correct,test_generated,test_quicksort_array_with_duplicates,passed,0.001,,
+quicksort__SPEC__g3,buggy,test_generated,test_quicksort_empty_array,passed,0.001,,
+quicksort__SPEC__g3,buggy,test_generated,test_quicksort_single_element,passed,0.001,,
+quicksort__SPEC__g3,buggy,test_generated,test_quicksort_sorted_array,passed,0.001,,
+quicksort__SPEC__g3,buggy,test_generated,test_quicksort_reverse_sorted_array,passed,0.001,,
+quicksort__SPEC__g3,buggy,test_generated,test_quicksort_random_array,failed,0.001,,"AssertionError: Random array should be sorted
+assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+quicksort__SPEC__g3,buggy,test_generated,test_quicksort_array_with_duplicates,failed,0.001,,"AssertionError: Array with duplicates should be sorted
+assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+  
+  At index 1 diff: 2 != 1
+  Right contains one more item: 10
+  Use -v to get more diff"
+sieve__BOTH__g1,correct,test_generated,test_sieve_small_input,passed,0.001,,
+sieve__BOTH__g1,correct,test_generated,test_sieve_boundary_case,passed,0.001,,
+sieve__BOTH__g1,correct,test_generated,test_sieve_single_element_case,passed,0.001,,
+sieve__BOTH__g1,correct,test_generated,test_sieve_empty_input,passed,0.001,,
+sieve__BOTH__g1,correct,test_generated,test_sieve_large_input,passed,0.001,,
+sieve__BOTH__g1,correct,test_generated,test_sieve_with_non_prime_max,passed,0.001,,
+sieve__BOTH__g1,correct,test_generated,test_sieve_with_one_and_zero,passed,0.001,,
+sieve__BOTH__g1,buggy,test_generated,test_sieve_small_input,failed,0.001,,"assert [] == [2, 3, 5]
+  
+  Right contains 3 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__BOTH__g1,buggy,test_generated,test_sieve_boundary_case,failed,0.001,,"assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+sieve__BOTH__g1,buggy,test_generated,test_sieve_single_element_case,passed,0.001,,
+sieve__BOTH__g1,buggy,test_generated,test_sieve_empty_input,passed,0.001,,
+sieve__BOTH__g1,buggy,test_generated,test_sieve_large_input,failed,0.001,,"assert [] == [2, 3, 5, 7, 11, 13, ...]
+  
+  Right contains 8 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__BOTH__g1,buggy,test_generated,test_sieve_with_non_prime_max,failed,0.001,,"assert [] == [2, 3, 5, 7]
+  
+  Right contains 4 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__BOTH__g1,buggy,test_generated,test_sieve_with_one_and_zero,passed,0.001,,
+sieve__BOTH__g2,correct,test_generated,test_sieve_normal_cases,passed,0.001,,
+sieve__BOTH__g2,correct,test_generated,test_sieve_boundary_cases,passed,0.001,,
+sieve__BOTH__g2,correct,test_generated,test_sieve_edge_cases,passed,0.001,,
+sieve__BOTH__g2,correct,test_generated,test_sieve_exceptional_behavior,passed,0.001,,
+sieve__BOTH__g2,buggy,test_generated,test_sieve_normal_cases,failed,0.001,,"assert [] == [2, 3, 5, 7]
+  
+  Right contains 4 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__BOTH__g2,buggy,test_generated,test_sieve_boundary_cases,failed,0.001,,"assert [] == [2, 3, 5, 7, 11, 13, ...]
+  
+  Right contains 8 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__BOTH__g2,buggy,test_generated,test_sieve_edge_cases,passed,0.001,,
+sieve__BOTH__g2,buggy,test_generated,test_sieve_exceptional_behavior,passed,0.001,,
+sieve__BOTH__g3,correct,test_generated,test_sieve_normal_case,passed,0.001,,
+sieve__BOTH__g3,correct,test_generated,test_sieve_boundary_case,passed,0.001,,
+sieve__BOTH__g3,correct,test_generated,test_sieve_edge_case_max_1,passed,0.001,,
+sieve__BOTH__g3,correct,test_generated,test_sieve_exceptional_behavior_non_positive_input,failed,0.001,,Failed: DID NOT RAISE ValueError
+sieve__BOTH__g3,buggy,test_generated,test_sieve_normal_case,failed,0.001,,"assert [] == [2, 3, 5, 7]
+  
+  Right contains 4 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__BOTH__g3,buggy,test_generated,test_sieve_boundary_case,failed,0.001,,"assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+sieve__BOTH__g3,buggy,test_generated,test_sieve_edge_case_max_1,passed,0.001,,
+sieve__BOTH__g3,buggy,test_generated,test_sieve_exceptional_behavior_non_positive_input,failed,0.001,,Failed: DID NOT RAISE ValueError
+sieve__CODE__g1,correct,test_generated,test_sieve_normal_case,passed,0.001,,
+sieve__CODE__g1,correct,test_generated,test_sieve_boundary_case,passed,0.001,,
+sieve__CODE__g1,correct,test_generated,test_sieve_edge_case_zero_input,passed,0.001,,
+sieve__CODE__g1,correct,test_generated,test_sieve_negative_input,failed,0.001,,Failed: DID NOT RAISE ValueError
+sieve__CODE__g1,buggy,test_generated,test_sieve_normal_case,failed,0.001,,"assert [] == [2, 3, 5, 7]
+  
+  Right contains 4 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__CODE__g1,buggy,test_generated,test_sieve_boundary_case,failed,0.001,,"assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+sieve__CODE__g1,buggy,test_generated,test_sieve_edge_case_zero_input,passed,0.001,,
+sieve__CODE__g1,buggy,test_generated,test_sieve_negative_input,failed,0.001,,Failed: DID NOT RAISE ValueError
+sieve__CODE__g2,correct,test_generated,test_sieve_normal_case,passed,0.001,,
+sieve__CODE__g2,correct,test_generated,test_sieve_boundary_case,passed,0.001,,
+sieve__CODE__g2,correct,test_generated,test_sieve_edge_case_empty_range,passed,0.001,,
+sieve__CODE__g2,correct,test_generated,test_sieve_single_element_prime,passed,0.001,,
+sieve__CODE__g2,correct,test_generated,test_sieve_non_prime_max_value,passed,0.001,,
+sieve__CODE__g2,correct,test_generated,test_sieve_with_zero_and_negative_values,failed,0.001,,Failed: DID NOT RAISE ValueError
+sieve__CODE__g2,correct,test_generated,test_sieve_with_large_number,passed,0.001,,
+sieve__CODE__g2,buggy,test_generated,test_sieve_normal_case,failed,0.001,,"assert [] == [2, 3, 5, 7]
+  
+  Right contains 4 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__CODE__g2,buggy,test_generated,test_sieve_boundary_case,failed,0.001,,"assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+sieve__CODE__g2,buggy,test_generated,test_sieve_edge_case_empty_range,passed,0.001,,
+sieve__CODE__g2,buggy,test_generated,test_sieve_single_element_prime,failed,0.001,,"assert [] == [2, 3]
+  
+  Right contains 2 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__CODE__g2,buggy,test_generated,test_sieve_non_prime_max_value,failed,0.001,,"assert [] == [2, 3]
+  
+  Right contains 2 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__CODE__g2,buggy,test_generated,test_sieve_with_zero_and_negative_values,failed,0.001,,Failed: DID NOT RAISE ValueError
+sieve__CODE__g2,buggy,test_generated,test_sieve_with_large_number,failed,0.001,,"assert [] == [2, 3, 5, 7, 11, 13, ...]
+  
+  Right contains 8 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__CODE__g3,correct,test_generated,test_sieve_normal_case,passed,0.001,,
+sieve__CODE__g3,correct,test_generated,test_sieve_boundary_case,passed,0.001,,
+sieve__CODE__g3,correct,test_generated,test_sieve_small_range,passed,0.001,,
+sieve__CODE__g3,correct,test_generated,test_sieve_empty_input,passed,0.001,,
+sieve__CODE__g3,correct,test_generated,test_sieve_prime_twice,passed,0.001,,
+sieve__CODE__g3,buggy,test_generated,test_sieve_normal_case,failed,0.001,,"assert [] == [2, 3, 5, 7]
+  
+  Right contains 4 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__CODE__g3,buggy,test_generated,test_sieve_boundary_case,failed,0.001,,"assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+sieve__CODE__g3,buggy,test_generated,test_sieve_small_range,passed,0.001,,
+sieve__CODE__g3,buggy,test_generated,test_sieve_empty_input,passed,0.001,,
+sieve__CODE__g3,buggy,test_generated,test_sieve_prime_twice,failed,0.001,,"assert [] == [2, 3, 5]
+  
+  Right contains 3 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__SPEC__g1,correct,test_generated,test_sieve_empty_input,passed,0.001,,
+sieve__SPEC__g1,correct,test_generated,test_sieve_single_prime,passed,0.001,,
+sieve__SPEC__g1,correct,test_generated,test_sieve_multiple_primes,passed,0.001,,
+sieve__SPEC__g1,correct,test_generated,test_sieve_no_primes,passed,0.001,,
+sieve__SPEC__g1,buggy,test_generated,test_sieve_empty_input,passed,0.001,,
+sieve__SPEC__g1,buggy,test_generated,test_sieve_single_prime,failed,0.001,,"assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+sieve__SPEC__g1,buggy,test_generated,test_sieve_multiple_primes,failed,0.001,,"assert [] == [2, 3, 5, 7]
+  
+  Right contains 4 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__SPEC__g1,buggy,test_generated,test_sieve_no_primes,failed,0.001,,"assert [] == [2, 3]
+  
+  Right contains 2 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__SPEC__g2,correct,test_generated,test_sieve_empty_input,passed,0.001,,
+sieve__SPEC__g2,correct,test_generated,test_sieve_single_prime,passed,0.001,,
+sieve__SPEC__g2,correct,test_generated,test_sieve_multiple_primes,passed,0.001,,
+sieve__SPEC__g2,correct,test_generated,test_sieve_with_zero,passed,0.001,,
+sieve__SPEC__g2,correct,test_generated,test_sieve_with_negative_input,failed,0.001,,Failed: DID NOT RAISE ValueError
+sieve__SPEC__g2,correct,test_generated,test_sieve_with_one,passed,0.001,,
+sieve__SPEC__g2,buggy,test_generated,test_sieve_empty_input,passed,0.001,,
+sieve__SPEC__g2,buggy,test_generated,test_sieve_single_prime,failed,0.001,,"AssertionError: Single prime number should return a list containing that number
+assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+sieve__SPEC__g2,buggy,test_generated,test_sieve_multiple_primes,failed,0.001,,"AssertionError: Multiple primes up to 10 should be correctly identified
+assert [] == [2, 3, 5, 7]
+  
+  Right contains 4 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__SPEC__g2,buggy,test_generated,test_sieve_with_zero,passed,0.001,,
+sieve__SPEC__g2,buggy,test_generated,test_sieve_with_negative_input,failed,0.001,,Failed: DID NOT RAISE ValueError
+sieve__SPEC__g2,buggy,test_generated,test_sieve_with_one,passed,0.001,,
+sieve__SPEC__g3,correct,test_generated,test_sieve_normal_case,passed,0.001,,
+sieve__SPEC__g3,correct,test_generated,test_sieve_boundary_case,passed,0.001,,
+sieve__SPEC__g3,correct,test_generated,test_sieve_edge_case,passed,0.001,,
+sieve__SPEC__g3,correct,test_generated,test_sieve_prime_at_boundary,passed,0.001,,
+sieve__SPEC__g3,correct,test_generated,test_sieve_no_primes,passed,0.001,,
+sieve__SPEC__g3,correct,test_generated,test_sieve_single_prime,passed,0.001,,
+sieve__SPEC__g3,correct,test_generated,test_sieve_all_composites,passed,0.001,,
+sieve__SPEC__g3,correct,test_generated,test_sieve_max_is_1,passed,0.001,,
+sieve__SPEC__g3,buggy,test_generated,test_sieve_normal_case,failed,0.001,,"assert [] == [2, 3, 5, 7]
+  
+  Right contains 4 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__SPEC__g3,buggy,test_generated,test_sieve_boundary_case,failed,0.001,,"assert [] == [2]
+  
+  Right contains one more item: 2
+  Use -v to get more diff"
+sieve__SPEC__g3,buggy,test_generated,test_sieve_edge_case,passed,0.001,,
+sieve__SPEC__g3,buggy,test_generated,test_sieve_prime_at_boundary,failed,0.001,,"assert [] == [2, 3, 5, 7, 11, 13, ...]
+  
+  Right contains 8 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__SPEC__g3,buggy,test_generated,test_sieve_no_primes,passed,0.001,,
+sieve__SPEC__g3,buggy,test_generated,test_sieve_single_prime,failed,0.001,,"assert [] == [2, 3]
+  
+  Right contains 2 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__SPEC__g3,buggy,test_generated,test_sieve_all_composites,failed,0.001,,"assert [] == [2, 3]
+  
+  Right contains 2 more items, first extra item: 2
+  Use -v to get more diff"
+sieve__SPEC__g3,buggy,test_generated,test_sieve_max_is_1,passed,0.001,,
+to_base__BOTH__g2,correct,test_generated,test_to_base_normal_cases,passed,0.001,,
+to_base__BOTH__g2,correct,test_generated,test_to_base_boundary_cases,failed,0.001,,"AssertionError: assert '10' == 'Z'
+  
+  - Z
+  + 10"
+to_base__BOTH__g2,correct,test_generated,test_to_base_edge_cases,failed,0.001,,Failed: DID NOT RAISE ValueError
+to_base__BOTH__g2,correct,test_generated,test_to_base_exceptional_behavior,passed,0.001,,
+to_base__BOTH__g2,buggy,test_generated,test_to_base_normal_cases,failed,0.001,,"AssertionError: assert '0101' == '1010'
+  
+  - 1010
+  ?    -
+  + 0101
+  ? +"
+to_base__BOTH__g2,buggy,test_generated,test_to_base_boundary_cases,failed,0.001,,"AssertionError: assert '01' == 'Z'
+  
+  - Z
+  + 01"
+to_base__BOTH__g2,buggy,test_generated,test_to_base_edge_cases,failed,0.001,,Failed: DID NOT RAISE ValueError
+to_base__BOTH__g2,buggy,test_generated,test_to_base_exceptional_behavior,passed,0.001,,
+to_base__BOTH__g3,correct,test_generated,test_to_base_normal_cases,passed,0.001,,
+to_base__BOTH__g3,correct,test_generated,test_to_base_boundary_cases,passed,0.001,,
+to_base__BOTH__g3,correct,test_generated,test_to_base_edge_cases,passed,0.001,,
+to_base__BOTH__g3,correct,test_generated,test_to_base_exceptional_behavior,failed,0.001,,Failed: DID NOT RAISE ValueError
+to_base__BOTH__g3,buggy,test_generated,test_to_base_normal_cases,failed,0.001,,"AssertionError: assert '0101' == '1010'
+  
+  - 1010
+  ?    -
+  + 0101
+  ? +"
+to_base__BOTH__g3,buggy,test_generated,test_to_base_boundary_cases,passed,0.001,,
+to_base__BOTH__g3,buggy,test_generated,test_to_base_edge_cases,passed,0.001,,
+to_base__BOTH__g3,buggy,test_generated,test_to_base_exceptional_behavior,failed,0.001,,Failed: DID NOT RAISE ValueError
+to_base__CODE__g3,correct,test_generated,test_to_base_normal_cases,failed,0.002,,"AssertionError: assert '1010' == 'A'
+  
+  - A
+  + 1010"
+to_base__CODE__g3,correct,test_generated,test_to_base_boundary_cases,passed,0.001,,
+to_base__CODE__g3,correct,test_generated,test_to_base_edge_cases,failed,0.002,,Failed: DID NOT RAISE ValueError
+to_base__CODE__g3,correct,test_generated,test_to_base_exceptional_behavior,passed,0.001,,
+to_base__CODE__g3,buggy,test_generated,test_to_base_normal_cases,failed,0.001,,"AssertionError: assert '0101' == 'A'
+  
+  - A
+  + 0101"
+to_base__CODE__g3,buggy,test_generated,test_to_base_boundary_cases,passed,0.001,,
+to_base__CODE__g3,buggy,test_generated,test_to_base_edge_cases,failed,0.001,,Failed: DID NOT RAISE ValueError
+to_base__CODE__g3,buggy,test_generated,test_to_base_exceptional_behavior,passed,0.001,,
+to_base__SPEC__g3,correct,test_generated,test_to_base_normal_cases,passed,0.001,,
+to_base__SPEC__g3,correct,test_generated,test_to_base_boundary_cases,passed,0.001,,
+to_base__SPEC__g3,correct,test_generated,test_to_base_edge_cases,failed,0.001,,"AssertionError: assert '1120' == '11110'
+  
+  - 11110
+  + 1120"
+to_base__SPEC__g3,correct,test_generated,test_to_base_exceptional_behavior,failed,0.001,,Failed: DID NOT RAISE ValueError
+to_base__SPEC__g3,buggy,test_generated,test_to_base_normal_cases,failed,0.001,,"AssertionError: assert 'F1' == '1F'
+  
+  - 1F
+  + F1"
+to_base__SPEC__g3,buggy,test_generated,test_to_base_boundary_cases,passed,0.001,,
+to_base__SPEC__g3,buggy,test_generated,test_to_base_edge_cases,failed,0.001,,"AssertionError: assert '0211' == '11110'
+  
+  - 11110
+  + 0211"
+to_base__SPEC__g3,buggy,test_generated,test_to_base_exceptional_behavior,failed,0.001,,Failed: DID NOT RAISE ValueError

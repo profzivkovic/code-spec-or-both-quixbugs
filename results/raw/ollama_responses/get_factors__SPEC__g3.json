@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-08T23:52:58.7275244Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 16388796900,
+  "load_duration": 234273000,
+  "prompt_eval_count": 395,
+  "prompt_eval_duration": 120700000,
+  "eval_count": 155,
+  "eval_duration": 16029688000,
+  "message": {
+    "role": "assistant",
+    "content": "{ \"code\": \"import pytest\\n\\ndef test_get_factors_empty():\\n    assert get_factors(1) == []\\n\\ndef test_get_factors_prime():\\n    assert get_factors(101) == [101]\\n\\ndef test_get_factors_power_of_two():\\n    assert get_factors(16) == [2, 2, 2, 2]\\n\\ndef test_get_factors_product_of_primes():\\n    assert get_factors(35) == [5, 7]\\n\\ndef test_get_factors_composite_with_repeated_prime_factors():\\n    assert get_factors(100) == [2, 2, 5, 5]\\n\" }",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

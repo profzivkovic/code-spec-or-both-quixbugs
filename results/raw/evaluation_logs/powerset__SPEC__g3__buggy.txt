@@ -1,0 +1,78 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpj1reu05k\junit.xml <USER_HOME>\AppData\Local\Temp\tmpj1reu05k\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.883113
+
+STDOUT
+======================================================================
+.FFFFF                                                                   [100%]
+================================== FAILURES ===================================
+___________________________ test_single_element_set ___________________________
+
+    def test_single_element_set():
+>       assert powerset(['a']) == [[], ['a']]
+E       AssertionError: assert [['a']] == [[], ['a']]
+E         
+E         At index 0 diff: ['a'] != []
+E         Right contains one more item: ['a']
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError
+____________________________ test_two_elements_set ____________________________
+
+    def test_two_elements_set():
+>       assert powerset(['a', 'b']) == [[], ['b'], ['a'], ['a', 'b']]
+E       AssertionError: assert [['a', 'b']] == [[], ['b'], ['a'], ['a', 'b']]
+E         
+E         At index 0 diff: ['a', 'b'] != []
+E         Right contains 3 more items, first extra item: ['b']
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError
+___________________________ test_three_elements_set ___________________________
+
+    def test_three_elements_set():
+>       assert powerset(['a', 'b', 'c']) == [[], ['c'], ['b'], ['b', 'c'], ['a'], ['a', 'c'], ['a', 'b'], ['a', 'b', 'c']]
+E       AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]
+E         
+E         At index 0 diff: ['a', 'b', 'c'] != []
+E         Right contains 7 more items, first extra item: ['c']
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError
+__________________________ test_empty_list_exception __________________________
+
+    def test_empty_list_exception():
+>       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:20: Failed
+________________________ test_non_list_input_exception ________________________
+
+    def test_non_list_input_exception():
+>       with pytest.raises(TypeError):
+E       Failed: DID NOT RAISE TypeError
+
+test_generated.py:24: Failed
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_single_element_set - AssertionError: assert [[...
+FAILED test_generated.py::test_two_elements_set - AssertionError: assert [['a...
+FAILED test_generated.py::test_three_elements_set - AssertionError: assert [[...
+FAILED test_generated.py::test_empty_list_exception - Failed: DID NOT RAISE V...
+FAILED test_generated.py::test_non_list_input_exception - Failed: DID NOT RAI...
+5 failed, 1 passed in 0.14s
+
+
+STDERR
+======================================================================

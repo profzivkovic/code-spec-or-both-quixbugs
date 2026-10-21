@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="4" skipped="0" tests="5" time="0.095" timestamp="2026-08-09T02:35:43.489721+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_get_factors_normal_case" time="0.001"><failure message="assert [2, 2, 3] == [2, 6]&#10;  &#10;  At index 1 diff: 2 != 6&#10;  Left contains one more item: 3&#10;  Use -v to get more diff">def test_get_factors_normal_case():
+&gt;       assert get_factors(12) == [2, 6]
+E       assert [2, 2, 3] == [2, 6]
+E         
+E         At index 1 diff: 2 != 6
+E         Left contains one more item: 3
+E         Use -v to get more diff
+
+test_generated.py:4: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_prime_number" time="0.001"><failure message="assert [7] == []&#10;  &#10;  Left contains one more item: 7&#10;  Use -v to get more diff">def test_get_factors_prime_number():
+&gt;       assert get_factors(7) == []
+E       assert [7] == []
+E         
+E         Left contains one more item: 7
+E         Use -v to get more diff
+
+test_generated.py:7: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_one" time="0.001" /><testcase classname="test_generated" name="test_get_factors_negative_number" time="0.001"><failure message="NameError: name 'pytest' is not defined">def test_get_factors_negative_number():
+&gt;       with pytest.raises(ValueError):
+             ^^^^^^
+E       NameError: name 'pytest' is not defined
+
+test_generated.py:13: NameError</failure></testcase><testcase classname="test_generated" name="test_get_factors_zero" time="0.001"><failure message="NameError: name 'pytest' is not defined">def test_get_factors_zero():
+&gt;       with pytest.raises(ValueError):
+             ^^^^^^
+E       NameError: name 'pytest' is not defined
+
+test_generated.py:17: NameError</failure></testcase></testsuite></testsuites>

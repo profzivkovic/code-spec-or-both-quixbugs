@@ -1,0 +1,43 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpi2n5xcv9\junit.xml <USER_HOME>\AppData\Local\Temp\tmpi2n5xcv9\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.881545
+
+STDOUT
+======================================================================
+..FF                                                                     [100%]
+================================== FAILURES ===================================
+______________________ test_next_permutation_edge_cases _______________________
+
+    def test_next_permutation_edge_cases():
+>       assert next_permutation([1, 1, 1]) == [1, 1, 1]
+E       assert None == [1, 1, 1]
+E        +  where None = next_permutation([1, 1, 1])
+
+test_generated.py:16: AssertionError
+_________________ test_next_permutation_exceptional_behavior __________________
+
+    def test_next_permutation_exceptional_behavior():
+>       with pytest.raises(TypeError):
+E       Failed: DID NOT RAISE TypeError
+
+test_generated.py:19: Failed
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_next_permutation_edge_cases - assert None == [...
+FAILED test_generated.py::test_next_permutation_exceptional_behavior - Failed...
+2 failed, 2 passed in 0.14s
+
+
+STDERR
+======================================================================

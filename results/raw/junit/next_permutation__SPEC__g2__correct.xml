@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="5" time="0.095" timestamp="2026-08-09T02:38:25.963948+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_next_permutation_normal_case_1" time="0.001" /><testcase classname="test_generated" name="test_next_permutation_normal_case_2" time="0.001" /><testcase classname="test_generated" name="test_next_permutation_boundary_case" time="0.001" /><testcase classname="test_generated" name="test_next_permutation_edge_case_single_element" time="0.001"><failure message="assert None == [1]&#10; +  where None = next_permutation([1])">def test_next_permutation_edge_case_single_element():
+&gt;       assert next_permutation([1]) == [1]
+E       assert None == [1]
+E        +  where None = next_permutation([1])
+
+test_generated.py:15: AssertionError</failure></testcase><testcase classname="test_generated" name="test_next_permutation_edge_case_reverse_sorted" time="0.001"><failure message="Failed: DID NOT RAISE ValueError">def test_next_permutation_edge_case_reverse_sorted():
+&gt;       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:18: Failed</failure></testcase></testsuite></testsuites>

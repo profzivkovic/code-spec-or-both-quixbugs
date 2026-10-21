@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:17:27.0130354Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 23929771800,
+  "load_duration": 212165300,
+  "prompt_eval_count": 325,
+  "prompt_eval_duration": 381776000,
+  "eval_count": 226,
+  "eval_duration": 23301571000,
+  "message": {
+    "role": "assistant",
+    "content": "{ \"code\": \"import pytest\\n\\ndef test_quicksort_normal_case():\\n    assert quicksort([3, 6, 8, 10, 1, 2, 1]) == [1, 1, 2, 3, 6, 8, 10]\\n\\ndef test_quicksort_empty_list():\\n    assert quicksort([]) == []\\n\\ndef test_quicksort_single_element():\\n    assert quicksort([5]) == [5]\\n\\ndef test_quicksort_sorted_list():\\n    assert quicksort([1, 2, 3, 4, 5]) == [1, 2, 3, 4, 5]\\n\\ndef test_quicksort_reverse_sorted_list():\\n    assert quicksort([5, 4, 3, 2, 1]) == [1, 2, 3, 4, 5]\\n\\nif __name__ == '__main__':\\n    pytest.main()\" }",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

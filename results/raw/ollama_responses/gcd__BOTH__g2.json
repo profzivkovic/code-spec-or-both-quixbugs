@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-08T23:50:35.912618Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 24803744700,
+  "load_duration": 191424800,
+  "prompt_eval_count": 393,
+  "prompt_eval_duration": 436178000,
+  "eval_count": 255,
+  "eval_duration": 24168936000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"code\": \"import pytest\\n\\ndef test_gcd_normal_case_1():\\n    assert gcd(35, 21) == 7\\n\\ndef test_gcd_normal_case_2():\\n    assert gcd(0, 5) == 5\\n\\ndef test_gcd_normal_case_3():\\n    assert gcd(18, 48) == 6\\n\\ndef test_gcd_boundary_case_1():\\n    assert gcd(0, 0) == 0\\n\\ndef test_gcd_boundary_case_2():\\n    assert gcd(1, 1) == 1\\n\\ndef test_gcd_edge_case_1():\\n    assert gcd(100, 0) == 100\\n\\ndef test_gcd_edge_case_2():\\n    assert gcd(0, 100) == 100\\n\\ndef test_gcd_exceptional_behavior_1():\\n    with pytest.raises(TypeError):\\n        gcd('a', 5)\\n\\ndef test_gcd_exceptional_behavior_2():\\n    with pytest.raises(TypeError):\\n        gcd(5, 'b')\"\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

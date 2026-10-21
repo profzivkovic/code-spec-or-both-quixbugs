@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.088" timestamp="2026-08-09T02:38:39.059168+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_powerset_empty_array" time="0.001" /><testcase classname="test_generated" name="test_powerset_with_elements[arr0-expected0]" time="0.001" /><testcase classname="test_generated" name="test_powerset_with_elements[arr1-expected1]" time="0.001"><failure message="assert [[], [2], [1], [1, 2]] == [[], [1], [2], [1, 2]]&#10;  &#10;  At index 1 diff: [2] != [1]&#10;  Use -v to get more diff">arr = [1, 2], expected = [[], [1], [2], [1, 2]]
+
+    @ pytest.mark.parametrize('arr, expected', [
+        ([1], [[], [1]]),
+        ([1, 2], [[], [1], [2], [1, 2]]),
+        ([1, 2, 3], [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]])
+    ])
+    def test_powerset_with_elements(arr, expected):
+        result = powerset(arr)
+&gt;       assert result == expected
+E       assert [[], [2], [1], [1, 2]] == [[], [1], [2], [1, 2]]
+E         
+E         At index 1 diff: [2] != [1]
+E         Use -v to get more diff
+
+test_generated.py:16: AssertionError</failure></testcase><testcase classname="test_generated" name="test_powerset_with_elements[arr2-expected2]" time="0.001"><failure message="assert [[], [3], [2]..., [1, 3], ...] == [[], [1], [2]..., [1, 3], ...]&#10;  &#10;  At index 1 diff: [3] != [1]&#10;  Use -v to get more diff">arr = [1, 2, 3], expected = [[], [1], [2], [1, 2], [3], [1, 3], ...]
+
+    @ pytest.mark.parametrize('arr, expected', [
+        ([1], [[], [1]]),
+        ([1, 2], [[], [1], [2], [1, 2]]),
+        ([1, 2, 3], [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]])
+    ])
+    def test_powerset_with_elements(arr, expected):
+        result = powerset(arr)
+&gt;       assert result == expected
+E       assert [[], [3], [2]..., [1, 3], ...] == [[], [1], [2]..., [1, 3], ...]
+E         
+E         At index 1 diff: [3] != [1]
+E         Use -v to get more diff
+
+test_generated.py:16: AssertionError</failure></testcase></testsuite></testsuites>

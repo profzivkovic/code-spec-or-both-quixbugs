@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:12:53.5165726Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 17420174800,
+  "load_duration": 242058100,
+  "prompt_eval_count": 340,
+  "prompt_eval_duration": 119092000,
+  "eval_count": 164,
+  "eval_duration": 17053070000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"code\": \"import pytest\\n\\ndef test_powerset_empty_array():\\n    result = powerset([])\\n    assert result == [[]]\\n\\n@ pytest.mark.parametrize('arr, expected', [\\n    ([1], [[], [1]]),\\n    ([1, 2], [[], [1], [2], [1, 2]]),\\n    ([1, 2, 3], [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]])\\n])\\ndef test_powerset_with_elements(arr, expected):\\n    result = powerset(arr)\\n    assert result == expected\\n\"\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

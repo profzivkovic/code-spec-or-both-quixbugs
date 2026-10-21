@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="6" time="0.107" timestamp="2026-08-09T02:38:44.325894+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_powerset_empty_list" time="0.001" /><testcase classname="test_generated" name="test_powerset_single_element" time="0.001"><failure message="AssertionError: assert [['a']] == [[], ['a']]&#10;  &#10;  At index 0 diff: ['a'] != []&#10;  Right contains one more item: ['a']&#10;  Use -v to get more diff">def test_powerset_single_element():
+&gt;       assert powerset(['a']) == [[], ['a']]
+E       AssertionError: assert [['a']] == [[], ['a']]
+E         
+E         At index 0 diff: ['a'] != []
+E         Right contains one more item: ['a']
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError</failure></testcase><testcase classname="test_generated" name="test_powerset_two_elements" time="0.001"><failure message="AssertionError: assert [['a', 'b']] == [[], ['b'], ['a'], ['a', 'b']]&#10;  &#10;  At index 0 diff: ['a', 'b'] != []&#10;  Right contains 3 more items, first extra item: ['b']&#10;  Use -v to get more diff">def test_powerset_two_elements():
+&gt;       assert powerset(['a', 'b']) == [[], ['b'], ['a'], ['a', 'b']]
+E       AssertionError: assert [['a', 'b']] == [[], ['b'], ['a'], ['a', 'b']]
+E         
+E         At index 0 diff: ['a', 'b'] != []
+E         Right contains 3 more items, first extra item: ['b']
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError</failure></testcase><testcase classname="test_generated" name="test_powerset_three_elements" time="0.001"><failure message="AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]&#10;  &#10;  At index 0 diff: ['a', 'b', 'c'] != []&#10;  Right contains 7 more items, first extra item: ['c']&#10;  Use -v to get more diff">def test_powerset_three_elements():
+&gt;       assert powerset(['a', 'b', 'c']) == [[], ['c'], ['b'], ['b', 'c'], ['a'], ['a', 'c'], ['a', 'b'], ['a', 'b', 'c']]
+E       AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]
+E         
+E         At index 0 diff: ['a', 'b', 'c'] != []
+E         Right contains 7 more items, first extra item: ['c']
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError</failure></testcase><testcase classname="test_generated" name="test_powerset_order_of_subsets" time="0.001"><failure message="assert False&#10; +  where False = all(&lt;generator object test_powerset_order_of_subsets.&lt;locals&gt;.&lt;genexpr&gt; at 0x0000016E96E84580&gt;)">def test_powerset_order_of_subsets():
+        result = powerset(['a', 'b', 'c'])
+        expected = [[], ['c'], ['b'], ['b', 'c'], ['a'], ['a', 'c'], ['a', 'b'], ['a', 'b', 'c']]
+&gt;       assert all(subset in result for subset in expected)
+E       assert False
+E        +  where False = all(&lt;generator object test_powerset_order_of_subsets.&lt;locals&gt;.&lt;genexpr&gt; at 0x0000016E96E84580&gt;)
+
+test_generated.py:20: AssertionError</failure></testcase><testcase classname="test_generated" name="test_powerset_unique_subsets" time="0.001"><failure message="AssertionError: assert 1 == 8&#10; +  where 1 = len([['a', 'b', 'c']])">def test_powerset_unique_subsets():
+        result = powerset(['a', 'b', 'c'])
+&gt;       assert len(result) == 8
+E       AssertionError: assert 1 == 8
+E        +  where 1 = len([['a', 'b', 'c']])
+
+test_generated.py:24: AssertionError</failure></testcase></testsuite></testsuites>

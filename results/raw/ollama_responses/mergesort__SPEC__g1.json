@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:01:52.0115927Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 24535140700,
+  "load_duration": 203636000,
+  "prompt_eval_count": 325,
+  "prompt_eval_duration": 351755000,
+  "eval_count": 231,
+  "eval_duration": 23951397000,
+  "message": {
+    "role": "assistant",
+    "content": "{ \"code\": \"import pytest\\n\\ndef test_empty_list():\\n    assert mergesort([]) == []\\n\\ndef test_single_element():\\n    assert mergesort([1]) == [1]\\n\\ndef test_sorted_list():\\n    assert mergesort([1, 2, 3, 4, 5]) == [1, 2, 3, 4, 5]\\n\\ndef test_reversed_list():\\n    assert mergesort([5, 4, 3, 2, 1]) == [1, 2, 3, 4, 5]\\n\\ndef test_duplicates():\\n    assert mergesort([3, 2, 2, 1]) == [1, 2, 2, 3]\\n\\ndef test_random_list():\\n    assert mergesort([3, 6, 8, 10, 1, 2, 1]) == [1, 1, 2, 3, 6, 8, 10]\" }",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

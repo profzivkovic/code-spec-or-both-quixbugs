@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.080" timestamp="2026-08-09T02:38:17.903452+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_next_permutation" time="0.001"><failure message="assert None == [1, 3, 2]&#10; +  where None = next_permutation([1, 2, 3])">def test_next_permutation():
+&gt;       assert next_permutation([1, 2, 3]) == [1, 3, 2]
+E       assert None == [1, 3, 2]
+E        +  where None = next_permutation([1, 2, 3])
+
+test_generated.py:6: AssertionError</failure></testcase></testsuite></testsuites>

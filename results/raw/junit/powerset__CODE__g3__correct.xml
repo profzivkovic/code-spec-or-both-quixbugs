@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="0.085" timestamp="2026-08-09T02:38:41.175669+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_powerset_empty_list" time="0.001" /><testcase classname="test_generated" name="test_powerset_single_element" time="0.001" /><testcase classname="test_generated" name="test_powerset_multiple_elements" time="0.001" /><testcase classname="test_generated" name="test_powerset_with_repeated_elements" time="0.001"><failure message="assert [[], [1], [1], [1, 1]] == [[], [1], [1, 1]]&#10;  &#10;  At index 2 diff: [1] != [1, 1]&#10;  Left contains one more item: [1, 1]&#10;  Use -v to get more diff">def test_powerset_with_repeated_elements():
+&gt;       assert powerset([1, 1]) == [[], [1], [1, 1]]
+E       assert [[], [1], [1], [1, 1]] == [[], [1], [1, 1]]
+E         
+E         At index 2 diff: [1] != [1, 1]
+E         Left contains one more item: [1, 1]
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError</failure></testcase></testsuite></testsuites>

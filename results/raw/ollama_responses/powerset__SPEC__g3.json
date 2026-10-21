@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:14:20.7966815Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 23526247200,
+  "load_duration": 282573500,
+  "prompt_eval_count": 410,
+  "prompt_eval_duration": 153121000,
+  "eval_count": 211,
+  "eval_duration": 23082330000,
+  "message": {
+    "role": "assistant",
+    "content": "{ \"code\": \"import pytest\\n\\ndef test_empty_set():\\n    assert powerset([]) == [[]]\\n\\ndef test_single_element_set():\\n    assert powerset(['a']) == [[], ['a']]\\n\\ndef test_two_elements_set():\\n    assert powerset(['a', 'b']) == [[], ['b'], ['a'], ['a', 'b']]\\n\\ndef test_three_elements_set():\\n    assert powerset(['a', 'b', 'c']) == [[], ['c'], ['b'], ['b', 'c'], ['a'], ['a', 'c'], ['a', 'b'], ['a', 'b', 'c']]\\n\\n# Test for edge cases and exceptional behavior\\n\\ndef test_empty_list_exception():\\n    with pytest.raises(ValueError):\\n        powerset(None)\\n\\ndef test_non_list_input_exception():\\n    with pytest.raises(TypeError):\\n        powerset('not a list')\\n\" }",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

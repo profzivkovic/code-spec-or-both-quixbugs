@@ -1,0 +1,45 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmppgt2qc2p\junit.xml <USER_HOME>\AppData\Local\Temp\tmppgt2qc2p\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.890482
+
+STDOUT
+======================================================================
+F.F.                                                                     [100%]
+================================== FAILURES ===================================
+__________________________ test_to_base_normal_cases __________________________
+
+    def test_to_base_normal_cases():
+>       assert to_base(10, 2) == 'A'
+E       AssertionError: assert '1010' == 'A'
+E         
+E         - A
+E         + 1010
+
+test_generated.py:6: AssertionError
+___________________________ test_to_base_edge_cases ___________________________
+
+    def test_to_base_edge_cases():
+>       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:15: Failed
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_to_base_normal_cases - AssertionError: assert ...
+FAILED test_generated.py::test_to_base_edge_cases - Failed: DID NOT RAISE Val...
+2 failed, 2 passed in 0.18s
+
+
+STDERR
+======================================================================

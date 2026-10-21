@@ -1,0 +1,12 @@
+program,CODE,SPEC,BOTH
+gcd,0,2,3
+get_factors,0,3,1
+is_valid_parenthesization,0,2,2
+max_sublist_sum,3,0,1
+mergesort,3,3,3
+next_palindrome,0,1,0
+next_permutation,0,0,0
+powerset,0,2,1
+quicksort,2,3,3
+sieve,1,2,2
+to_base,0,0,0

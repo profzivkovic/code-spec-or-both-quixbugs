@@ -1,0 +1,67 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpas7_18m6\junit.xml <USER_HOME>\AppData\Local\Temp\tmpas7_18m6\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.81064
+
+STDOUT
+======================================================================
+FF.FF                                                                    [100%]
+================================== FAILURES ===================================
+________________________ test_get_factors_normal_case _________________________
+
+    def test_get_factors_normal_case():
+>       assert get_factors(12) == [2, 6]
+E       assert [2, 2, 3] == [2, 6]
+E         
+E         At index 1 diff: 2 != 6
+E         Left contains one more item: 3
+E         Use -v to get more diff
+
+test_generated.py:4: AssertionError
+________________________ test_get_factors_prime_number ________________________
+
+    def test_get_factors_prime_number():
+>       assert get_factors(7) == []
+E       assert [7] == []
+E         
+E         Left contains one more item: 7
+E         Use -v to get more diff
+
+test_generated.py:7: AssertionError
+______________________ test_get_factors_negative_number _______________________
+
+    def test_get_factors_negative_number():
+>       with pytest.raises(ValueError):
+             ^^^^^^
+E       NameError: name 'pytest' is not defined
+
+test_generated.py:13: NameError
+____________________________ test_get_factors_zero ____________________________
+
+    def test_get_factors_zero():
+>       with pytest.raises(ValueError):
+             ^^^^^^
+E       NameError: name 'pytest' is not defined
+
+test_generated.py:17: NameError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_get_factors_normal_case - assert [2, 2, 3] == ...
+FAILED test_generated.py::test_get_factors_prime_number - assert [7] == []
+FAILED test_generated.py::test_get_factors_negative_number - NameError: name ...
+FAILED test_generated.py::test_get_factors_zero - NameError: name 'pytest' is...
+4 failed, 1 passed in 0.12s
+
+
+STDERR
+======================================================================

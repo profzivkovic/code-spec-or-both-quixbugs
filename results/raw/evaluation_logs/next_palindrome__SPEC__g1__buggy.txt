@@ -1,0 +1,94 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmp7o1j6p77\junit.xml <USER_HOME>\AppData\Local\Temp\tmp7o1j6p77\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+1.390112
+
+STDOUT
+======================================================================
+..FFFFFF                                                                 [100%]
+================================== FAILURES ===================================
+_____________ test_next_palindrome_boundary_case_single_digit_odd _____________
+
+    def test_next_palindrome_boundary_case_single_digit_odd():
+>       assert next_palindrome([9]) == [1, 1]
+E       assert [1, 0, 1] == [1, 1]
+E         
+E         At index 1 diff: 0 != 1
+E         Left contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError
+_____________ test_next_palindrome_boundary_case_two_digits_even ______________
+
+    def test_next_palindrome_boundary_case_two_digits_even():
+>       assert next_palindrome([1, 0]) == [1, 1]
+E       assert [2, 1] == [1, 1]
+E         
+E         At index 0 diff: 2 != 1
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError
+______________ test_next_palindrome_boundary_case_two_digits_odd ______________
+
+    def test_next_palindrome_boundary_case_two_digits_odd():
+>       assert next_palindrome([2, 3]) == [2, 4]
+E       assert [3, 4] == [2, 4]
+E         
+E         At index 0 diff: 3 != 2
+E         Use -v to get more diff
+
+test_generated.py:18: AssertionError
+______________ test_next_palindrome_edge_case_increasing_digits _______________
+
+    def test_next_palindrome_edge_case_increasing_digits():
+>       assert next_palindrome([9, 8, 7, 6, 5]) == [1, 0, 0, 0, 1]
+E       assert [9, 8, 8, 6, 5] == [1, 0, 0, 0, 1]
+E         
+E         At index 0 diff: 9 != 1
+E         Use -v to get more diff
+
+test_generated.py:21: AssertionError
+______ test_next_palindrome_edge_case_decreasing_digits_with_carry_over _______
+
+    def test_next_palindrome_edge_case_decreasing_digits_with_carry_over():
+>       assert next_palindrome([9, 9, 9]) == [1, 0, 0, 1]
+E       assert [1, 0, 0, 0, 1] == [1, 0, 0, 1]
+E         
+E         At index 3 diff: 0 != 1
+E         Left contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:24: AssertionError
+__________ test_next_palindrome_exceptional_behavior_leading_zeroes ___________
+
+    def test_next_palindrome_exceptional_behavior_leading_zeroes():
+>       assert next_palindrome([0, 0, 2]) == [0, 0, 3]
+E       assert [0, 1, 2] == [0, 0, 3]
+E         
+E         At index 1 diff: 1 != 0
+E         Use -v to get more diff
+
+test_generated.py:27: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_next_palindrome_boundary_case_single_digit_odd
+FAILED test_generated.py::test_next_palindrome_boundary_case_two_digits_even
+FAILED test_generated.py::test_next_palindrome_boundary_case_two_digits_odd
+FAILED test_generated.py::test_next_palindrome_edge_case_increasing_digits - ...
+FAILED test_generated.py::test_next_palindrome_edge_case_decreasing_digits_with_carry_over
+FAILED test_generated.py::test_next_palindrome_exceptional_behavior_leading_zeroes
+6 failed, 2 passed in 0.50s
+
+
+STDERR
+======================================================================

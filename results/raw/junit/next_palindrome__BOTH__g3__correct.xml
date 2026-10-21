@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="4" skipped="0" tests="6" time="0.099" timestamp="2026-08-09T02:37:54.804978+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_next_palindrome_normal_case" time="0.001" /><testcase classname="test_generated" name="test_next_palindrome_boundary_case_even_length" time="0.001"><failure message="assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]&#10;  &#10;  At index 3 diff: 1 != 0&#10;  Right contains one more item: 1&#10;  Use -v to get more diff">def test_next_palindrome_boundary_case_even_length():
+&gt;       assert next_palindrome([9, 9, 9]) == [1, 0, 0, 0, 1]
+E       assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]
+E         
+E         At index 3 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError</failure></testcase><testcase classname="test_generated" name="test_next_palindrome_boundary_case_odd_length" time="0.001"><failure message="assert [1, 0, 0, 0, 1] == [1, 0, 0, 0, 0, 1]&#10;  &#10;  At index 4 diff: 1 != 0&#10;  Right contains one more item: 1&#10;  Use -v to get more diff">def test_next_palindrome_boundary_case_odd_length():
+&gt;       assert next_palindrome([9, 9, 9, 9]) == [1, 0, 0, 0, 0, 1]
+E       assert [1, 0, 0, 0, 1] == [1, 0, 0, 0, 0, 1]
+E         
+E         At index 4 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError</failure></testcase><testcase classname="test_generated" name="test_next_palindrome_edge_case_single_digit" time="0.001"><failure message="assert [1, 1] == [1, 0, 1]&#10;  &#10;  At index 1 diff: 1 != 0&#10;  Right contains one more item: 1&#10;  Use -v to get more diff">def test_next_palindrome_edge_case_single_digit():
+&gt;       assert next_palindrome([9]) == [1, 0, 1]
+E       assert [1, 1] == [1, 0, 1]
+E         
+E         At index 1 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError</failure></testcase><testcase classname="test_generated" name="test_next_palindrome_edge_case_all_nines_even_length" time="0.001" /><testcase classname="test_generated" name="test_next_palindrome_edge_case_all_nines_odd_length" time="0.001"><failure message="assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]&#10;  &#10;  At index 3 diff: 1 != 0&#10;  Right contains one more item: 1&#10;  Use -v to get more diff">def test_next_palindrome_edge_case_all_nines_odd_length():
+&gt;       assert next_palindrome([9, 9, 9]) == [1, 0, 0, 0, 1]
+E       assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]
+E         
+E         At index 3 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:21: AssertionError</failure></testcase></testsuite></testsuites>

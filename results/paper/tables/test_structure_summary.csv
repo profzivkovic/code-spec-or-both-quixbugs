@@ -1,0 +1,4 @@
+condition,n,test_function_count_mean,test_function_count_median,assert_count_mean,assert_count_median,pytest_raises_count_mean,pytest_raises_count_median,parametrize_count_mean,parametrize_count_median,correct_collected_mean,correct_collected_median
+CODE,32,5.031,5.0,5.719,5.5,0.656,0.0,0.094,0.0,4.844,5.0
+SPEC,33,5.606,6.0,6.212,6.0,0.576,0.0,0.091,0.0,5.182,6.0
+BOTH,33,5.091,5.0,5.879,6.0,0.758,0.0,0.0,0.0,4.848,5.0

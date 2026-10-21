@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-08T23:55:09.7078908Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 22068107800,
+  "load_duration": 198029400,
+  "prompt_eval_count": 384,
+  "prompt_eval_duration": 402263000,
+  "eval_count": 233,
+  "eval_duration": 21461191000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"code\": \"import pytest\\n\\ndef test_is_valid_parenthesization_normal_case_1():\\n    assert is_valid_parenthesization('((()()))()') == True\\n\\ndef test_is_valid_parenthesization_normal_case_2():\\n    assert is_valid_parenthesization('()()()') == True\\n\\ndef test_is_valid_parenthesization_boundary_case_1():\\n    assert is_valid_parenthesization('()') == True\\n\\ndef test_is_valid_parenthesization_edge_case_1():\\n    assert is_valid_parenthesization('') == True\\n\\ndef test_is_valid_parenthesization_exceptional_behavior_case_1():\\n    assert is_valid_parenthesization(')()(') == False\\n\\ndef test_is_valid_parenthesization_exceptional_behavior_case_2():\\n    assert is_valid_parenthesization('(()') == False\\n\\ndef test_is_valid_parenthesization_exceptional_behavior_case_3():\\n    assert is_valid_parenthesization('())') == False\"\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

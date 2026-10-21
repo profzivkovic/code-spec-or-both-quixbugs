@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="6" time="0.106" timestamp="2026-08-09T02:35:36.095836+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_get_factors_empty_list" time="0.001" /><testcase classname="test_generated" name="test_get_factors_prime_number" time="0.001"><failure message="assert [] == [101]&#10;  &#10;  Right contains one more item: 101&#10;  Use -v to get more diff">def test_get_factors_prime_number():
+&gt;       assert get_factors(101) == [101]
+E       assert [] == [101]
+E         
+E         Right contains one more item: 101
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_power_of_two" time="0.001"><failure message="assert [2, 2, 2, 2] == [2, 2, 2, 2, 2]&#10;  &#10;  Right contains one more item: 2&#10;  Use -v to get more diff">def test_get_factors_power_of_two():
+&gt;       assert get_factors(32) == [2, 2, 2, 2, 2]
+E       assert [2, 2, 2, 2] == [2, 2, 2, 2, 2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_even_number" time="0.001"><failure message="assert [2, 2] == [2, 2, 11]&#10;  &#10;  Right contains one more item: 11&#10;  Use -v to get more diff">def test_get_factors_even_number():
+&gt;       assert get_factors(44) == [2, 2, 11]
+E       assert [2, 2] == [2, 2, 11]
+E         
+E         Right contains one more item: 11
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_odd_number" time="0.001"><failure message="assert [3, 5] == [3, 5, 5]&#10;  &#10;  Right contains one more item: 5&#10;  Use -v to get more diff">def test_get_factors_odd_number():
+&gt;       assert get_factors(75) == [3, 5, 5]
+E       assert [3, 5] == [3, 5, 5]
+E         
+E         Right contains one more item: 5
+E         Use -v to get more diff
+
+test_generated.py:18: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_large_number" time="0.001"><failure message="assert [3, 3, 17, 17] == [3, 3, 3, 3607, 982451]&#10;  &#10;  At index 2 diff: 17 != 3&#10;  Right contains one more item: 982451&#10;  Use -v to get more diff">def test_get_factors_large_number():
+&gt;       assert get_factors(987654321) == [3, 3, 3, 3607, 982451]
+E       assert [3, 3, 17, 17] == [3, 3, 3, 3607, 982451]
+E         
+E         At index 2 diff: 17 != 3
+E         Right contains one more item: 982451
+E         Use -v to get more diff
+
+test_generated.py:21: AssertionError</failure></testcase></testsuite></testsuites>

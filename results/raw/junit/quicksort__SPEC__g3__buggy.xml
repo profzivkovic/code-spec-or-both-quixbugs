@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="6" time="0.104" timestamp="2026-08-09T02:39:08.337026+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_quicksort_empty_array" time="0.001" /><testcase classname="test_generated" name="test_quicksort_single_element" time="0.001" /><testcase classname="test_generated" name="test_quicksort_sorted_array" time="0.001" /><testcase classname="test_generated" name="test_quicksort_reverse_sorted_array" time="0.001" /><testcase classname="test_generated" name="test_quicksort_random_array" time="0.001"><failure message="AssertionError: Random array should be sorted&#10;assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]&#10;  &#10;  At index 1 diff: 2 != 1&#10;  Right contains one more item: 10&#10;  Use -v to get more diff">def test_quicksort_random_array():
+&gt;       assert quicksort([3, 6, 8, 10, 1, 2, 1]) == [1, 1, 2, 3, 6, 8, 10], 'Random array should be sorted'
+E       AssertionError: Random array should be sorted
+E       assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+E         
+E         At index 1 diff: 2 != 1
+E         Right contains one more item: 10
+E         Use -v to get more diff
+
+test_generated.py:22: AssertionError</failure></testcase><testcase classname="test_generated" name="test_quicksort_array_with_duplicates" time="0.001"><failure message="AssertionError: Array with duplicates should be sorted&#10;assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]&#10;  &#10;  At index 1 diff: 2 != 1&#10;  Right contains one more item: 10&#10;  Use -v to get more diff">def test_quicksort_array_with_duplicates():
+&gt;       assert quicksort([3, 6, 8, 10, 1, 2, 1]) == [1, 1, 2, 3, 6, 8, 10], 'Array with duplicates should be sorted'
+E       AssertionError: Array with duplicates should be sorted
+E       assert [1, 2, 3, 6, 8, 10] == [1, 1, 2, 3, 6, 8, ...]
+E         
+E         At index 1 diff: 2 != 1
+E         Right contains one more item: 10
+E         Use -v to get more diff
+
+test_generated.py:26: AssertionError</failure></testcase></testsuite></testsuites>

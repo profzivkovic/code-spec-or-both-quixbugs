@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.082" timestamp="2026-08-09T02:35:56.013063+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_is_valid_parenthesization_normal_cases" time="0.001" /><testcase classname="test_generated" name="test_is_valid_parenthesization_boundary_cases" time="0.001" /><testcase classname="test_generated" name="test_is_valid_parenthesization_edge_cases" time="0.001"><failure message="AssertionError: assert True == False&#10; +  where True = is_valid_parenthesization('(()')">def test_is_valid_parenthesization_edge_cases():
+&gt;       assert is_valid_parenthesization('(()') == False
+E       AssertionError: assert True == False
+E        +  where True = is_valid_parenthesization('(()')
+
+test_generated.py:16: AssertionError</failure></testcase><testcase classname="test_generated" name="test_is_valid_parenthesization_exceptional_behavior" time="0.001"><failure message="Failed: DID NOT RAISE TypeError">def test_is_valid_parenthesization_exceptional_behavior():
+&gt;       with pytest.raises(TypeError):
+E       Failed: DID NOT RAISE TypeError
+
+test_generated.py:21: Failed</failure></testcase></testsuite></testsuites>

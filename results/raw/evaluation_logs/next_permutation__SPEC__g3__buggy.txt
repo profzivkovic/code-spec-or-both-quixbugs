@@ -1,0 +1,63 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpqd7sqx8m\junit.xml <USER_HOME>\AppData\Local\Temp\tmpqd7sqx8m\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.871811
+
+STDOUT
+======================================================================
+FFFF                                                                     [100%]
+================================== FAILURES ===================================
+______________________ test_next_permutation_normal_case ______________________
+
+    def test_next_permutation_normal_case():
+>       assert next_permutation([3, 2, 4, 1]) == [3, 4, 1, 2]
+E       assert [3, 1, 2, 4] == [3, 4, 1, 2]
+E         
+E         At index 1 diff: 1 != 4
+E         Use -v to get more diff
+
+test_generated.py:6: AssertionError
+_____________________ test_next_permutation_boundary_case _____________________
+
+    def test_next_permutation_boundary_case():
+>       assert next_permutation([1, 2, 3, 4]) == [1, 2, 4, 3]
+E       assert None == [1, 2, 4, 3]
+E        +  where None = next_permutation([1, 2, 3, 4])
+
+test_generated.py:10: AssertionError
+_______________________ test_next_permutation_edge_case _______________________
+
+    def test_next_permutation_edge_case():
+>       assert next_permutation([4, 3, 2, 1]) == [1, 2, 3, 4]
+E       assert None == [1, 2, 3, 4]
+E        +  where None = next_permutation([4, 3, 2, 1])
+
+test_generated.py:14: AssertionError
+___________________ test_next_permutation_repeated_elements ___________________
+
+    def test_next_permutation_repeated_elements():
+>       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:18: Failed
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_next_permutation_normal_case - assert [3, 1, 2...
+FAILED test_generated.py::test_next_permutation_boundary_case - assert None =...
+FAILED test_generated.py::test_next_permutation_edge_case - assert None == [1...
+FAILED test_generated.py::test_next_permutation_repeated_elements - Failed: D...
+4 failed in 0.13s
+
+
+STDERR
+======================================================================

@@ -1,0 +1,22 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpkfv_e_qq\junit.xml <USER_HOME>\AppData\Local\Temp\tmpkfv_e_qq\test_generated.py
+
+EXIT CODE
+======================================================================
+
+
+TIMEOUT
+======================================================================
+True
+
+WALL TIME
+======================================================================
+20.020789
+
+STDOUT
+======================================================================
+.FFFFFF
+
+STDERR
+======================================================================

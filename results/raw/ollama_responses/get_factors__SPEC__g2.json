@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-08T23:52:42.3342975Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 14058116700,
+  "load_duration": 201142300,
+  "prompt_eval_count": 395,
+  "prompt_eval_duration": 116034000,
+  "eval_count": 134,
+  "eval_duration": 13733842000,
+  "message": {
+    "role": "assistant",
+    "content": "{ \"code\": \"import pytest\\n\\ndef test_get_factors_empty():\\n    assert get_factors(1) == [], \\\"Expected an empty list for input 1\\\"\\n\\ndef test_get_factors_small_prime():\\n    assert get_factors(101) == [101], \\\"Expected [101] for input 101\\\"\\n\\ndef test_get_factors_large_number():\\n    assert get_factors(100) == [2, 2, 5, 5], \\\"Expected [2, 2, 5, 5] for input 100\\\"\\n\" }",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

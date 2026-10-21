@@ -1,0 +1,35 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpo4lv8qb1\junit.xml <USER_HOME>\AppData\Local\Temp\tmpo4lv8qb1\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.825606
+
+STDOUT
+======================================================================
+.....F.                                                                  [100%]
+================================== FAILURES ===================================
+_________ test_is_valid_parenthesization_exceptional_behavior_case_2 __________
+
+    def test_is_valid_parenthesization_exceptional_behavior_case_2():
+>       assert is_valid_parenthesization('(()') == False
+E       AssertionError: assert True == False
+E        +  where True = is_valid_parenthesization('(()')
+
+test_generated.py:21: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_is_valid_parenthesization_exceptional_behavior_case_2
+1 failed, 6 passed in 0.12s
+
+
+STDERR
+======================================================================

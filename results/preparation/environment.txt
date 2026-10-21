@@ -1,0 +1,7 @@
+Python executable: <PROJECT_ROOT>\.venv\Scripts\python.exe
+Python version: 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:58:39) [MSC v.1934 64 bit (AMD64)]
+
+pytest: pytest 9.1.1
+
+QuixBugs repository: https://github.com/jkoppel/QuixBugs.git
+QuixBugs commit: 4257f44b0ff1181dedaedee6a447e133219fcebf

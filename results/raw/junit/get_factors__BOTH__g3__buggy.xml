@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="6" skipped="0" tests="7" time="0.113" timestamp="2026-08-09T02:35:38.227813+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_get_factors_empty_list_for_one" time="0.001" /><testcase classname="test_generated" name="test_get_factors_prime_number" time="0.001"><failure message="assert [] == [101]&#10;  &#10;  Right contains one more item: 101&#10;  Use -v to get more diff">def test_get_factors_prime_number():
+&gt;       assert get_factors(101) == [101]
+E       assert [] == [101]
+E         
+E         Right contains one more item: 101
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_power_of_two" time="0.001"><failure message="assert [2, 2, 2] == [2, 2, 2, 2]&#10;  &#10;  Right contains one more item: 2&#10;  Use -v to get more diff">def test_get_factors_power_of_two():
+&gt;       assert get_factors(16) == [2, 2, 2, 2]
+E       assert [2, 2, 2] == [2, 2, 2, 2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_power_of_three" time="0.001"><failure message="assert [3, 3] == [3, 3, 3]&#10;  &#10;  Right contains one more item: 3&#10;  Use -v to get more diff">def test_get_factors_power_of_three():
+&gt;       assert get_factors(27) == [3, 3, 3]
+E       assert [3, 3] == [3, 3, 3]
+E         
+E         Right contains one more item: 3
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_product_of_two_primes" time="0.001"><failure message="assert [3] == [3, 5]&#10;  &#10;  Right contains one more item: 5&#10;  Use -v to get more diff">def test_get_factors_product_of_two_primes():
+&gt;       assert get_factors(15) == [3, 5]
+E       assert [3] == [3, 5]
+E         
+E         Right contains one more item: 5
+E         Use -v to get more diff
+
+test_generated.py:18: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_product_of_three_primes" time="0.001"><failure message="assert [3, 5] == [3, 5, 7]&#10;  &#10;  Right contains one more item: 7&#10;  Use -v to get more diff">def test_get_factors_product_of_three_primes():
+&gt;       assert get_factors(105) == [3, 5, 7]
+E       assert [3, 5] == [3, 5, 7]
+E         
+E         Right contains one more item: 7
+E         Use -v to get more diff
+
+test_generated.py:21: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_large_number" time="0.001"><failure message="assert [3, 3, 17, 17] == [3, 3, 3, 3607, 9817]&#10;  &#10;  At index 2 diff: 17 != 3&#10;  Right contains one more item: 9817&#10;  Use -v to get more diff">def test_get_factors_large_number():
+&gt;       assert get_factors(987654321) == [3, 3, 3, 3607, 9817]
+E       assert [3, 3, 17, 17] == [3, 3, 3, 3607, 9817]
+E         
+E         At index 2 diff: 17 != 3
+E         Right contains one more item: 9817
+E         Use -v to get more diff
+
+test_generated.py:24: AssertionError</failure></testcase></testsuite></testsuites>

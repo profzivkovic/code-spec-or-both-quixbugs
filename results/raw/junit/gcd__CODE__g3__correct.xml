@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="0.088" timestamp="2026-08-09T02:35:25.127429+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_gcd_normal_cases" time="0.001" /><testcase classname="test_generated" name="test_gcd_boundary_cases" time="0.001" /><testcase classname="test_generated" name="test_gcd_edge_cases" time="0.001"><failure message="assert -6 == 6&#10; +  where -6 = gcd(-48, -18)">def test_gcd_edge_cases():
+&gt;       assert gcd(-48, -18) == 6
+E       assert -6 == 6
+E        +  where -6 = gcd(-48, -18)
+
+test_generated.py:18: AssertionError</failure></testcase><testcase classname="test_generated" name="test_gcd_exceptional_behavior" time="0.001" /></testsuite></testsuites>

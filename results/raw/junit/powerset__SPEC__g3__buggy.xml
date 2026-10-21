@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="6" time="0.108" timestamp="2026-08-09T02:38:48.498199+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_empty_set" time="0.001" /><testcase classname="test_generated" name="test_single_element_set" time="0.001"><failure message="AssertionError: assert [['a']] == [[], ['a']]&#10;  &#10;  At index 0 diff: ['a'] != []&#10;  Right contains one more item: ['a']&#10;  Use -v to get more diff">def test_single_element_set():
+&gt;       assert powerset(['a']) == [[], ['a']]
+E       AssertionError: assert [['a']] == [[], ['a']]
+E         
+E         At index 0 diff: ['a'] != []
+E         Right contains one more item: ['a']
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError</failure></testcase><testcase classname="test_generated" name="test_two_elements_set" time="0.001"><failure message="AssertionError: assert [['a', 'b']] == [[], ['b'], ['a'], ['a', 'b']]&#10;  &#10;  At index 0 diff: ['a', 'b'] != []&#10;  Right contains 3 more items, first extra item: ['b']&#10;  Use -v to get more diff">def test_two_elements_set():
+&gt;       assert powerset(['a', 'b']) == [[], ['b'], ['a'], ['a', 'b']]
+E       AssertionError: assert [['a', 'b']] == [[], ['b'], ['a'], ['a', 'b']]
+E         
+E         At index 0 diff: ['a', 'b'] != []
+E         Right contains 3 more items, first extra item: ['b']
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError</failure></testcase><testcase classname="test_generated" name="test_three_elements_set" time="0.001"><failure message="AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]&#10;  &#10;  At index 0 diff: ['a', 'b', 'c'] != []&#10;  Right contains 7 more items, first extra item: ['c']&#10;  Use -v to get more diff">def test_three_elements_set():
+&gt;       assert powerset(['a', 'b', 'c']) == [[], ['c'], ['b'], ['b', 'c'], ['a'], ['a', 'c'], ['a', 'b'], ['a', 'b', 'c']]
+E       AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]
+E         
+E         At index 0 diff: ['a', 'b', 'c'] != []
+E         Right contains 7 more items, first extra item: ['c']
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError</failure></testcase><testcase classname="test_generated" name="test_empty_list_exception" time="0.001"><failure message="Failed: DID NOT RAISE ValueError">def test_empty_list_exception():
+&gt;       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:20: Failed</failure></testcase><testcase classname="test_generated" name="test_non_list_input_exception" time="0.001"><failure message="Failed: DID NOT RAISE TypeError">def test_non_list_input_exception():
+&gt;       with pytest.raises(TypeError):
+E       Failed: DID NOT RAISE TypeError
+
+test_generated.py:24: Failed</failure></testcase></testsuite></testsuites>

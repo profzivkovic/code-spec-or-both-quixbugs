@@ -1,0 +1,10 @@
+scope,condition,line_n,line_mean,line_median,line_std,line_min,line_max,branch_n,branch_mean,branch_median,branch_std,branch_min,branch_max
+all_executable,CODE,30,91.691,100.0,23.821,20.0,100.0,30,86.389,100.0,30.441,0.0,100.0
+all_executable,SPEC,31,100.0,100.0,0.0,100.0,100.0,31,97.984,100.0,6.533,75.0,100.0
+all_executable,BOTH,32,100.0,100.0,0.0,100.0,100.0,32,98.307,100.0,4.596,83.33,100.0
+oracle_correct_only,CODE,9,100.0,100.0,0.0,100.0,100.0,9,100.0,100.0,0.0,100.0,100.0
+oracle_correct_only,SPEC,18,100.0,100.0,0.0,100.0,100.0,18,100.0,100.0,0.0,100.0,100.0
+oracle_correct_only,BOTH,16,100.0,100.0,0.0,100.0,100.0,16,100.0,100.0,0.0,100.0,100.0
+oracle_error_only,CODE,21,88.13,100.0,27.9,20.0,100.0,21,80.555,100.0,34.993,0.0,100.0
+oracle_error_only,SPEC,13,100.0,100.0,0.0,100.0,100.0,13,95.192,100.0,9.599,75.0,100.0
+oracle_error_only,BOTH,16,100.0,100.0,0.0,100.0,100.0,16,96.614,100.0,6.128,83.33,100.0

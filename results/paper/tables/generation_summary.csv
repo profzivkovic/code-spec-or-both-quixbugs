@@ -1,0 +1,4 @@
+condition,n,prompt_tokens_mean,prompt_tokens_median,output_tokens_mean,output_tokens_median,total_duration_seconds_mean,total_duration_seconds_median,generation_seconds_mean,generation_seconds_median,output_tokens_per_second_mean,output_tokens_per_second_median,output_chars_mean,output_chars_median,output_lines_mean,output_lines_median,bug_detections,detections_per_1000_output_tokens,detections_per_generation_minute
+CODE,33,370.727,357.0,209.758,189.0,22.035,19.736,21.357,18.621,9.949,9.785,549.788,483.0,19.697,19.0,9,1.3002,0.7426
+SPEC,33,373.364,384.0,237.697,223.0,24.85,23.5,24.386,23.059,9.781,9.699,609.97,590.0,21.0,21.0,18,2.2947,1.317
+BOTH,33,444.636,450.0,217.606,216.0,22.767,22.613,22.292,21.975,9.798,9.773,546.727,522.0,19.879,20.0,16,2.2281,1.2778

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="4" time="0.086" timestamp="2026-08-09T02:38:38.013644+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_powerset_empty_list" time="0.001" /><testcase classname="test_generated" name="test_powerset_single_element" time="0.001"><failure message="assert [[1]] == [[], [1]]&#10;  &#10;  At index 0 diff: [1] != []&#10;  Right contains one more item: [1]&#10;  Use -v to get more diff">def test_powerset_single_element():
+&gt;       assert powerset([1]) == [[], [1]]
+E       assert [[1]] == [[], [1]]
+E         
+E         At index 0 diff: [1] != []
+E         Right contains one more item: [1]
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError</failure></testcase><testcase classname="test_generated" name="test_powerset_multiple_elements" time="0.001"><failure message="assert [[1, 2]] == [[], [2], [1], [1, 2]]&#10;  &#10;  At index 0 diff: [1, 2] != []&#10;  Right contains 3 more items, first extra item: [2]&#10;  Use -v to get more diff">def test_powerset_multiple_elements():
+&gt;       assert powerset([1, 2]) == [[], [2], [1], [1, 2]]
+E       assert [[1, 2]] == [[], [2], [1], [1, 2]]
+E         
+E         At index 0 diff: [1, 2] != []
+E         Right contains 3 more items, first extra item: [2]
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError</failure></testcase><testcase classname="test_generated" name="test_powerset_duplicate_elements" time="0.001"><failure message="assert [[1, 1]] == [[], [1], [1, 1]]&#10;  &#10;  At index 0 diff: [1, 1] != []&#10;  Right contains 2 more items, first extra item: [1]&#10;  Use -v to get more diff">def test_powerset_duplicate_elements():
+&gt;       assert powerset([1, 1]) == [[], [1], [1, 1]]
+E       assert [[1, 1]] == [[], [1], [1, 1]]
+E         
+E         At index 0 diff: [1, 1] != []
+E         Right contains 2 more items, first extra item: [1]
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError</failure></testcase></testsuite></testsuites>

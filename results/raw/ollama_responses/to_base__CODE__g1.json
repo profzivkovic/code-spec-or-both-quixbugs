@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:23:00.254795Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 30574046500,
+  "load_duration": 188210400,
+  "prompt_eval_count": 352,
+  "prompt_eval_duration": 408515000,
+  "eval_count": 310,
+  "eval_duration": 29963305000,
+  "message": {
+    "role": "assistant",
+    "content": "{ \"code\": \"import pytest\\n\\ndef test_to_base_normal_case():\\n    assert to_base(255, 16) == 'FF'\\n\\ndef test_to_base_boundary_case_low_limit():\\n    assert to_base(0, 2) == '0'\\n\\ndef test_to_base_boundary_case_high_limit():\\n    assert to_base(36, 37) == '10'\\n\\ndef test_to_base_edge_case_single_digit():\\n    for b in range(2, 37):\\n        assert to_base(b - 1, b) == str(b - 1)\\n\\ndef test_to_base_edge_case_zero():\\n    assert to_base(0, 10) == '0'\\n\\ndef test_to_base_exceptional_behavior_large_number():\\n    assert to_base(2**64, 16) == '1000000000000000'\\n\\ndef test_to_base_exceptional_behavior_negative_number():\\n    with pytest.raises(ValueError):\\n        to_base(-1, 10)\\n\\ndef test_to_base_exceptional_behavior_invalid_base_low_limit():\\n    with pytest.raises(ValueError):\\n        to_base(10, 1)\\n\\ndef test_to_base_exceptional_behavior_invalid_base_high_limit():\\n    with pytest.raises(ValueError):\\n        to_base(10, 37)\" }",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

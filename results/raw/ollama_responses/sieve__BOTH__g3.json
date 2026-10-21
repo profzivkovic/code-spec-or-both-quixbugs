@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:22:29.673992Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 12072737800,
+  "load_duration": 210868700,
+  "prompt_eval_count": 380,
+  "prompt_eval_duration": 129176999,
+  "eval_count": 114,
+  "eval_duration": 11724006000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"code\": \"import pytest\\n\\ndef test_sieve_normal_case():\\n    assert sieve(10) == [2, 3, 5, 7]\\n\\ndef test_sieve_boundary_case():\\n    assert sieve(2) == [2]\\n\\ndef test_sieve_edge_case_max_1():\\n    assert sieve(1) == []\\n\\ndef test_sieve_exceptional_behavior_non_positive_input():\\n    with pytest.raises(ValueError):\\n        sieve(-5)\\n\"\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

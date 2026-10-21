@@ -1,0 +1,60 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpaxfjs7sy\junit.xml <USER_HOME>\AppData\Local\Temp\tmpaxfjs7sy\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.911942
+
+STDOUT
+======================================================================
+.FFF...                                                                  [100%]
+================================== FAILURES ===================================
+_____________________ test_next_palindrome_normal_case_2 ______________________
+
+    def test_next_palindrome_normal_case_2():
+>       assert next_palindrome([9, 9, 9]) == [1, 0, 0, 1]
+E       assert [1, 0, 0, 0, 1] == [1, 0, 0, 1]
+E         
+E         At index 3 diff: 0 != 1
+E         Left contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:10: AssertionError
+________________ test_next_palindrome_boundary_case_odd_length ________________
+
+    def test_next_palindrome_boundary_case_odd_length():
+>       assert next_palindrome([8, 7, 6, 5, 4, 3, 2, 1]) == [8, 7, 6, 6, 6, 6, 7, 8]
+E       assert [8, 7, 6, 6, 5, 3, ...] == [8, 7, 6, 6, 6, 6, ...]
+E         
+E         At index 4 diff: 5 != 6
+E         Use -v to get more diff
+
+test_generated.py:14: AssertionError
+_______________ test_next_palindrome_boundary_case_even_length ________________
+
+    def test_next_palindrome_boundary_case_even_length():
+>       assert next_palindrome([8, 7, 6, 5, 4, 3, 2]) == [8, 7, 6, 6, 6, 7, 8]
+E       assert [8, 7, 6, 6, 4, 3, ...] == [8, 7, 6, 6, 6, 7, ...]
+E         
+E         At index 4 diff: 4 != 6
+E         Use -v to get more diff
+
+test_generated.py:18: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_next_palindrome_normal_case_2 - assert [1, 0, ...
+FAILED test_generated.py::test_next_palindrome_boundary_case_odd_length - ass...
+FAILED test_generated.py::test_next_palindrome_boundary_case_even_length - as...
+3 failed, 4 passed in 0.14s
+
+
+STDERR
+======================================================================

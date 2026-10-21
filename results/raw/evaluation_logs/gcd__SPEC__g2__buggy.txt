@@ -1,0 +1,123 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpgapgio9q\junit.xml <USER_HOME>\AppData\Local\Temp\tmpgapgio9q\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.846034
+
+STDOUT
+======================================================================
+FFF..FF                                                                  [100%]
+================================== FAILURES ===================================
+___________________________ test_gcd_normal_case_1 ____________________________
+
+    def test_gcd_normal_case_1():
+>       assert gcd(35, 21) == 7
+               ^^^^^^^^^^^
+
+test_generated.py:6: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded while calling a Python object
+!!! Recursion detected (same locals & position)
+___________________________ test_gcd_normal_case_2 ____________________________
+
+    def test_gcd_normal_case_2():
+>       assert gcd(100, 25) == 25
+               ^^^^^^^^^^^^
+
+test_generated.py:9: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded while calling a Python object
+!!! Recursion detected (same locals & position)
+__________________________ test_gcd_boundary_case_1 ___________________________
+
+    def test_gcd_boundary_case_1():
+>       assert gcd(0, 5) == 5
+               ^^^^^^^^^
+
+test_generated.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded while calling a Python object
+!!! Recursion detected (same locals & position)
+____________________________ test_gcd_odd_numbers _____________________________
+
+    def test_gcd_odd_numbers():
+>       assert gcd(17, 13) == 1
+               ^^^^^^^^^^^
+
+test_generated.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded while calling a Python object
+!!! Recursion detected (same locals & position)
+____________________________ test_gcd_even_numbers ____________________________
+
+    def test_gcd_even_numbers():
+>       assert gcd(48, 18) == 6
+               ^^^^^^^^^^^
+
+test_generated.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded while calling a Python object
+!!! Recursion detected (same locals & position)
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_gcd_normal_case_1 - RecursionError: maximum re...
+FAILED test_generated.py::test_gcd_normal_case_2 - RecursionError: maximum re...
+FAILED test_generated.py::test_gcd_boundary_case_1 - RecursionError: maximum ...
+FAILED test_generated.py::test_gcd_odd_numbers - RecursionError: maximum recu...
+FAILED test_generated.py::test_gcd_even_numbers - RecursionError: maximum rec...
+5 failed, 2 passed in 0.18s
+
+
+STDERR
+======================================================================

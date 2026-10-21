@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.092" timestamp="2026-08-09T02:37:50.334944+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_next_palindrome_normal_case_1" time="0.001" /><testcase classname="test_generated" name="test_next_palindrome_normal_case_2" time="0.001" /><testcase classname="test_generated" name="test_next_palindrome_boundary_case_1" time="0.001" /><testcase classname="test_generated" name="test_next_palindrome_edge_case_1" time="0.001" /><testcase classname="test_generated" name="test_next_palindrome_exceptional_behavior_1" time="0.001"><failure message="Failed: DID NOT RAISE ValueError">def test_next_palindrome_exceptional_behavior_1():
+&gt;       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:22: Failed</failure></testcase></testsuite></testsuites>

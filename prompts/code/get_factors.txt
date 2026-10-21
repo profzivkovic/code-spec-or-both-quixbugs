@@ -1,0 +1,28 @@
+You are generating unit tests for a Python function.
+
+Generate a complete pytest test suite using only the information provided below.
+
+Requirements:
+- Return only executable Python code.
+- Do not use Markdown code fences.
+- Do not include explanations.
+- Do not redefine or reimplement the function under test.
+- Do not modify the function under test.
+- Do not include an import statement for the function under test; the evaluation framework will provide it.
+- You may import pytest and Python standard-library modules when needed.
+- Include normal cases, boundary cases, edge cases, and relevant exceptional behavior when supported by the provided information.
+- Test observable behavior rather than implementation details.
+- Do not access the network, filesystem, or external services.
+
+
+Function implementation:
+
+def get_factors(n):
+    if n == 1:
+        return []
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return [i] + get_factors(n // i)
+    return []
+
+Generate tests for the function `get_factors`.

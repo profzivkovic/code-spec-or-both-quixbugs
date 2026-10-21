@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-08T23:51:35.4698084Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 16166511100,
+  "load_duration": 173039100,
+  "prompt_eval_count": 352,
+  "prompt_eval_duration": 118634000,
+  "eval_count": 153,
+  "eval_duration": 15868654000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"code\": \"import pytest\\n\\ndef test_get_factors_normal_case():\\n    assert get_factors(28) == [2, 14]\\n\\ndef test_get_factors_prime_number():\\n    assert get_factors(29) == []\\n\\ndef test_get_factors_one():\\n    assert get_factors(1) == []\\n\\ndef test_get_factors_two():\\n    assert get_factors(2) == [2]\\n\\ndef test_get_factors_large_number():\\n    assert get_factors(600851475143) == [71, 839, 1471, 6857]\\n\"\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

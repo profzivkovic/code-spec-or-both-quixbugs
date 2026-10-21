@@ -1,0 +1,48 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpik4tqqdw\junit.xml <USER_HOME>\AppData\Local\Temp\tmpik4tqqdw\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.868168
+
+STDOUT
+======================================================================
+FF..                                                                     [100%]
+================================== FAILURES ===================================
+___________________________ test_sieve_normal_cases ___________________________
+
+    def test_sieve_normal_cases():
+>       assert sieve(10) == [2, 3, 5, 7]
+E       assert [] == [2, 3, 5, 7]
+E         
+E         Right contains 4 more items, first extra item: 2
+E         Use -v to get more diff
+
+test_generated.py:6: AssertionError
+__________________________ test_sieve_boundary_cases __________________________
+
+    def test_sieve_boundary_cases():
+>       assert sieve(20) == [2, 3, 5, 7, 11, 13, 17, 19]
+E       assert [] == [2, 3, 5, 7, 11, 13, ...]
+E         
+E         Right contains 8 more items, first extra item: 2
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_sieve_normal_cases - assert [] == [2, 3, 5, 7]
+FAILED test_generated.py::test_sieve_boundary_cases - assert [] == [2, 3, 5, ...
+2 failed, 2 passed in 0.12s
+
+
+STDERR
+======================================================================

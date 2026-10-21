@@ -1,0 +1,93 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmp11nah22f\junit.xml <USER_HOME>\AppData\Local\Temp\tmp11nah22f\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.903132
+
+STDOUT
+======================================================================
+.FFFFFF                                                                  [100%]
+================================== FAILURES ===================================
+________________________ test_get_factors_prime_number ________________________
+
+    def test_get_factors_prime_number():
+>       assert get_factors(101) == [101]
+E       assert [] == [101]
+E         
+E         Right contains one more item: 101
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError
+________________________ test_get_factors_power_of_two ________________________
+
+    def test_get_factors_power_of_two():
+>       assert get_factors(16) == [2, 2, 2, 2]
+E       assert [2, 2, 2] == [2, 2, 2, 2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError
+_______________________ test_get_factors_power_of_three _______________________
+
+    def test_get_factors_power_of_three():
+>       assert get_factors(27) == [3, 3, 3]
+E       assert [3, 3] == [3, 3, 3]
+E         
+E         Right contains one more item: 3
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError
+___________________ test_get_factors_product_of_two_primes ____________________
+
+    def test_get_factors_product_of_two_primes():
+>       assert get_factors(15) == [3, 5]
+E       assert [3] == [3, 5]
+E         
+E         Right contains one more item: 5
+E         Use -v to get more diff
+
+test_generated.py:18: AssertionError
+__________________ test_get_factors_product_of_three_primes ___________________
+
+    def test_get_factors_product_of_three_primes():
+>       assert get_factors(105) == [3, 5, 7]
+E       assert [3, 5] == [3, 5, 7]
+E         
+E         Right contains one more item: 7
+E         Use -v to get more diff
+
+test_generated.py:21: AssertionError
+________________________ test_get_factors_large_number ________________________
+
+    def test_get_factors_large_number():
+>       assert get_factors(987654321) == [3, 3, 3, 3607, 9817]
+E       assert [3, 3, 17, 17] == [3, 3, 3, 3607, 9817]
+E         
+E         At index 2 diff: 17 != 3
+E         Right contains one more item: 9817
+E         Use -v to get more diff
+
+test_generated.py:24: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_get_factors_prime_number - assert [] == [101]
+FAILED test_generated.py::test_get_factors_power_of_two - assert [2, 2, 2] ==...
+FAILED test_generated.py::test_get_factors_power_of_three - assert [3, 3] == ...
+FAILED test_generated.py::test_get_factors_product_of_two_primes - assert [3]...
+FAILED test_generated.py::test_get_factors_product_of_three_primes - assert [...
+FAILED test_generated.py::test_get_factors_large_number - assert [3, 3, 17, 1...
+6 failed, 1 passed in 0.14s
+
+
+STDERR
+======================================================================

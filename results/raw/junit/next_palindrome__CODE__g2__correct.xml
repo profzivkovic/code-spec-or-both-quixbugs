@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="4" skipped="0" tests="8" time="0.111" timestamp="2026-08-09T02:37:59.011964+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_next_palindrome_normal_case_odd_length" time="0.001"><failure message="assert [1, 3, 3] == [1, 3, 1]&#10;  &#10;  At index 2 diff: 3 != 1&#10;  Use -v to get more diff">def test_next_palindrome_normal_case_odd_length():
+&gt;       assert next_palindrome([1, 2, 3]) == [1, 3, 1]
+E       assert [1, 3, 3] == [1, 3, 1]
+E         
+E         At index 2 diff: 3 != 1
+E         Use -v to get more diff
+
+test_generated.py:6: AssertionError</failure></testcase><testcase classname="test_generated" name="test_next_palindrome_normal_case_even_length" time="0.001" /><testcase classname="test_generated" name="test_next_palindrome_all_nines_odd_length" time="0.001"><failure message="assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]&#10;  &#10;  At index 3 diff: 1 != 0&#10;  Right contains one more item: 1&#10;  Use -v to get more diff">def test_next_palindrome_all_nines_odd_length():
+&gt;       assert next_palindrome([9, 9, 9]) == [1, 0, 0, 0, 1]
+E       assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]
+E         
+E         At index 3 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:14: AssertionError</failure></testcase><testcase classname="test_generated" name="test_next_palindrome_all_nines_even_length" time="0.001" /><testcase classname="test_generated" name="test_next_palindrome_boundary_case_single_digit" time="0.001"><failure message="assert [1, 1] == [1, 0, 1]&#10;  &#10;  At index 1 diff: 1 != 0&#10;  Right contains one more item: 1&#10;  Use -v to get more diff">def test_next_palindrome_boundary_case_single_digit():
+&gt;       assert next_palindrome([9]) == [1, 0, 1]
+E       assert [1, 1] == [1, 0, 1]
+E         
+E         At index 1 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:22: AssertionError</failure></testcase><testcase classname="test_generated" name="test_next_palindrome_edge_case_single_zero" time="0.001" /><testcase classname="test_generated" name="test_next_palindrome_exceptional_behavior_negative_numbers" time="0.001"><failure message="Failed: DID NOT RAISE ValueError">def test_next_palindrome_exceptional_behavior_negative_numbers():
+&gt;       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:30: Failed</failure></testcase><testcase classname="test_generated" name="test_next_palindrome_exceptional_behavior_non_digit_values" time="0.001" /></testsuite></testsuites>

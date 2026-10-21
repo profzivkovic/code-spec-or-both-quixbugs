@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.088" timestamp="2026-08-09T02:36:05.028476+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_is_valid_parenthesization_normal_cases" time="0.001" /><testcase classname="test_generated" name="test_is_valid_parenthesization_boundary_cases" time="0.001"><failure message="NameError: name 'is_valid_parenthesition' is not defined">def test_is_valid_parenthesization_boundary_cases():
+        assert is_valid_parenthesization('()') == True
+&gt;       assert is_valid_parenthesition('((((') == False
+               ^^^^^^^^^^^^^^^^^^^^^^^
+E       NameError: name 'is_valid_parenthesition' is not defined
+
+test_generated.py:12: NameError</failure></testcase><testcase classname="test_generated" name="test_is_valid_parenthesization_edge_cases" time="0.001" /><testcase classname="test_generated" name="test_is_valid_parenthesization_exceptional_behavior" time="0.001"><failure message="Failed: DID NOT RAISE ValueError">def test_is_valid_parenthesization_exceptional_behavior():
+&gt;       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:19: Failed</failure></testcase></testsuite></testsuites>

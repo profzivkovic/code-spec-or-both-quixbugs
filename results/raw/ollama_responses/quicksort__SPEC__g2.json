@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:17:59.5775691Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 32556770200,
+  "load_duration": 222405900,
+  "prompt_eval_count": 325,
+  "prompt_eval_duration": 168476000,
+  "eval_count": 290,
+  "eval_duration": 32160291000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"code\": \"import pytest\\n\\ndef test_quicksort_normal_case():\\n    assert quicksort([3, 6, 8, 10, 1, 2, 1]) == [1, 1, 2, 3, 6, 8, 10]\\n\\ndef test_quicksort_boundary_case_single_element():\\n    assert quicksort([5]) == [5]\\n\\ndef test_quicksort_boundary_case_empty_list():\\n    assert quicksort([]) == []\\n\\ndef test_quicksort_edge_case_sorted_list():\\n    assert quicksort([1, 2, 3, 4, 5]) == [1, 2, 3, 4, 5]\\n\\ndef test_quicksort_edge_case_reverse_sorted_list():\\n    assert quicksort([5, 4, 3, 2, 1]) == [1, 2, 3, 4, 5]\\n\\ndef test_quicksort_exceptional_behavior_duplicate_values():\\n    assert quicksort([3, 6, 8, 10, 1, 2, 1, 6]) == [1, 1, 2, 3, 6, 6, 8, 10]\\n\"\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

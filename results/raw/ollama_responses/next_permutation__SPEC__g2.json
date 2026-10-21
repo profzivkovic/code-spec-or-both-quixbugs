@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:11:05.9777275Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 20449987000,
+  "load_duration": 203772400,
+  "prompt_eval_count": 380,
+  "prompt_eval_duration": 126366000,
+  "eval_count": 191,
+  "eval_duration": 20110338000,
+  "message": {
+    "role": "assistant",
+    "content": "{ \"code\": \"import pytest\\n\\ndef test_next_permutation_normal_case_1():\\n    assert next_permutation([1, 2, 3]) == [1, 3, 2]\\n\\ndef test_next_permutation_normal_case_2():\\n    assert next_permutation([4, 5, 6, 7]) == [4, 5, 7, 6]\\n\\ndef test_next_permutation_boundary_case():\\n    assert next_permutation([1, 3, 2]) == [2, 1, 3]\\n\\ndef test_next_permutation_edge_case_single_element():\\n    assert next_permutation([1]) == [1]\\n\\ndef test_next_permutation_edge_case_reverse_sorted():\\n    with pytest.raises(ValueError):\\n        next_permutation([4, 3, 2, 1])\" }",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

@@ -1,0 +1,4 @@
+condition,suites,syntax_valid_n,syntax_valid_pct,executable_n,executable_pct,oracle_correct_n,oracle_correct_pct,bug_detecting_n,bug_detecting_pct,oracle_error_n,oracle_error_pct,execution_timeout_n,invalid_syntax_n,unique_bugs_detected_n,unique_bugs_detected_pct,oracle_correct_among_executable_pct
+CODE,33,32,96.97,30,90.91,9,27.27,9,27.27,21,63.64,2,1,4,36.36,30.0
+SPEC,33,33,100.0,31,93.94,18,54.55,18,54.55,13,39.39,2,0,8,72.73,58.06
+BOTH,33,33,100.0,32,96.97,16,48.48,16,48.48,16,48.48,1,0,8,72.73,50.0

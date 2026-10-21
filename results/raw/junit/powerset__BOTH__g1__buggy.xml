@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="0.083" timestamp="2026-08-09T02:38:31.210416+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_powerset_empty_list" time="0.001" /><testcase classname="test_generated" name="test_powerset_single_element" time="0.001"><failure message="AssertionError: assert [['a']] == [[], ['a']]&#10;  &#10;  At index 0 diff: ['a'] != []&#10;  Right contains one more item: ['a']&#10;  Use -v to get more diff">def test_powerset_single_element():
+&gt;       assert powerset(['a']) == [[], ['a']]
+E       AssertionError: assert [['a']] == [[], ['a']]
+E         
+E         At index 0 diff: ['a'] != []
+E         Right contains one more item: ['a']
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError</failure></testcase><testcase classname="test_generated" name="test_powerset_multiple_elements" time="0.001"><failure message="AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]&#10;  &#10;  At index 0 diff: ['a', 'b', 'c'] != []&#10;  Right contains 7 more items, first extra item: ['c']&#10;  Use -v to get more diff">def test_powerset_multiple_elements():
+&gt;       assert powerset(['a', 'b', 'c']) == [[], ['c'], ['b'], ['b', 'c'], ['a'], ['a', 'c'], ['a', 'b'], ['a', 'b', 'c']]
+E       AssertionError: assert [['a', 'b', 'c']] == [[], ['c'], [...a', 'c'], ...]
+E         
+E         At index 0 diff: ['a', 'b', 'c'] != []
+E         Right contains 7 more items, first extra item: ['c']
+E         Use -v to get more diff
+
+test_generated.py:12: AssertionError</failure></testcase></testsuite></testsuites>

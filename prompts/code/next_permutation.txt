@@ -1,0 +1,30 @@
+You are generating unit tests for a Python function.
+
+Generate a complete pytest test suite using only the information provided below.
+
+Requirements:
+- Return only executable Python code.
+- Do not use Markdown code fences.
+- Do not include explanations.
+- Do not redefine or reimplement the function under test.
+- Do not modify the function under test.
+- Do not include an import statement for the function under test; the evaluation framework will provide it.
+- You may import pytest and Python standard-library modules when needed.
+- Include normal cases, boundary cases, edge cases, and relevant exceptional behavior when supported by the provided information.
+- Test observable behavior rather than implementation details.
+- Do not access the network, filesystem, or external services.
+
+
+Function implementation:
+
+def next_permutation(perm):
+    for i in range(len(perm) - 2, -1, -1):
+        if perm[i] < perm[i + 1]:
+            for j in range(len(perm) - 1, i, -1):
+                if perm[j] < perm[i]:
+                    next_perm = list(perm)
+                    next_perm[i], next_perm[j] = (perm[j], perm[i])
+                    next_perm[i + 1:] = reversed(next_perm[i + 1:])
+                    return next_perm
+
+Generate tests for the function `next_permutation`.

@@ -1,0 +1,62 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmp0632ykod\junit.xml <USER_HOME>\AppData\Local\Temp\tmp0632ykod\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.811254
+
+STDOUT
+======================================================================
+FF.F..F                                                                  [100%]
+================================== FAILURES ===================================
+____________________ test_max_sublist_sum_positive_numbers ____________________
+
+    def test_max_sublist_sum_positive_numbers():
+>       assert max_sublist_sum([4, -5, 2, 1, -1, 3]) == 5
+E       assert 4 == 5
+E        +  where 4 = max_sublist_sum([4, -5, 2, 1, -1, 3])
+
+test_generated.py:6: AssertionError
+__________________ test_max_sublist_sum_all_negative_numbers __________________
+
+    def test_max_sublist_sum_all_negative_numbers():
+>       assert max_sublist_sum([-1, -2, -3, -4, -5]) == -1
+E       assert 0 == -1
+E        +  where 0 = max_sublist_sum([-1, -2, -3, -4, -5])
+
+test_generated.py:9: AssertionError
+_________________ test_max_sublist_sum_single_negative_number _________________
+
+    def test_max_sublist_sum_single_negative_number():
+>       assert max_sublist_sum([-3]) == -3
+E       assert 0 == -3
+E        +  where 0 = max_sublist_sum([-3])
+
+test_generated.py:15: AssertionError
+__________________ test_max_sublist_sum_with_zero_in_middle ___________________
+
+    def test_max_sublist_sum_with_zero_in_middle():
+>       assert max_sublist_sum([1, -2, 3, -4, 5]) == 9
+E       assert 3 == 9
+E        +  where 3 = max_sublist_sum([1, -2, 3, -4, 5])
+
+test_generated.py:24: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_max_sublist_sum_positive_numbers - assert 4 == 5
+FAILED test_generated.py::test_max_sublist_sum_all_negative_numbers - assert ...
+FAILED test_generated.py::test_max_sublist_sum_single_negative_number - asser...
+FAILED test_generated.py::test_max_sublist_sum_with_zero_in_middle - assert 3...
+4 failed, 3 passed in 0.12s
+
+
+STDERR
+======================================================================

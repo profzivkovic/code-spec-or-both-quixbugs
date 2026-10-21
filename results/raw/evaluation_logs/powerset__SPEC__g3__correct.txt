@@ -1,0 +1,42 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmp0pau3rh6\junit.xml <USER_HOME>\AppData\Local\Temp\tmp0pau3rh6\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.84108
+
+STDOUT
+======================================================================
+....FF                                                                   [100%]
+================================== FAILURES ===================================
+__________________________ test_empty_list_exception __________________________
+
+    def test_empty_list_exception():
+>       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:20: Failed
+________________________ test_non_list_input_exception ________________________
+
+    def test_non_list_input_exception():
+>       with pytest.raises(TypeError):
+E       Failed: DID NOT RAISE TypeError
+
+test_generated.py:24: Failed
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_empty_list_exception - Failed: DID NOT RAISE V...
+FAILED test_generated.py::test_non_list_input_exception - Failed: DID NOT RAI...
+2 failed, 4 passed in 0.12s
+
+
+STDERR
+======================================================================

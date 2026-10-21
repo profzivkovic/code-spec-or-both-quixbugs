@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-09T00:13:57.2641828Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 18039137100,
+  "load_duration": 264434200,
+  "prompt_eval_count": 410,
+  "prompt_eval_duration": 150418000,
+  "eval_count": 162,
+  "eval_duration": 17616753000,
+  "message": {
+    "role": "assistant",
+    "content": "{ \"code\": \"import pytest\\n\\ndef test_powerset_empty_set():\\n    assert powerset([]) == [[]]\\n\\ndef test_powerset_single_element():\\n    assert powerset(['a']) == [[], ['a']]\\n\\ndef test_powerset_two_elements():\\n    assert powerset(['a', 'b']) == [[], ['b'], ['a'], ['a', 'b']]\\n\\ndef test_powerset_three_elements():\\n    assert powerset(['a', 'b', 'c']) == [[], ['c'], ['b'], ['b', 'c'], ['a'], ['a', 'c'], ['a', 'b'], ['a', 'b', 'c']]\\n\\n\" }",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

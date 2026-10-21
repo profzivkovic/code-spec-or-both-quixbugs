@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-08T23:49:34.6862095Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 23476415500,
+  "load_duration": 182824200,
+  "prompt_eval_count": 321,
+  "prompt_eval_duration": 115670000,
+  "eval_count": 229,
+  "eval_duration": 23172756000,
+  "message": {
+    "role": "assistant",
+    "content": "{\n    \"code\": \"import pytest\\n\\ndef test_gcd_normal_cases():\\n    assert gcd(48, 18) == 6\\n    assert gcd(20, 5) == 5\\n    assert gcd(7, 3) == 1\\n\\n\\ndef test_gcd_boundary_cases():\\n    assert gcd(0, 1) == 1\\n    assert gcd(1, 0) == 1\\n    assert gcd(0, 0) == 0\\n\\n\\ndef test_gcd_edge_cases():\\n    assert gcd(-48, -18) == 6\\n    assert gcd(48, -18) == 6\\n    assert gcd(-48, 18) == 6\\n\\n\\ndef test_gcd_exceptional_behavior():\\n    with pytest.raises(TypeError):\\n        gcd('a', 5)\\n    with pytest.raises(TypeError):\\n        gcd(5, 'b')\\n    with pytest.raises(TypeError):\\n        gcd('a', 'b')\"\n}",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

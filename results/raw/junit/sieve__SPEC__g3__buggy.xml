@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="8" time="0.114" timestamp="2026-08-09T02:39:28.283540+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_sieve_normal_case" time="0.001"><failure message="assert [] == [2, 3, 5, 7]&#10;  &#10;  Right contains 4 more items, first extra item: 2&#10;  Use -v to get more diff">def test_sieve_normal_case():
+&gt;       assert sieve(10) == [2, 3, 5, 7]
+E       assert [] == [2, 3, 5, 7]
+E         
+E         Right contains 4 more items, first extra item: 2
+E         Use -v to get more diff
+
+test_generated.py:6: AssertionError</failure></testcase><testcase classname="test_generated" name="test_sieve_boundary_case" time="0.001"><failure message="assert [] == [2]&#10;  &#10;  Right contains one more item: 2&#10;  Use -v to get more diff">def test_sieve_boundary_case():
+&gt;       assert sieve(2) == [2]
+E       assert [] == [2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError</failure></testcase><testcase classname="test_generated" name="test_sieve_edge_case" time="0.001" /><testcase classname="test_generated" name="test_sieve_prime_at_boundary" time="0.001"><failure message="assert [] == [2, 3, 5, 7, 11, 13, ...]&#10;  &#10;  Right contains 8 more items, first extra item: 2&#10;  Use -v to get more diff">def test_sieve_prime_at_boundary():
+&gt;       assert sieve(19) == [2, 3, 5, 7, 11, 13, 17, 19]
+E       assert [] == [2, 3, 5, 7, 11, 13, ...]
+E         
+E         Right contains 8 more items, first extra item: 2
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError</failure></testcase><testcase classname="test_generated" name="test_sieve_no_primes" time="0.001" /><testcase classname="test_generated" name="test_sieve_single_prime" time="0.001"><failure message="assert [] == [2, 3]&#10;  &#10;  Right contains 2 more items, first extra item: 2&#10;  Use -v to get more diff">def test_sieve_single_prime():
+&gt;       assert sieve(3) == [2, 3]
+E       assert [] == [2, 3]
+E         
+E         Right contains 2 more items, first extra item: 2
+E         Use -v to get more diff
+
+test_generated.py:21: AssertionError</failure></testcase><testcase classname="test_generated" name="test_sieve_all_composites" time="0.001"><failure message="assert [] == [2, 3]&#10;  &#10;  Right contains 2 more items, first extra item: 2&#10;  Use -v to get more diff">def test_sieve_all_composites():
+&gt;       assert sieve(4) == [2, 3]
+E       assert [] == [2, 3]
+E         
+E         Right contains 2 more items, first extra item: 2
+E         Use -v to get more diff
+
+test_generated.py:24: AssertionError</failure></testcase><testcase classname="test_generated" name="test_sieve_max_is_1" time="0.001" /></testsuite></testsuites>

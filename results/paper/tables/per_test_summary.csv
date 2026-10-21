@@ -1,0 +1,4 @@
+condition,matched_test_cases,individual_oracle_correct_tests,individual_bug_revealing_tests,bug_revealing_among_oracle_correct_pct
+CODE,155,97,54,55.67
+SPEC,171,142,84,59.15
+BOTH,160,133,78,58.65

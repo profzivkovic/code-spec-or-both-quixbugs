@@ -1,0 +1,59 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpfivfx0wk\junit.xml <USER_HOME>\AppData\Local\Temp\tmpfivfx0wk\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.842955
+
+STDOUT
+======================================================================
+FFF.                                                                     [100%]
+================================== FAILURES ===================================
+__________________________ test_to_base_normal_cases __________________________
+
+    def test_to_base_normal_cases():
+>       assert to_base(10, 2) == '1010'
+E       AssertionError: assert '0101' == '1010'
+E         
+E         - 1010
+E         ?    -
+E         + 0101
+E         ? +
+
+test_generated.py:6: AssertionError
+_________________________ test_to_base_boundary_cases _________________________
+
+    def test_to_base_boundary_cases():
+        assert to_base(1, 2) == '1'
+>       assert to_base(36, 36) == 'Z'
+E       AssertionError: assert '01' == 'Z'
+E         
+E         - Z
+E         + 01
+
+test_generated.py:13: AssertionError
+___________________________ test_to_base_edge_cases ___________________________
+
+    def test_to_base_edge_cases():
+>       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:17: Failed
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_to_base_normal_cases - AssertionError: assert ...
+FAILED test_generated.py::test_to_base_boundary_cases - AssertionError: asser...
+FAILED test_generated.py::test_to_base_edge_cases - Failed: DID NOT RAISE Val...
+3 failed, 1 passed in 0.13s
+
+
+STDERR
+======================================================================

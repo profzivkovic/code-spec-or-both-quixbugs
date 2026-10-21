@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.116" timestamp="2026-08-09T02:40:09.425671+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_to_base_normal_cases" time="0.001" /><testcase classname="test_generated" name="test_to_base_boundary_cases" time="0.001"><failure message="AssertionError: assert '10' == 'Z'&#10;  &#10;  - Z&#10;  + 10">def test_to_base_boundary_cases():
+        assert to_base(1, 2) == '1'
+&gt;       assert to_base(36, 36) == 'Z'
+E       AssertionError: assert '10' == 'Z'
+E         
+E         - Z
+E         + 10
+
+test_generated.py:13: AssertionError</failure></testcase><testcase classname="test_generated" name="test_to_base_edge_cases" time="0.001"><failure message="Failed: DID NOT RAISE ValueError">def test_to_base_edge_cases():
+&gt;       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:17: Failed</failure></testcase><testcase classname="test_generated" name="test_to_base_exceptional_behavior" time="0.001" /></testsuite></testsuites>

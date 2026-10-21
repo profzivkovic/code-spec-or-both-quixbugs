@@ -1,0 +1,21 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "created_at": "2026-08-08T23:54:02.2289619Z",
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 24077377200,
+  "load_duration": 218013400,
+  "prompt_eval_count": 450,
+  "prompt_eval_duration": 120884000,
+  "eval_count": 233,
+  "eval_duration": 23731874000,
+  "message": {
+    "role": "assistant",
+    "content": "{ \"code\": \"import pytest\\n\\ndef test_get_factors_empty_list_for_one():\\n    assert get_factors(1) == []\\n\\ndef test_get_factors_prime_number():\\n    assert get_factors(101) == [101]\\n\\ndef test_get_factors_power_of_two():\\n    assert get_factors(16) == [2, 2, 2, 2]\\n\\ndef test_get_factors_power_of_three():\\n    assert get_factors(27) == [3, 3, 3]\\n\\ndef test_get_factors_product_of_two_primes():\\n    assert get_factors(15) == [3, 5]\\n\\ndef test_get_factors_product_of_three_primes():\\n    assert get_factors(105) == [3, 5, 7]\\n\\ndef test_get_factors_large_number():\\n    assert get_factors(987654321) == [3, 3, 3, 3607, 9817]\\n\" }",
+    "thinking": null,
+    "images": null,
+    "tool_name": null,
+    "tool_calls": null
+  },
+  "logprobs": null
+}

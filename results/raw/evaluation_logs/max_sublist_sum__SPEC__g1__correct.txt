@@ -1,0 +1,53 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpqw155nyf\junit.xml <USER_HOME>\AppData\Local\Temp\tmpqw155nyf\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.880479
+
+STDOUT
+======================================================================
+.F.F..F                                                                  [100%]
+================================== FAILURES ===================================
+__________________ test_max_sublist_sum_all_negative_numbers __________________
+
+    def test_max_sublist_sum_all_negative_numbers():
+>       assert max_sublist_sum([-1, -2, -3, -4, -5]) == -1
+E       assert 0 == -1
+E        +  where 0 = max_sublist_sum([-1, -2, -3, -4, -5])
+
+test_generated.py:9: AssertionError
+_________________ test_max_sublist_sum_single_negative_number _________________
+
+    def test_max_sublist_sum_single_negative_number():
+>       assert max_sublist_sum([-3]) == -3
+E       assert 0 == -3
+E        +  where 0 = max_sublist_sum([-3])
+
+test_generated.py:15: AssertionError
+__________________ test_max_sublist_sum_with_zero_in_middle ___________________
+
+    def test_max_sublist_sum_with_zero_in_middle():
+>       assert max_sublist_sum([1, -2, 3, -4, 5]) == 9
+E       assert 5 == 9
+E        +  where 5 = max_sublist_sum([1, -2, 3, -4, 5])
+
+test_generated.py:24: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_max_sublist_sum_all_negative_numbers - assert ...
+FAILED test_generated.py::test_max_sublist_sum_single_negative_number - asser...
+FAILED test_generated.py::test_max_sublist_sum_with_zero_in_middle - assert 5...
+3 failed, 4 passed in 0.13s
+
+
+STDERR
+======================================================================

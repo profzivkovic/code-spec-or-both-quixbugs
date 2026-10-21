@@ -1,0 +1,96 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m pytest -q python_testcases/test_sieve.py --disable-warnings
+
+EXIT CODE
+======================================================================
+1
+
+TIMED OUT
+======================================================================
+False
+
+DURATION
+======================================================================
+0.4147
+
+STDOUT
+======================================================================
+.FFFFF                                                                   [100%]
+================================== FAILURES ===================================
+______________________ test_sieve[input_data1-expected1] ______________________
+
+input_data = [2], expected = [2]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_sieve(input_data, expected):
+>       assert sieve(*input_data) == expected
+E       assert [] == [2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+python_testcases\test_sieve.py:15: AssertionError
+______________________ test_sieve[input_data2-expected2] ______________________
+
+input_data = [4], expected = [2, 3]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_sieve(input_data, expected):
+>       assert sieve(*input_data) == expected
+E       assert [] == [2, 3]
+E         
+E         Right contains 2 more items, first extra item: 2
+E         Use -v to get more diff
+
+python_testcases\test_sieve.py:15: AssertionError
+______________________ test_sieve[input_data3-expected3] ______________________
+
+input_data = [7], expected = [2, 3, 5, 7]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_sieve(input_data, expected):
+>       assert sieve(*input_data) == expected
+E       assert [] == [2, 3, 5, 7]
+E         
+E         Right contains 4 more items, first extra item: 2
+E         Use -v to get more diff
+
+python_testcases\test_sieve.py:15: AssertionError
+______________________ test_sieve[input_data4-expected4] ______________________
+
+input_data = [20], expected = [2, 3, 5, 7, 11, 13, ...]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_sieve(input_data, expected):
+>       assert sieve(*input_data) == expected
+E       assert [] == [2, 3, 5, 7, 11, 13, ...]
+E         
+E         Right contains 8 more items, first extra item: 2
+E         Use -v to get more diff
+
+python_testcases\test_sieve.py:15: AssertionError
+______________________ test_sieve[input_data5-expected5] ______________________
+
+input_data = [50], expected = [2, 3, 5, 7, 11, 13, ...]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_sieve(input_data, expected):
+>       assert sieve(*input_data) == expected
+E       assert [] == [2, 3, 5, 7, 11, 13, ...]
+E         
+E         Right contains 15 more items, first extra item: 2
+E         Use -v to get more diff
+
+python_testcases\test_sieve.py:15: AssertionError
+=========================== short test summary info ===========================
+FAILED python_testcases/test_sieve.py::test_sieve[input_data1-expected1] - as...
+FAILED python_testcases/test_sieve.py::test_sieve[input_data2-expected2] - as...
+FAILED python_testcases/test_sieve.py::test_sieve[input_data3-expected3] - as...
+FAILED python_testcases/test_sieve.py::test_sieve[input_data4-expected4] - as...
+FAILED python_testcases/test_sieve.py::test_sieve[input_data5-expected5] - as...
+5 failed, 1 passed in 0.08s
+
+
+STDERR
+======================================================================

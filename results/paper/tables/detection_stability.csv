@@ -1,0 +1,4 @@
+condition,detected_0_of_3,detected_1_of_3,detected_2_of_3,detected_3_of_3,programs_detected_any,programs_detected_all
+CODE,7,1,1,2,4,2
+SPEC,3,1,4,3,8,3
+BOTH,3,3,2,3,8,3

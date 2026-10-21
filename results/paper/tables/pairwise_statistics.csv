@@ -1,0 +1,4 @@
+comparison,CODE_only,SPEC_only,both_detect,neither_detect,discordant_pairs,exact_mcnemar_p,BOTH_only
+CODE vs SPEC,1.0,5.0,3,2,6,0.21875,
+CODE vs BOTH,0.0,,4,3,4,0.125,4.0
+SPEC vs BOTH,,1.0,7,2,2,1.0,1.0

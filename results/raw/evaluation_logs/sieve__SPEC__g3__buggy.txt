@@ -1,0 +1,81 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmp2li89_ar\junit.xml <USER_HOME>\AppData\Local\Temp\tmp2li89_ar\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.932189
+
+STDOUT
+======================================================================
+FF.F.FF.                                                                 [100%]
+================================== FAILURES ===================================
+___________________________ test_sieve_normal_case ____________________________
+
+    def test_sieve_normal_case():
+>       assert sieve(10) == [2, 3, 5, 7]
+E       assert [] == [2, 3, 5, 7]
+E         
+E         Right contains 4 more items, first extra item: 2
+E         Use -v to get more diff
+
+test_generated.py:6: AssertionError
+__________________________ test_sieve_boundary_case ___________________________
+
+    def test_sieve_boundary_case():
+>       assert sieve(2) == [2]
+E       assert [] == [2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError
+________________________ test_sieve_prime_at_boundary _________________________
+
+    def test_sieve_prime_at_boundary():
+>       assert sieve(19) == [2, 3, 5, 7, 11, 13, 17, 19]
+E       assert [] == [2, 3, 5, 7, 11, 13, ...]
+E         
+E         Right contains 8 more items, first extra item: 2
+E         Use -v to get more diff
+
+test_generated.py:15: AssertionError
+___________________________ test_sieve_single_prime ___________________________
+
+    def test_sieve_single_prime():
+>       assert sieve(3) == [2, 3]
+E       assert [] == [2, 3]
+E         
+E         Right contains 2 more items, first extra item: 2
+E         Use -v to get more diff
+
+test_generated.py:21: AssertionError
+__________________________ test_sieve_all_composites __________________________
+
+    def test_sieve_all_composites():
+>       assert sieve(4) == [2, 3]
+E       assert [] == [2, 3]
+E         
+E         Right contains 2 more items, first extra item: 2
+E         Use -v to get more diff
+
+test_generated.py:24: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_sieve_normal_case - assert [] == [2, 3, 5, 7]
+FAILED test_generated.py::test_sieve_boundary_case - assert [] == [2]
+FAILED test_generated.py::test_sieve_prime_at_boundary - assert [] == [2, 3, ...
+FAILED test_generated.py::test_sieve_single_prime - assert [] == [2, 3]
+FAILED test_generated.py::test_sieve_all_composites - assert [] == [2, 3]
+5 failed, 3 passed in 0.15s
+
+
+STDERR
+======================================================================

@@ -1,0 +1,4 @@
+condition,suites,strict_detecting_n,strict_detecting_pct,filtered_detecting_n,filtered_detecting_pct,filtered_unique_bugs_n,filtered_unique_bugs_pct
+CODE,33,9,27.27,23,69.7,9,81.82
+SPEC,33,18,54.55,30,90.91,11,100.0
+BOTH,33,16,48.48,31,93.94,11,100.0

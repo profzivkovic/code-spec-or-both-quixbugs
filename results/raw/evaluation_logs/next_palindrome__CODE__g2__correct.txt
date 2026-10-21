@@ -1,0 +1,69 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmp7r36jwfm\junit.xml <USER_HOME>\AppData\Local\Temp\tmp7r36jwfm\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.921785
+
+STDOUT
+======================================================================
+F.F.F.F.                                                                 [100%]
+================================== FAILURES ===================================
+_________________ test_next_palindrome_normal_case_odd_length _________________
+
+    def test_next_palindrome_normal_case_odd_length():
+>       assert next_palindrome([1, 2, 3]) == [1, 3, 1]
+E       assert [1, 3, 3] == [1, 3, 1]
+E         
+E         At index 2 diff: 3 != 1
+E         Use -v to get more diff
+
+test_generated.py:6: AssertionError
+__________________ test_next_palindrome_all_nines_odd_length __________________
+
+    def test_next_palindrome_all_nines_odd_length():
+>       assert next_palindrome([9, 9, 9]) == [1, 0, 0, 0, 1]
+E       assert [1, 0, 0, 1] == [1, 0, 0, 0, 1]
+E         
+E         At index 3 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:14: AssertionError
+_______________ test_next_palindrome_boundary_case_single_digit _______________
+
+    def test_next_palindrome_boundary_case_single_digit():
+>       assert next_palindrome([9]) == [1, 0, 1]
+E       assert [1, 1] == [1, 0, 1]
+E         
+E         At index 1 diff: 1 != 0
+E         Right contains one more item: 1
+E         Use -v to get more diff
+
+test_generated.py:22: AssertionError
+_________ test_next_palindrome_exceptional_behavior_negative_numbers __________
+
+    def test_next_palindrome_exceptional_behavior_negative_numbers():
+>       with pytest.raises(ValueError):
+E       Failed: DID NOT RAISE ValueError
+
+test_generated.py:30: Failed
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_next_palindrome_normal_case_odd_length - asser...
+FAILED test_generated.py::test_next_palindrome_all_nines_odd_length - assert ...
+FAILED test_generated.py::test_next_palindrome_boundary_case_single_digit - a...
+FAILED test_generated.py::test_next_palindrome_exceptional_behavior_negative_numbers
+4 failed, 4 passed in 0.14s
+
+
+STDERR
+======================================================================

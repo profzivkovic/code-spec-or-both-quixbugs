@@ -1,0 +1,166 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m pytest -q python_testcases/test_get_factors.py --disable-warnings
+
+EXIT CODE
+======================================================================
+1
+
+TIMED OUT
+======================================================================
+False
+
+DURATION
+======================================================================
+0.4917
+
+STDOUT
+======================================================================
+.FFFFFFFFFF                                                              [100%]
+================================== FAILURES ===================================
+___________________ test_get_factors[input_data1-expected1] ___________________
+
+input_data = [100], expected = [2, 2, 5, 5]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_get_factors(input_data, expected):
+>       assert get_factors(*input_data) == expected
+E       assert [2, 2, 5] == [2, 2, 5, 5]
+E         
+E         Right contains one more item: 5
+E         Use -v to get more diff
+
+python_testcases\test_get_factors.py:15: AssertionError
+___________________ test_get_factors[input_data2-expected2] ___________________
+
+input_data = [101], expected = [101]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_get_factors(input_data, expected):
+>       assert get_factors(*input_data) == expected
+E       assert [] == [101]
+E         
+E         Right contains one more item: 101
+E         Use -v to get more diff
+
+python_testcases\test_get_factors.py:15: AssertionError
+___________________ test_get_factors[input_data3-expected3] ___________________
+
+input_data = [104], expected = [2, 2, 2, 13]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_get_factors(input_data, expected):
+>       assert get_factors(*input_data) == expected
+E       assert [2, 2, 2] == [2, 2, 2, 13]
+E         
+E         Right contains one more item: 13
+E         Use -v to get more diff
+
+python_testcases\test_get_factors.py:15: AssertionError
+___________________ test_get_factors[input_data4-expected4] ___________________
+
+input_data = [2], expected = [2]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_get_factors(input_data, expected):
+>       assert get_factors(*input_data) == expected
+E       assert [] == [2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+python_testcases\test_get_factors.py:15: AssertionError
+___________________ test_get_factors[input_data5-expected5] ___________________
+
+input_data = [3], expected = [3]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_get_factors(input_data, expected):
+>       assert get_factors(*input_data) == expected
+E       assert [] == [3]
+E         
+E         Right contains one more item: 3
+E         Use -v to get more diff
+
+python_testcases\test_get_factors.py:15: AssertionError
+___________________ test_get_factors[input_data6-expected6] ___________________
+
+input_data = [17], expected = [17]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_get_factors(input_data, expected):
+>       assert get_factors(*input_data) == expected
+E       assert [] == [17]
+E         
+E         Right contains one more item: 17
+E         Use -v to get more diff
+
+python_testcases\test_get_factors.py:15: AssertionError
+___________________ test_get_factors[input_data7-expected7] ___________________
+
+input_data = [63], expected = [3, 3, 7]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_get_factors(input_data, expected):
+>       assert get_factors(*input_data) == expected
+E       assert [3, 3] == [3, 3, 7]
+E         
+E         Right contains one more item: 7
+E         Use -v to get more diff
+
+python_testcases\test_get_factors.py:15: AssertionError
+___________________ test_get_factors[input_data8-expected8] ___________________
+
+input_data = [74], expected = [2, 37]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_get_factors(input_data, expected):
+>       assert get_factors(*input_data) == expected
+E       assert [2] == [2, 37]
+E         
+E         Right contains one more item: 37
+E         Use -v to get more diff
+
+python_testcases\test_get_factors.py:15: AssertionError
+___________________ test_get_factors[input_data9-expected9] ___________________
+
+input_data = [73], expected = [73]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_get_factors(input_data, expected):
+>       assert get_factors(*input_data) == expected
+E       assert [] == [73]
+E         
+E         Right contains one more item: 73
+E         Use -v to get more diff
+
+python_testcases\test_get_factors.py:15: AssertionError
+__________________ test_get_factors[input_data10-expected10] __________________
+
+input_data = [9837], expected = [3, 3, 1093]
+
+    @pytest.mark.parametrize("input_data,expected", testdata)
+    def test_get_factors(input_data, expected):
+>       assert get_factors(*input_data) == expected
+E       assert [3, 3] == [3, 3, 1093]
+E         
+E         Right contains one more item: 1093
+E         Use -v to get more diff
+
+python_testcases\test_get_factors.py:15: AssertionError
+=========================== short test summary info ===========================
+FAILED python_testcases/test_get_factors.py::test_get_factors[input_data1-expected1]
+FAILED python_testcases/test_get_factors.py::test_get_factors[input_data2-expected2]
+FAILED python_testcases/test_get_factors.py::test_get_factors[input_data3-expected3]
+FAILED python_testcases/test_get_factors.py::test_get_factors[input_data4-expected4]
+FAILED python_testcases/test_get_factors.py::test_get_factors[input_data5-expected5]
+FAILED python_testcases/test_get_factors.py::test_get_factors[input_data6-expected6]
+FAILED python_testcases/test_get_factors.py::test_get_factors[input_data7-expected7]
+FAILED python_testcases/test_get_factors.py::test_get_factors[input_data8-expected8]
+FAILED python_testcases/test_get_factors.py::test_get_factors[input_data9-expected9]
+FAILED python_testcases/test_get_factors.py::test_get_factors[input_data10-expected10]
+10 failed, 1 passed in 0.10s
+
+
+STDERR
+======================================================================

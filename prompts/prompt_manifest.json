@@ -1,0 +1,299 @@
+[
+  {
+    "program": "gcd",
+    "function_name": "gcd",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/gcd.txt",
+    "prompt_sha256": "8701a6e3fc64710dda08d75a7e2203253d577fe8e9ff94d2874196bc65669068",
+    "prompt_chars": 944,
+    "prompt_lines": 26
+  },
+  {
+    "program": "gcd",
+    "function_name": "gcd",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/gcd.txt",
+    "prompt_sha256": "0ae71705521b1c5cc513785974145559f82f6364c55ff8cc953857f9807e74f3",
+    "prompt_chars": 1123,
+    "prompt_lines": 41
+  },
+  {
+    "program": "gcd",
+    "function_name": "gcd",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/gcd.txt",
+    "prompt_sha256": "c68ec6d2a3c28c6cc81cacac6aef1bd50d477daa12b9249e394dd09e8f6e1e98",
+    "prompt_chars": 1204,
+    "prompt_lines": 45
+  },
+  {
+    "program": "get_factors",
+    "function_name": "get_factors",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/get_factors.txt",
+    "prompt_sha256": "a94f9473cf41906201318c8de7c537d08caa18b10b6fc82510a0180e0b252acc",
+    "prompt_chars": 1043,
+    "prompt_lines": 28
+  },
+  {
+    "program": "get_factors",
+    "function_name": "get_factors",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/get_factors.txt",
+    "prompt_sha256": "76fee78cd2761a61e056f7444319a7db4b39ab3dc1dc3115b8ce5f71efbe091f",
+    "prompt_chars": 1212,
+    "prompt_lines": 46
+  },
+  {
+    "program": "get_factors",
+    "function_name": "get_factors",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/get_factors.txt",
+    "prompt_sha256": "06da5fe37203cd183d4d5e6818f6470ddeba67b1408a2412ecd02b49401dc6c8",
+    "prompt_chars": 1379,
+    "prompt_lines": 52
+  },
+  {
+    "program": "is_valid_parenthesization",
+    "function_name": "is_valid_parenthesization",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/is_valid_parenthesization.txt",
+    "prompt_sha256": "8b18b9524a863ac08d95162d36d1fff707cf00ce87f9daff9f98add4675c437b",
+    "prompt_chars": 1114,
+    "prompt_lines": 31
+  },
+  {
+    "program": "is_valid_parenthesization",
+    "function_name": "is_valid_parenthesization",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/is_valid_parenthesization.txt",
+    "prompt_sha256": "db59cc5dd213de229dc27790d785bd74f051628d2eb59adddad6eb0459ab2939",
+    "prompt_chars": 1218,
+    "prompt_lines": 40
+  },
+  {
+    "program": "is_valid_parenthesization",
+    "function_name": "is_valid_parenthesization",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/is_valid_parenthesization.txt",
+    "prompt_sha256": "7533b0fd7cc9ef698ded04cbcc6999093f66da1ca13ae004af3ab987d349636d",
+    "prompt_chars": 1423,
+    "prompt_lines": 49
+  },
+  {
+    "program": "max_sublist_sum",
+    "function_name": "max_sublist_sum",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/max_sublist_sum.txt",
+    "prompt_sha256": "0f046650c11ab80c34c1242dfd5368271ba4680f30660894c723fa16d1f0a8e7",
+    "prompt_chars": 1079,
+    "prompt_lines": 28
+  },
+  {
+    "program": "max_sublist_sum",
+    "function_name": "max_sublist_sum",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/max_sublist_sum.txt",
+    "prompt_sha256": "20fdbcaddab5186831a1848b66a794f49ff5ebeeeadee2fe1f3c4b9f7c5f1ee3",
+    "prompt_chars": 1190,
+    "prompt_lines": 42
+  },
+  {
+    "program": "max_sublist_sum",
+    "function_name": "max_sublist_sum",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/max_sublist_sum.txt",
+    "prompt_sha256": "e5ce26ab620e060ad55341bdb91b4725adf7b472c61ef1dac787e712142ce84b",
+    "prompt_chars": 1383,
+    "prompt_lines": 48
+  },
+  {
+    "program": "mergesort",
+    "function_name": "mergesort",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/mergesort.txt",
+    "prompt_sha256": "f9b36dfc459dba89d0c21e4a50471d30d23561cf988306dfdd0988d15d8d1966",
+    "prompt_chars": 1450,
+    "prompt_lines": 43
+  },
+  {
+    "program": "mergesort",
+    "function_name": "mergesort",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/mergesort.txt",
+    "prompt_sha256": "174f17409fb6e17b5ea2e0d4990ad27d9d072794d1d9439ab888bc82c6dce9e9",
+    "prompt_chars": 984,
+    "prompt_lines": 33
+  },
+  {
+    "program": "mergesort",
+    "function_name": "mergesort",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/mergesort.txt",
+    "prompt_sha256": "ccc6bfe133f3a7471c7f2cab1bb53271877289c559626df96b81f071e69e7151",
+    "prompt_chars": 1560,
+    "prompt_lines": 54
+  },
+  {
+    "program": "next_palindrome",
+    "function_name": "next_palindrome",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/next_palindrome.txt",
+    "prompt_sha256": "e7110058e89b97b8194cd782386521f5e3038a6d66f0ed1828b658a1d595cdcb",
+    "prompt_chars": 1401,
+    "prompt_lines": 36
+  },
+  {
+    "program": "next_palindrome",
+    "function_name": "next_palindrome",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/next_palindrome.txt",
+    "prompt_sha256": "94362c7d035399fbe6a3961ab121fef2458d18c931700acd5b9df02b12f4772c",
+    "prompt_chars": 1325,
+    "prompt_lines": 40
+  },
+  {
+    "program": "next_palindrome",
+    "function_name": "next_palindrome",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/next_palindrome.txt",
+    "prompt_sha256": "b80c30ff2abad752c4ad14ebda20970b70ba2abdae63cb4c9261a2489a3da7ad",
+    "prompt_chars": 1833,
+    "prompt_lines": 54
+  },
+  {
+    "program": "next_permutation",
+    "function_name": "next_permutation",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/next_permutation.txt",
+    "prompt_sha256": "4a1fc3d99b3c27c9f8b65122c7ff30c3016f2a8ca3b31022beb5f9849b0d7309",
+    "prompt_chars": 1280,
+    "prompt_lines": 30
+  },
+  {
+    "program": "next_permutation",
+    "function_name": "next_permutation",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/next_permutation.txt",
+    "prompt_sha256": "d00a6c82ab6d113c49d959d7892cded75907b329935924478d541245335bef6e",
+    "prompt_chars": 1171,
+    "prompt_lines": 41
+  },
+  {
+    "program": "next_permutation",
+    "function_name": "next_permutation",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/next_permutation.txt",
+    "prompt_sha256": "0fdd64ed3de074c8113bfff6f7a519060ca39ebf89a0477ad723e4377479c598",
+    "prompt_chars": 1562,
+    "prompt_lines": 49
+  },
+  {
+    "program": "powerset",
+    "function_name": "powerset",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/powerset.txt",
+    "prompt_sha256": "329179cd68aa7c57c9e757c603d83ac838ee5cc90069b61dba67c247a428f2ec",
+    "prompt_chars": 1050,
+    "prompt_lines": 28
+  },
+  {
+    "program": "powerset",
+    "function_name": "powerset",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/powerset.txt",
+    "prompt_sha256": "d764a1217286acc180b9744516db4155548d45890a825d6b9e3553435ea22eec",
+    "prompt_chars": 1250,
+    "prompt_lines": 39
+  },
+  {
+    "program": "powerset",
+    "function_name": "powerset",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/powerset.txt",
+    "prompt_sha256": "765ec29e443da9f9356a6457b1db2bc0097bd3d9f0a5ecd42ac80c7b9553392e",
+    "prompt_chars": 1428,
+    "prompt_lines": 45
+  },
+  {
+    "program": "quicksort",
+    "function_name": "quicksort",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/quicksort.txt",
+    "prompt_sha256": "93decafebe209032f49a1018fee2cb97cf1ea6407ca2e4ec6921e6aff2da56fd",
+    "prompt_chars": 1092,
+    "prompt_lines": 28
+  },
+  {
+    "program": "quicksort",
+    "function_name": "quicksort",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/quicksort.txt",
+    "prompt_sha256": "18c6e651d524acc5eb09791849acafc57f8dea2300e8896e48e20d8548b4897c",
+    "prompt_chars": 983,
+    "prompt_lines": 33
+  },
+  {
+    "program": "quicksort",
+    "function_name": "quicksort",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/quicksort.txt",
+    "prompt_sha256": "2ca99643cb9268addf4f8c2aa0f97ffc38370cb85aa4ada71a6e12b5a3eff1e7",
+    "prompt_chars": 1201,
+    "prompt_lines": 39
+  },
+  {
+    "program": "sieve",
+    "function_name": "sieve",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/sieve.txt",
+    "prompt_sha256": "48de2ee7dd345be89353395e0f03d3ce5b53c9e7f5a9f2521346392a566e263a",
+    "prompt_chars": 1016,
+    "prompt_lines": 27
+  },
+  {
+    "program": "sieve",
+    "function_name": "sieve",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/sieve.txt",
+    "prompt_sha256": "f9db4700387c38a3d313a024b5de20fb6388150a066c1bd0bbfbe9436bfef77d",
+    "prompt_chars": 1044,
+    "prompt_lines": 33
+  },
+  {
+    "program": "sieve",
+    "function_name": "sieve",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/sieve.txt",
+    "prompt_sha256": "9e5cd89d6bcc2f7a3eec1f0ca2cc19bd25f310e28852a3650f4a733519394037",
+    "prompt_chars": 1194,
+    "prompt_lines": 38
+  },
+  {
+    "program": "to_base",
+    "function_name": "to_base",
+    "condition": "CODE",
+    "prompt_file": "prompts/code/to_base.txt",
+    "prompt_sha256": "417dc31b65d2206226bf0ac9dc7a17003cbfd2d1ba859dd73cc254a112d8fc4e",
+    "prompt_chars": 1086,
+    "prompt_lines": 31
+  },
+  {
+    "program": "to_base",
+    "function_name": "to_base",
+    "condition": "SPEC",
+    "prompt_file": "prompts/spec/to_base.txt",
+    "prompt_sha256": "8c0c16b64dba011655c85a32c5e9ad93272dea993bc63a3aa424b5e52a8265ea",
+    "prompt_chars": 1167,
+    "prompt_lines": 42
+  },
+  {
+    "program": "to_base",
+    "function_name": "to_base",
+    "condition": "BOTH",
+    "prompt_file": "prompts/both/to_base.txt",
+    "prompt_sha256": "977d63cda7ce34c008e52c33a578219fdeaea2ee100fd353d56474449ef8eb72",
+    "prompt_chars": 1380,
+    "prompt_lines": 51
+  }
+]

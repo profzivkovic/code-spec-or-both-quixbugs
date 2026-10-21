@@ -1,0 +1,89 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmplswm61n_\junit.xml <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.81617
+
+STDOUT
+======================================================================
+EEEEEEE                                                                  [100%]
+=================================== ERRORS ====================================
+_________________ ERROR at setup of test_quicksort_empty_list _________________
+file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 3
+  def test_quicksort_empty_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:3
+_______________ ERROR at setup of test_quicksort_single_element _______________
+file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 7
+  def test_quicksort_single_element(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:7
+________________ ERROR at setup of test_quicksort_sorted_list _________________
+file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 11
+  def test_quicksort_sorted_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:11
+____________ ERROR at setup of test_quicksort_reverse_sorted_list _____________
+file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 15
+  def test_quicksort_reverse_sorted_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:15
+________________ ERROR at setup of test_quicksort_random_list _________________
+file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 19
+  def test_quicksort_random_list(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:19
+______________ ERROR at setup of test_quicksort_with_duplicates _______________
+file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 23
+  def test_quicksort_with_duplicates(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:23
+___________ ERROR at setup of test_quicksort_with_negative_numbers ____________
+file <USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py, line 27
+  def test_quicksort_with_negative_numbers(quicksort):
+E       fixture 'quicksort' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, capteesys, cov, doctest_namespace, free_tcp_port, free_tcp_port_factory, free_udp_port, free_udp_port_factory, monkeypatch, no_cover, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, subtests, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+<USER_HOME>\AppData\Local\Temp\tmplswm61n_\test_generated.py:27
+=========================== short test summary info ===========================
+ERROR test_generated.py::test_quicksort_empty_list
+ERROR test_generated.py::test_quicksort_single_element
+ERROR test_generated.py::test_quicksort_sorted_list
+ERROR test_generated.py::test_quicksort_reverse_sorted_list
+ERROR test_generated.py::test_quicksort_random_list
+ERROR test_generated.py::test_quicksort_with_duplicates
+ERROR test_generated.py::test_quicksort_with_negative_numbers
+7 errors in 0.08s
+
+
+STDERR
+======================================================================

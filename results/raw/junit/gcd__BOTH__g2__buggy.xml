@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="9" time="0.168" timestamp="2026-08-09T02:35:17.985962+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_gcd_normal_case_1" time="0.002"><failure message="RecursionError: maximum recursion depth exceeded while calling a Python object">def test_gcd_normal_case_1():
+&gt;       assert gcd(35, 21) == 7
+               ^^^^^^^^^^^
+
+test_generated.py:6: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded while calling a Python object
+!!! Recursion detected (same locals &amp; position)</failure></testcase><testcase classname="test_generated" name="test_gcd_normal_case_2" time="0.002"><failure message="RecursionError: maximum recursion depth exceeded while calling a Python object">def test_gcd_normal_case_2():
+&gt;       assert gcd(0, 5) == 5
+               ^^^^^^^^^
+
+test_generated.py:9: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded while calling a Python object
+!!! Recursion detected (same locals &amp; position)</failure></testcase><testcase classname="test_generated" name="test_gcd_normal_case_3" time="0.002"><failure message="RecursionError: maximum recursion depth exceeded while calling a Python object">def test_gcd_normal_case_3():
+&gt;       assert gcd(18, 48) == 6
+               ^^^^^^^^^^^
+
+test_generated.py:12: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded while calling a Python object
+!!! Recursion detected (same locals &amp; position)</failure></testcase><testcase classname="test_generated" name="test_gcd_boundary_case_1" time="0.001" /><testcase classname="test_generated" name="test_gcd_boundary_case_2" time="0.002"><failure message="RecursionError: maximum recursion depth exceeded while calling a Python object">def test_gcd_boundary_case_2():
+&gt;       assert gcd(1, 1) == 1
+               ^^^^^^^^^
+
+test_generated.py:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded while calling a Python object
+!!! Recursion detected (same locals &amp; position)</failure></testcase><testcase classname="test_generated" name="test_gcd_edge_case_1" time="0.001" /><testcase classname="test_generated" name="test_gcd_edge_case_2" time="0.002"><failure message="RecursionError: maximum recursion depth exceeded while calling a Python object">def test_gcd_edge_case_2():
+&gt;       assert gcd(0, 100) == 100
+               ^^^^^^^^^^^
+
+test_generated.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+sut.py:5: in gcd
+    return gcd(a % b, b)
+           ^^^^^^^^^^^^^
+E   RecursionError: maximum recursion depth exceeded while calling a Python object
+!!! Recursion detected (same locals &amp; position)</failure></testcase><testcase classname="test_generated" name="test_gcd_exceptional_behavior_1" time="0.001" /><testcase classname="test_generated" name="test_gcd_exceptional_behavior_2" time="0.001" /></testsuite></testsuites>

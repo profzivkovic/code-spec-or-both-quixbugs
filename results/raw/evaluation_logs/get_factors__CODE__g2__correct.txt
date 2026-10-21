@@ -1,0 +1,49 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmptoa4n__y\junit.xml <USER_HOME>\AppData\Local\Temp\tmptoa4n__y\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.838867
+
+STDOUT
+======================================================================
+FF...                                                                    [100%]
+================================== FAILURES ===================================
+________________________ test_get_factors_normal_case _________________________
+
+    def test_get_factors_normal_case():
+>       assert get_factors(28) == [2, 14]
+E       assert [2, 2, 7] == [2, 14]
+E         
+E         At index 1 diff: 2 != 14
+E         Left contains one more item: 7
+E         Use -v to get more diff
+
+test_generated.py:6: AssertionError
+________________________ test_get_factors_prime_number ________________________
+
+    def test_get_factors_prime_number():
+>       assert get_factors(29) == []
+E       assert [29] == []
+E         
+E         Left contains one more item: 29
+E         Use -v to get more diff
+
+test_generated.py:9: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_get_factors_normal_case - assert [2, 2, 7] == ...
+FAILED test_generated.py::test_get_factors_prime_number - assert [29] == []
+2 failed, 3 passed in 0.13s
+
+
+STDERR
+======================================================================

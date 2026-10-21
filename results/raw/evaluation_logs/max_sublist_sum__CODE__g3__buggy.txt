@@ -1,0 +1,44 @@
+COMMAND
+======================================================================
+<PROJECT_ROOT>\.venv\Scripts\python.exe -m coverage run --branch --source=sut -m pytest -q --disable-warnings --junitxml=<USER_HOME>\AppData\Local\Temp\tmpp93nwdxj\junit.xml <USER_HOME>\AppData\Local\Temp\tmpp93nwdxj\test_generated.py
+
+EXIT CODE
+======================================================================
+1
+
+TIMEOUT
+======================================================================
+False
+
+WALL TIME
+======================================================================
+0.813271
+
+STDOUT
+======================================================================
+F...F                                                                    [100%]
+================================== FAILURES ===================================
+______________________ test_max_sublist_sum_normal_case _______________________
+
+    def test_max_sublist_sum_normal_case():
+>       assert max_sublist_sum([1, -2, 3, 4]) == 7
+E       assert 6 == 7
+E        +  where 6 = max_sublist_sum([1, -2, 3, 4])
+
+test_generated.py:6: AssertionError
+______________________ test_max_sublist_sum_with_zeroes _______________________
+
+    def test_max_sublist_sum_with_zeroes():
+>       assert max_sublist_sum([1, -2, 3, 4, 0, -1]) == 7
+E       assert 6 == 7
+E        +  where 6 = max_sublist_sum([1, -2, 3, 4, 0, -1])
+
+test_generated.py:22: AssertionError
+=========================== short test summary info ===========================
+FAILED test_generated.py::test_max_sublist_sum_normal_case - assert 6 == 7
+FAILED test_generated.py::test_max_sublist_sum_with_zeroes - assert 6 == 7
+2 failed, 3 passed in 0.12s
+
+
+STDERR
+======================================================================

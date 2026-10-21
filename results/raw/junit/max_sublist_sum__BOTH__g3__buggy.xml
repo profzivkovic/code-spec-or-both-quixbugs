@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.083" timestamp="2026-08-09T02:36:11.917217+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_max_sublist_sum_normal_case" time="0.001"><failure message="assert 4 == 5&#10; +  where 4 = max_sublist_sum([4, -5, 2, 1, -1, 3])">def test_max_sublist_sum_normal_case():
+&gt;       assert max_sublist_sum([4, -5, 2, 1, -1, 3]) == 5
+E       assert 4 == 5
+E        +  where 4 = max_sublist_sum([4, -5, 2, 1, -1, 3])
+
+test_generated.py:6: AssertionError</failure></testcase><testcase classname="test_generated" name="test_max_sublist_sum_all_negative" time="0.001" /><testcase classname="test_generated" name="test_max_sublist_sum_all_positive" time="0.001" /><testcase classname="test_generated" name="test_max_sublist_sum_single_element" time="0.001" /><testcase classname="test_generated" name="test_max_sublist_sum_empty_list" time="0.001" /></testsuite></testsuites>

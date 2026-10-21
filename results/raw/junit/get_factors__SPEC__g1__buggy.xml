@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="5" time="0.123" timestamp="2026-08-09T02:35:46.393870+02:00" hostname="DESKTOP-G8DDK9M"><testcase classname="test_generated" name="test_get_factors_normal_cases" time="0.001"><failure message="assert [] == [2]&#10;  &#10;  Right contains one more item: 2&#10;  Use -v to get more diff">def test_get_factors_normal_cases():
+        assert get_factors(1) == []
+&gt;       assert get_factors(2) == [2]
+E       assert [] == [2]
+E         
+E         Right contains one more item: 2
+E         Use -v to get more diff
+
+test_generated.py:7: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_prime_numbers" time="0.001"><failure message="assert [] == [101]&#10;  &#10;  Right contains one more item: 101&#10;  Use -v to get more diff">def test_get_factors_prime_numbers():
+&gt;       assert get_factors(101) == [101]
+E       assert [] == [101]
+E         
+E         Right contains one more item: 101
+E         Use -v to get more diff
+
+test_generated.py:20: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_even_and_odd_cases" time="0.001"><failure message="assert [2, 3] == [2, 3, 5]&#10;  &#10;  Right contains one more item: 5&#10;  Use -v to get more diff">def test_get_factors_even_and_odd_cases():
+&gt;       assert get_factors(2 * 3 * 5) == [2, 3, 5]
+E       assert [2, 3] == [2, 3, 5]
+E         
+E         Right contains one more item: 5
+E         Use -v to get more diff
+
+test_generated.py:25: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_power_cases" time="0.001"><failure message="assert [7, 7] == [7, 7, 7]&#10;  &#10;  Right contains one more item: 7&#10;  Use -v to get more diff">def test_get_factors_power_cases():
+&gt;       assert get_factors(7**3) == [7, 7, 7]
+E       assert [7, 7] == [7, 7, 7]
+E         
+E         Right contains one more item: 7
+E         Use -v to get more diff
+
+test_generated.py:30: AssertionError</failure></testcase><testcase classname="test_generated" name="test_get_factors_mixed_cases" time="0.001"><failure message="assert [2, 3] == [2, 3, 11]&#10;  &#10;  Right contains one more item: 11&#10;  Use -v to get more diff">def test_get_factors_mixed_cases():
+&gt;       assert get_factors(2 * 3 * 11) == [2, 3, 11]
+E       assert [2, 3] == [2, 3, 11]
+E         
+E         Right contains one more item: 11
+E         Use -v to get more diff
+
+test_generated.py:34: AssertionError</failure></testcase></testsuite></testsuites>
